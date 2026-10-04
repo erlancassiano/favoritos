@@ -7,8 +7,11 @@
     "Mercado Livre",
     "Shopee",
     "Amazon",
+    "Amazon EUA",
     "Outros",
   ];
+  /** Fixed USD→BRL rate for cross-currency price sort (documented in README). */
+  const USD_TO_BRL = 5.5;
 
   const app = document.getElementById("app");
   const searchInput = document.getElementById("search");
@@ -27,6 +30,7 @@
   const expanded = new Map();
   let searchTimer = 0;
   let storeFilter = "Todas";
+  let listFilter = "Todas"; // Todas | Comprar em Miami | …
   let priceSort = "none"; // none | asc | desc
 
   function currentTheme() {
@@ -128,15 +132,44 @@
     return itemStore(item) === storeFilter;
   }
 
+  function itemList(item) {
+    return item.list || "";
+  }
+
+  function matchesList(item) {
+    if (listFilter === "Todas") return true;
+    return itemList(item) === listFilter;
+  }
+
+  function listFiltersAvailable() {
+    if (!data) return ["Todas"];
+    const names = new Set();
+    for (const item of data.items) {
+      if (item.section === "compras" && item.list) names.add(item.list);
+    }
+    return ["Todas", ...[...names].sort((a, b) => a.localeCompare(b, "pt-BR"))];
+  }
+
   function priceValue(item) {
-    if (item.price_value != null) return Number(item.price_value);
+    // Imports store BRL-comparable numbers in price_value (USD rows already × USD_TO_BRL).
+    if (item.price_value != null) {
+      const n = Number(item.price_value);
+      return Number.isFinite(n) ? n : null;
+    }
+    if (item.price_usd != null) {
+      const n = Number(item.price_usd);
+      return Number.isFinite(n) ? n * USD_TO_BRL : null;
+    }
     if (!item.price) return null;
-    let s = String(item.price).replace(/[^\d.,]/g, "");
+    const raw = String(item.price);
+    let s = raw.replace(/[^\d.,]/g, "");
     if (!s) return null;
     if (s.includes(",") && s.includes(".")) s = s.replace(/\./g, "").replace(",", ".");
     else if (s.includes(",")) s = s.replace(",", ".");
     const n = Number(s);
-    return Number.isFinite(n) ? n : null;
+    if (!Number.isFinite(n)) return null;
+    if (/us\$|usd|\$/i.test(raw) && !/r\$/i.test(raw)) return n * USD_TO_BRL;
+    return n;
   }
 
   function sortItems(items) {
@@ -183,6 +216,7 @@
     const unavailable = item.available === false;
     const metaBits = [];
     if (item.price) metaBits.push(escapeHtml(item.price));
+    else if (item.no_br_delivery) metaBits.push("ver nos EUA");
     else if (unavailable) metaBits.push("Indisponível");
     if (item.store) metaBits.push(escapeHtml(item.store));
     const tags = (item.tags || [])
@@ -190,13 +224,20 @@
       .join("");
     const host = hostnameOf(item.url);
     const badges = [];
+    if (item.list === "Comprar em Miami") {
+      badges.push('<span class="badge badge--miami">Comprar em Miami</span>');
+    }
     if (item.in_cart) {
       badges.push('<span class="badge badge--cart">no carrinho</span>');
     }
     if (item.saved_for_later) {
       badges.push('<span class="badge badge--saved">salvo p/ depois</span>');
     }
-    if (unavailable) {
+    if (item.no_br_delivery) {
+      badges.push(
+        '<span class="badge badge--no-br">não entrega no Brasil / ver nos EUA</span>'
+      );
+    } else if (unavailable) {
       badges.push('<span class="badge badge--unavailable">indisponível</span>');
     }
     const titleAttr = escapeHtml(item.title_full || item.title || "");
@@ -228,7 +269,11 @@
 
   function renderCategory(category, items, query) {
     const id = category.id;
-    const forceOpen = Boolean(query) || priceSort !== "none" || storeFilter !== "Todas";
+    const forceOpen =
+      Boolean(query) ||
+      priceSort !== "none" ||
+      storeFilter !== "Todas" ||
+      listFilter !== "Todas";
     const isOpen = forceOpen || expanded.get(id) === true;
     const visible = isOpen ? items : items.slice(0, PREVIEW_COUNT);
     const remaining = items.length - visible.length;
@@ -264,6 +309,14 @@
       return `<button type="button" class="chip chip--btn${active}" data-store-filter="${escapeHtml(name)}">${escapeHtml(name)}</button>`;
     }).join("");
 
+    const listChips = listFiltersAvailable()
+      .map((name) => {
+        const active = listFilter === name ? " is-active" : "";
+        const label = name === "Todas" ? "Todas as listas" : name;
+        return `<button type="button" class="chip chip--btn chip--list${active}" data-list-filter="${escapeHtml(name)}">${escapeHtml(label)}</button>`;
+      })
+      .join("");
+
     const sortLabel =
       priceSort === "asc"
         ? "Preço: menor → maior"
@@ -276,7 +329,10 @@
         <div class="compras-toolbar__stores" role="group" aria-label="Filtrar por loja">
           ${storeChips}
         </div>
-        <button type="button" class="btn btn--ghost" id="price-sort-btn" data-price-sort>
+        <div class="compras-toolbar__lists" role="group" aria-label="Filtrar por lista">
+          ${listChips}
+        </div>
+        <button type="button" class="btn btn--ghost" id="price-sort-btn" data-price-sort title="Ordenação compara BRL e USD (USD × ${USD_TO_BRL})">
           ${escapeHtml(sortLabel)}
         </button>
       </div>
@@ -312,7 +368,7 @@
       );
 
       if (section.id === "compras") {
-        sectionItems = sectionItems.filter(matchesStore);
+        sectionItems = sectionItems.filter(matchesStore).filter(matchesList);
         sectionItems = sortItems(sectionItems);
       }
 
@@ -401,6 +457,14 @@
     const storeBtn = event.target.closest("[data-store-filter]");
     if (storeBtn) {
       storeFilter = storeBtn.getAttribute("data-store-filter") || "Todas";
+      render(searchInput?.value || "");
+      document.getElementById("compras")?.scrollIntoView({ block: "nearest" });
+      return;
+    }
+
+    const listBtn = event.target.closest("[data-list-filter]");
+    if (listBtn) {
+      listFilter = listBtn.getAttribute("data-list-filter") || "Todas";
       render(searchInput?.value || "");
       document.getElementById("compras")?.scrollIntoView({ block: "nearest" });
       return;
