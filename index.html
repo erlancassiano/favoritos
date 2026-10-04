@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <meta
+      name="description"
+      content="Página inicial do Erlan: favoritos, compras e lista de desejos."
+    />
+    <title>Erlan · Favoritos</title>
+    <script>
+      /* Aplica tema salvo antes do CSS para evitar flash (padrão: escuro). */
+      (function () {
+        try {
+          var t = localStorage.getItem("favoritos-theme");
+          if (t !== "light" && t !== "dark") t = "dark";
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Figtree:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F766E'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='32' font-family='Georgia,serif' fill='%23F8FAF9'%3EE%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__glow" aria-hidden="true"></div>
+        <p class="hero__kicker">Página inicial</p>
+        <h1 class="hero__brand">Erlan</h1>
+        <p class="hero__tagline">
+          Favoritos, compras e desejos — tudo em um só lugar.
+        </p>
+        <div class="hero__tools">
+          <label class="search">
+            <span class="visually-hidden">Buscar links</span>
+            <input
+              id="search"
+              type="search"
+              placeholder="Buscar por título, loja, nota ou tag…"
+              autocomplete="off"
+              spellcheck="false"
+            />
+          </label>
+          <button
+            type="button"
+            class="btn btn--ghost"
+            id="theme-toggle"
+            aria-label="Alternar tema claro ou escuro"
+            title="Alternar tema"
+          >
+            Tema claro
+          </button>
+          <button type="button" class="btn btn--ghost" id="help-open">
+            Como adicionar
+          </button>
+        </div>
+        <nav class="section-nav" id="section-nav" aria-label="Seções"></nav>
+      </header>
+
+      <main id="app" class="app" aria-live="polite">
+        <p class="status">Carregando links…</p>
+      </main>
+
+      <footer class="footer">
+        <p>
+          Edite
+          <a id="edit-data-link" href="https://github.com/erlancassiano/favoritos/edit/main/data/links.json"
+            >data/links.json</a
+          >
+          no GitHub para atualizar esta página.
+        </p>
+      </footer>
+    </div>
+
+    <dialog class="modal" id="help-modal" aria-labelledby="help-title">
+      <form method="dialog" class="modal__panel">
+        <header class="modal__header">
+          <h2 id="help-title">Como adicionar um link</h2>
+          <button type="submit" class="btn btn--icon" aria-label="Fechar">
+            ×
+          </button>
+        </header>
+        <div class="modal__body">
+          <ol>
+            <li>
+              Abra
+              <a
+                href="https://github.com/erlancassiano/favoritos/edit/main/data/links.json"
+                target="_blank"
+                rel="noopener noreferrer"
+                >data/links.json</a
+              >
+              no editor do GitHub (funciona bem no celular).
+            </li>
+            <li>
+              Copie um item de exemplo em <code>items</code> e cole outro logo
+              abaixo.
+            </li>
+            <li>
+              Ajuste <code>title</code>, <code>url</code>, <code>section</code>
+              (<code>favoritos</code> / <code>compras</code> /
+              <code>desejos</code> e <code>category</code>.
+            </li>
+            <li>
+              Clique em <strong>Commit changes</strong>. Em alguns minutos o
+              GitHub Pages atualiza o site.
+            </li>
+          </ol>
+          <p>
+            Ou use o bookmarklet: arraste o link abaixo para a barra de
+            favoritos. Em qualquer página, clique nele para abrir um issue no
+            GitHub já preenchido com o título e a URL atuais.
+          </p>
+          <p class="bookmarklet-wrap">
+            <a class="bookmarklet btn btn--primary" id="bookmarklet" href="#"
+              >Salvar no Favoritos</a
+            >
+          </p>
+          <p class="hint">
+            O bookmarklet não altera o JSON sozinho (sem backend/token). Ele só
+            abre um issue pré-preenchido para você colar depois em
+            <code>data/links.json</code>.
+          </p>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
