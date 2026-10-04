@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "owner": "Erlan",
+    "title": "Favoritos",
+    "github": {
+      "owner": "erlancassiano",
+      "repo": "favoritos",
+      "branch": "main",
+      "dataPath": "data/links.json"
+    }
+  },
+  "sections": [
+    {
+      "id": "favoritos",
+      "title": "Favoritos",
+      "description": "Atalhos e sites que uso com frequência"
+    },
+    {
+      "id": "compras",
+      "title": "Compras",
+      "description": "Itens que estou acompanhando ou planejo comprar"
+    },
+    {
+      "id": "desejos",
+      "title": "Lista de desejos",
+      "description": "Coisas que gostaria de ter um dia"
+    }
+  ],
+  "categories": [
+    { "id": "produtividade", "title": "Produtividade", "section": "favoritos" },
+    { "id": "leitura", "title": "Leitura e notícias", "section": "favoritos" },
+    { "id": "casa", "title": "Casa", "section": "compras" },
+    { "id": "tech", "title": "Tecnologia", "section": "compras" },
+    { "id": "lazer", "title": "Lazer", "section": "desejos" },
+    { "id": "viagem", "title": "Viagem", "section": "desejos" }
+  ],
+  "items": [
+    {
+      "title": "Exemplo: GitHub",
+      "url": "https://github.com",
+      "section": "favoritos",
+      "category": "produtividade",
+      "note": "Entrada de exemplo — pode apagar ou editar.",
+      "tags": ["exemplo", "dev"],
+      "priority": 1,
+      "added": "2026-10-04"
+    },
+    {
+      "title": "Exemplo: Google",
+      "url": "https://www.google.com",
+      "section": "favoritos",
+      "category": "produtividade",
+      "note": "Busca geral.",
+      "tags": ["exemplo"],
+      "added": "2026-10-04"
+    },
+    {
+      "title": "Exemplo: Wikipedia",
+      "url": "https://pt.wikipedia.org",
+      "section": "favoritos",
+      "category": "leitura",
+      "tags": ["exemplo", "consulta"],
+      "added": "2026-10-04"
+    },
+    {
+      "title": "Exemplo: Fone Bluetooth",
+      "url": "https://www.example.com/fone",
+      "section": "compras",
+      "category": "tech",
+      "price": "R$ —",
+      "store": "Loja exemplo",
+      "note": "Preço fictício só para mostrar o formato.",
+      "tags": ["exemplo", "áudio"],
+      "priority": 2,
+      "added": "2026-10-04"
+    },
+    {
+      "title": "Exemplo: Cafeteira",
+      "url": "https://www.example.com/cafeteira",
+      "section": "compras",
+      "category": "casa",
+      "price": "R$ —",
+      "store": "Marketplace exemplo",
+      "tags": ["exemplo", "cozinha"],
+      "added": "2026-10-04"
+    },
+    {
+      "title": "Exemplo: Livro favorito em capa dura",
+      "url": "https://www.example.com/livro",
+      "section": "desejos",
+      "category": "lazer",
+      "price": "R$ —",
+      "store": "Livraria exemplo",
+      "note": "Desejo de exemplo.",
+      "tags": ["exemplo", "livros"],
+      "priority": 3,
+      "added": "2026-10-04"
+    },
+    {
+      "title": "Exemplo: Mochila de viagem",
+      "url": "https://www.example.com/mochila",
+      "section": "desejos",
+      "category": "viagem",
+      "price": "R$ —",
+      "store": "Outdoor exemplo",
+      "tags": ["exemplo", "viagem"],
+      "added": "2026-10-04"
+    }
+  ]
+}
