@@ -7,9 +7,41 @@
   const helpModal = document.getElementById("help-modal");
   const bookmarklet = document.getElementById("bookmarklet");
   const editDataLink = document.getElementById("edit-data-link");
+  const themeToggle = document.getElementById("theme-toggle");
+  const THEME_KEY = "favoritos-theme";
 
   /** @type {null | {meta: object, sections: array, categories: array, items: array}} */
   let data = null;
+
+  function currentTheme() {
+    const attr = document.documentElement.getAttribute("data-theme");
+    if (attr === "light" || attr === "dark") return attr;
+    return "dark";
+  }
+
+  function applyTheme(theme) {
+    const next = theme === "light" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    try {
+      localStorage.setItem(THEME_KEY, next);
+    } catch {
+      /* ignore quota / private mode */
+    }
+    if (themeToggle) {
+      themeToggle.textContent = next === "dark" ? "Tema claro" : "Tema escuro";
+      themeToggle.setAttribute(
+        "aria-label",
+        next === "dark" ? "Ativar tema claro" : "Ativar tema escuro"
+      );
+    }
+  }
+
+  function initTheme() {
+    applyTheme(currentTheme());
+    themeToggle?.addEventListener("click", () => {
+      applyTheme(currentTheme() === "dark" ? "light" : "dark");
+    });
+  }
 
   function escapeHtml(value) {
     return String(value ?? "")
@@ -192,6 +224,7 @@
   }
 
   async function init() {
+    initTheme();
     wireHelp();
     try {
       const res = await fetch(DATA_URL, { cache: "no-store" });

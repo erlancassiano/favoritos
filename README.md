@@ -101,7 +101,7 @@ Abrir só o `index.html` via `file://` pode falhar ao carregar o JSON (restriç�
 
 ```
 index.html       → página
-css/styles.css   → visual (claro/escuro pelo sistema)
+css/styles.css   → visual (escuro por padrão; botão alterna e salva em localStorage)
 js/app.js        → lê o JSON e monta o grid
 data/links.json  → único arquivo para editar no dia a dia
 .nojekyll

@@ -3,12 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="color-scheme" content="light dark" />
+    <meta name="color-scheme" content="dark light" />
     <meta
       name="description"
       content="Página inicial do Erlan: favoritos, compras e lista de desejos."
     />
     <title>Erlan · Favoritos</title>
+    <script>
+      /* Aplica tema salvo antes do CSS para evitar flash (padrão: escuro). */
+      (function () {
+        try {
+          var t = localStorage.getItem("favoritos-theme");
+          if (t !== "light" && t !== "dark") t = "dark";
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -41,6 +53,15 @@
               spellcheck="false"
             />
           </label>
+          <button
+            type="button"
+            class="btn btn--ghost"
+            id="theme-toggle"
+            aria-label="Alternar tema claro ou escuro"
+            title="Alternar tema"
+          >
+            Tema claro
+          </button>
           <button type="button" class="btn btn--ghost" id="help-open">
             Como adicionar
           </button>
