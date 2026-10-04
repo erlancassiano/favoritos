@@ -448,6 +448,71 @@ a {
   margin-top: 0.75rem;
 }
 
+.compras-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.25rem 0 1rem;
+}
+
+.compras-toolbar__stores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.chip--btn {
+  cursor: pointer;
+  font: inherit;
+}
+
+.chip--btn.is-active {
+  color: var(--accent-ink);
+  border-color: color-mix(in oklab, var(--accent) 55%, var(--line));
+  background: color-mix(in oklab, var(--accent-soft) 55%, var(--card));
+}
+
+.badge {
+  display: inline-block;
+  margin-left: 0.4rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  padding: 0.12rem 0.4rem;
+  border-radius: 999px;
+  color: var(--accent-ink);
+  background: color-mix(in oklab, var(--accent-soft) 60%, transparent);
+}
+
+.badge--cart {
+  color: #10231f;
+  background: #d6b258;
+}
+
+html[data-theme="light"] .badge--cart {
+  color: #3a2a05;
+  background: #e6c56a;
+}
+
+.badge--unavailable {
+  color: var(--muted);
+  background: color-mix(in oklab, var(--ink) 10%, transparent);
+}
+
+.card--unavailable {
+  opacity: 0.55;
+  filter: grayscale(0.35);
+}
+
+.card--unavailable:hover,
+.card--unavailable:focus-visible {
+  opacity: 0.8;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
