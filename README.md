@@ -66,7 +66,7 @@ Link diário (array `diarios` no topo do JSON — aparece como tile grande):
 | `price_usd` | não | Valor numérico em dólares (Amazon EUA) |
 | `source` | não | Origem do import (ex.: `aliexpress`, `mercadolivre`, `amazon`, `amazon_us`) |
 
-Imports de marketplace: `scripts/import_aliexpress.py`, `scripts/import_mercadolivre.py`, `scripts/import_amazon.py`, `scripts/import_amazon_us.py` (regras em `scripts/compras_categories.py`).
+Imports de marketplace: `scripts/import_aliexpress.py`, `scripts/import_mercadolivre.py`, `scripts/import_amazon.py`, `scripts/import_amazon_us.py`, `scripts/import_shopee.py` (regras em `scripts/compras_categories.py`).
 
 **Preço misto BRL/USD:** a ordenação usa `price_value` já normalizado em BRL quando o import gravou `currency: "USD"` (`price_usd × 5,50`). Ajuste a constante `USD_TO_BRL` em `js/app.js` e no script de import se quiser outra taxa.
 
