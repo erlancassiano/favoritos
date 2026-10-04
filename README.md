@@ -55,6 +55,11 @@ Link diário (array `diarios` no topo do JSON — aparece como tile grande):
 | `priority` | não | Número (menor = mais importante) |
 | `added` | não | Data `AAAA-MM-DD` |
 | `pinned` | não | Usado nos links diários |
+| `store` | não | Loja (`AliExpress`, `Mercado Livre`, `Shopee`, `Amazon`, `Outros`) — filtro em Compras |
+| `title_full` | não | Título original longo (marketplace) |
+| `available` | não | `false` = indisponível (card esmaecido) |
+| `in_cart` | não | `true` = badge “no carrinho” |
+| `source` | não | Origem do import (ex.: `aliexpress`) |
 
 Para uma **categoria nova**, adicione também em `categories`:
 
