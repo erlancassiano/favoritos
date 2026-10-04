@@ -55,14 +55,20 @@ Link diário (array `diarios` no topo do JSON — aparece como tile grande):
 | `priority` | não | Número (menor = mais importante) |
 | `added` | não | Data `AAAA-MM-DD` |
 | `pinned` | não | Usado nos links diários |
-| `store` | não | Loja (`AliExpress`, `Mercado Livre`, `Shopee`, `Amazon`, `Outros`) — filtro em Compras |
+| `store` | não | Loja (`AliExpress`, `Mercado Livre`, `Shopee`, `Amazon`, `Amazon EUA`, `Outros`) — filtro em Compras |
 | `title_full` | não | Título original longo (marketplace) |
-| `available` | não | `false` = indisponível (card esmaecido) |
+| `available` | não | `false` = indisponível / sem entrega (card esmaecido) |
 | `in_cart` | não | `true` = badge “no carrinho” |
-| `saved_for_later` | não | `true` = badge “salvo p/ depois” (Amazon) |
-| `source` | não | Origem do import (ex.: `aliexpress`, `mercadolivre`, `amazon`) |
+| `saved_for_later` | não | `true` = badge “salvo p/ depois” (Amazon BR) |
+| `list` | não | Nome da lista (ex.: `Comprar em Miami`) — chip de filtro em Compras |
+| `no_br_delivery` | não | `true` = badge “não entrega no Brasil / ver nos EUA” (Amazon EUA) |
+| `currency` | não | `BRL` / `USD` — ordenação de preço converte USD→BRL com taxa fixa **5,50** |
+| `price_usd` | não | Valor numérico em dólares (Amazon EUA) |
+| `source` | não | Origem do import (ex.: `aliexpress`, `mercadolivre`, `amazon`, `amazon_us`) |
 
-Imports de marketplace: `scripts/import_aliexpress.py`, `scripts/import_mercadolivre.py`, `scripts/import_amazon.py` (regras em `scripts/compras_categories.py`).
+Imports de marketplace: `scripts/import_aliexpress.py`, `scripts/import_mercadolivre.py`, `scripts/import_amazon.py`, `scripts/import_amazon_us.py` (regras em `scripts/compras_categories.py`).
+
+**Preço misto BRL/USD:** a ordenação usa `price_value` já normalizado em BRL quando o import gravou `currency: "USD"` (`price_usd × 5,50`). Ajuste a constante `USD_TO_BRL` em `js/app.js` e no script de import se quiser outra taxa.
 
 Para uma **categoria nova**, adicione também em `categories`:
 

@@ -508,6 +508,37 @@ html[data-theme="light"] .badge--saved {
   background: #9ec0e6;
 }
 
+.badge--miami {
+  color: #f3f7ff;
+  background: #2f6f8f;
+}
+
+html[data-theme="light"] .badge--miami {
+  color: #0a2430;
+  background: #9ec9db;
+}
+
+.badge--no-br {
+  color: #f7f0e8;
+  background: #8a5a2b;
+}
+
+html[data-theme="light"] .badge--no-br {
+  color: #3a2410;
+  background: #e2c29a;
+}
+
+.compras-toolbar__lists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  width: 100%;
+}
+
+.chip--list.is-active {
+  background: color-mix(in oklab, #2f6f8f 55%, var(--panel));
+}
+
 .badge--unavailable {
   color: var(--muted);
   background: color-mix(in oklab, var(--ink) 10%, transparent);
