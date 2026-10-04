@@ -193,6 +193,9 @@
     if (item.in_cart) {
       badges.push('<span class="badge badge--cart">no carrinho</span>');
     }
+    if (item.saved_for_later) {
+      badges.push('<span class="badge badge--saved">salvo p/ depois</span>');
+    }
     if (unavailable) {
       badges.push('<span class="badge badge--unavailable">indisponível</span>');
     }

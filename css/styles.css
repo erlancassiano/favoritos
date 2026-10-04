@@ -498,6 +498,16 @@ html[data-theme="light"] .badge--cart {
   background: #e6c56a;
 }
 
+.badge--saved {
+  color: #eef6f2;
+  background: #3a6ea5;
+}
+
+html[data-theme="light"] .badge--saved {
+  color: #0b1f33;
+  background: #9ec0e6;
+}
+
 .badge--unavailable {
   color: var(--muted);
   background: color-mix(in oklab, var(--ink) 10%, transparent);

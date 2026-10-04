@@ -59,9 +59,10 @@ Link diário (array `diarios` no topo do JSON — aparece como tile grande):
 | `title_full` | não | Título original longo (marketplace) |
 | `available` | não | `false` = indisponível (card esmaecido) |
 | `in_cart` | não | `true` = badge “no carrinho” |
-| `source` | não | Origem do import (ex.: `aliexpress`, `mercadolivre`) |
+| `saved_for_later` | não | `true` = badge “salvo p/ depois” (Amazon) |
+| `source` | não | Origem do import (ex.: `aliexpress`, `mercadolivre`, `amazon`) |
 
-Imports de marketplace: `scripts/import_aliexpress.py` e `scripts/import_mercadolivre.py` (regras de categoria em `scripts/compras_categories.py`).
+Imports de marketplace: `scripts/import_aliexpress.py`, `scripts/import_mercadolivre.py`, `scripts/import_amazon.py` (regras em `scripts/compras_categories.py`).
 
 Para uma **categoria nova**, adicione também em `categories`:
 
