@@ -1,7 +1,7 @@
 # Favoritos — página inicial do Erlan
 
 Site estático (HTML/CSS/JS) servido pelo **GitHub Pages** a partir da raiz do branch `main`.  
-Três seções: **Favoritos**, **Compras** e **Lista de desejos**. Tudo vem de um único arquivo de dados.
+Seções: **Links diários** (tiles fixos no topo), **Favoritos**, **Compras** e **Lista de desejos**. Tudo vem de um único arquivo de dados.
 
 ---
 
@@ -9,19 +9,33 @@ Três seções: **Favoritos**, **Compras** e **Lista de desejos**. Tudo vem de u
 
 Arquivo: [`data/links.json`](data/links.json)
 
+Item normal (Favoritos / Compras / Desejos):
+
 ```json
 {
-  "title": "Exemplo: Meu site",
+  "title": "Meu site",
   "url": "https://www.example.com",
   "section": "favoritos",
-  "category": "produtividade",
+  "category": "desenvolvimento",
   "icon": "",
   "price": "R$ —",
   "store": "Loja exemplo",
   "note": "Observação opcional",
-  "tags": ["exemplo"],
+  "tags": ["dev"],
   "priority": 1,
   "added": "2026-10-04"
+}
+```
+
+Link diário (array `diarios` no topo do JSON — aparece como tile grande):
+
+```json
+{
+  "title": "Gmail",
+  "url": "https://mail.google.com/",
+  "section": "diarios",
+  "category": "diarios",
+  "pinned": true
 }
 ```
 
@@ -29,9 +43,9 @@ Arquivo: [`data/links.json`](data/links.json)
 
 | Campo | Obrigatório? | Descrição |
 | --- | --- | --- |
-| `title` | sim | Nome exibido no card |
-| `url` | sim | Link de destino |
-| `section` | sim | `favoritos`, `compras` ou `desejos` |
+| `title` | sim | Nome exibido no card/tile |
+| `url` | sim | Link de destino (`#` se ainda for definir) |
+| `section` | sim | `favoritos`, `compras`, `desejos` (diários ficam em `diarios`) |
 | `category` | sim | `id` de uma categoria em `categories` |
 | `icon` | não | URL de ícone; se vazio, usa o favicon do site |
 | `price` | não | Preço (útil em Compras / Desejos) |
@@ -40,12 +54,15 @@ Arquivo: [`data/links.json`](data/links.json)
 | `tags` | não | Lista de palavras para busca |
 | `priority` | não | Número (menor = mais importante) |
 | `added` | não | Data `AAAA-MM-DD` |
+| `pinned` | não | Usado nos links diários |
 
 Para uma **categoria nova**, adicione também em `categories`:
 
 ```json
 { "id": "minha-categoria", "title": "Minha categoria", "section": "favoritos" }
 ```
+
+Subpastas viram rótulo `Categoria › Sub` (ex.: `Artesanato › Couro`).
 
 ---
 
