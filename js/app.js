@@ -359,9 +359,14 @@
         ? " category--open"
         : " category--preview";
 
-    // Always mount all cards + both footers; visibility via class/hidden (no flicker on toggle).
+    // Always mount all cards; footers only when preview/open toggles matter.
     const moreHidden = !(!closed && !fullyOpen && remaining > 0);
-    const collapseHidden = !(!closed && fullyOpen && items.length > PREVIEW_COUNT);
+    const collapseHidden = !(!closed && fullyOpen && remaining > 0);
+    const footers =
+      remaining > 0
+        ? `<button type="button" class="btn btn--ghost category__more" data-cat-more="${escapeHtml(id)}"${moreHidden ? " hidden" : ""}>Ver mais (${remaining})</button>
+          <button type="button" class="btn btn--ghost category__more" data-cat-collapse="${escapeHtml(id)}"${collapseHidden ? " hidden" : ""}>Recolher</button>`
+        : "";
 
     return `
       <div class="category${modeClass}" id="cat-${escapeHtml(id)}" data-cat="${escapeHtml(id)}" data-count="${items.length}">
@@ -374,8 +379,7 @@
           <div class="grid">
             ${items.map(renderCard).join("")}
           </div>
-          <button type="button" class="btn btn--ghost category__more" data-cat-more="${escapeHtml(id)}"${moreHidden ? " hidden" : ""}>Ver mais (${remaining})</button>
-          <button type="button" class="btn btn--ghost category__more" data-cat-collapse="${escapeHtml(id)}"${collapseHidden ? " hidden" : ""}>Recolher</button>
+          ${footers}
         </div>
       </div>
     `;

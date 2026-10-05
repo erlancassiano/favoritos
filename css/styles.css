@@ -481,6 +481,10 @@ a {
   padding: 0.25rem 0.5rem;
 }
 
+.category__more[hidden] {
+  display: none !important;
+}
+
 .category--collapsed .category__toggle {
   margin-bottom: 0;
 }
