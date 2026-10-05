@@ -415,6 +415,24 @@
       "category": "geral"
     },
     {
+      "title": "Terra",
+      "url": "https://www.terra.com.br/",
+      "section": "favoritos",
+      "category": "geral"
+    },
+    {
+      "title": "VIVO",
+      "url": "https://www.vivo.com.br/iphonevivo",
+      "section": "favoritos",
+      "category": "geral"
+    },
+    {
+      "title": "Guia do iPhone",
+      "url": "https://help.apple.com/iphone/guide/",
+      "section": "favoritos",
+      "category": "geral"
+    },
+    {
       "title": "standards.nasa.gov",
       "url": "https://standards.nasa.gov/sites/default/files/standards/GSFC/B/0/gsfc-std-7000b_signature_cycle_04_28_2021_fixed_links.pdf",
       "section": "favoritos",
@@ -1293,6 +1311,12 @@
     {
       "title": "Wolfram|Alpha: Computational Intelligence",
       "url": "https://www.wolframalpha.com/",
+      "section": "favoritos",
+      "category": "ciência-de-dados"
+    },
+    {
+      "title": "Power BI: Remove Duplicate Records And Keep Most Recent ⚡",
+      "url": "https://www.youtube.com/watch?v=S3X_HK7yl1w",
       "section": "favoritos",
       "category": "ciência-de-dados"
     },
@@ -2197,6 +2221,12 @@
       "category": "daedalus-lab-vígil"
     },
     {
+      "title": "Vagrant Aula 01",
+      "url": "https://www.youtube.com/watch?v=W530u7lTZ_k&list=PLmSWX0ePcw4j6xaMvvTuYI0BgKadati5L",
+      "section": "favoritos",
+      "category": "daedalus-lab-vígil"
+    },
+    {
       "title": "A Comparison of Secrets Managers for AWS - ScaleSec",
       "url": "https://blog.scalesec.com/a-comparison-of-secrets-managers-for-aws-ba64e8029314",
       "section": "favoritos",
@@ -2779,6 +2809,12 @@
       "category": "desenvolvimento-backend"
     },
     {
+      "title": "4K | How to Download and Install PostgreSQL and NpgSQL .NET Data Provider",
+      "url": "https://www.youtube.com/watch?v=KCxWG2g22yo",
+      "section": "favoritos",
+      "category": "desenvolvimento-backend"
+    },
+    {
       "title": "Dell",
       "url": "http://www1.la.dell.com/content/default.aspx?c=br&l=pt&s=gen",
       "section": "favoritos",
@@ -3063,6 +3099,12 @@
     {
       "title": "Yahoo",
       "url": "https://br.yahoo.com/",
+      "section": "favoritos",
+      "category": "desenvolvimento-ferramentas"
+    },
+    {
+      "title": "Disco de cores | Esquemas de cores - Adobe Color CC",
+      "url": "https://color.adobe.com/pt/Flat-UI-color-theme-2469224/edit/?copy=true",
       "section": "favoritos",
       "category": "desenvolvimento-ferramentas"
     },
@@ -4087,6 +4129,13 @@
       "category": "engenharia-fablab"
     },
     {
+      "title": "Instructions | LoRa Messenger for two devices for distance up to | Hackaday.io",
+      "url": "https://hackaday.io/project/164090/instructions",
+      "section": "favoritos",
+      "category": "engenharia-fablab",
+      "note": "Lista de leitura do Safari"
+    },
+    {
       "title": "Blueprint.am - AI Hardware Design Tool",
       "url": "https://www.blueprint.am/",
       "section": "favoritos",
@@ -4467,6 +4516,12 @@
     {
       "title": "Torrentz2 Search Engine",
       "url": "https://torrentz2.eu/",
+      "section": "favoritos",
+      "category": "entretenimento-torrent"
+    },
+    {
+      "title": "FitGirl Repacks - The ONLY official site for FitGirl Repacks. Every single FG repack in…",
+      "url": "https://fitgirl-repacks.site/",
       "section": "favoritos",
       "category": "entretenimento-torrent"
     },
@@ -5745,6 +5800,18 @@
     {
       "title": "Z Animes Online - Assistir Animes Grátis em HD",
       "url": "https://zanimesonline.com/",
+      "section": "favoritos",
+      "category": "rua-dois"
+    },
+    {
+      "title": "Ambiente de desenvolvimento NodeJS com Docker e Docker Compose | Diego Fernandes",
+      "url": "https://www.youtube.com/watch?v=AVNADGzXrrQ",
+      "section": "favoritos",
+      "category": "rua-dois"
+    },
+    {
+      "title": "Login | Octadesk - Transforme suas conversas em vendas",
+      "url": "https://octadesk.com/login?lang=pt",
       "section": "favoritos",
       "category": "rua-dois"
     },
@@ -18264,6 +18331,14 @@
       "price": "R$ 32,42",
       "price_value": 32.42,
       "qty": 1
+    },
+    {
+      "title": "Legítima Interpretação da Bíblia - Livro em Capa Dura - Loja | Centro Dom Bosco",
+      "url": "https://loja.centrodombosco.org/legitima-interpretacao-da-biblia-lucio-navarro-capa-dura",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Outros",
+      "available": true
     },
     {
       "title": "Suporte Shampoo de Canto Aço Inox Preto",
