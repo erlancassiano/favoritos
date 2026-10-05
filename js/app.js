@@ -75,6 +75,38 @@
     saveCollapse();
   }
 
+  function currentForceExpand() {
+    return Boolean((searchInput?.value || "").trim()) || filtersForceExpand();
+  }
+
+  /** Toggle collapse in-place — no full re-render (avoids flicker / favicon reload). */
+  function applySectionDom(sectionEl, collapsed) {
+    if (!sectionEl) return;
+    sectionEl.classList.toggle("section--collapsed", collapsed);
+    const btn = sectionEl.querySelector("[data-toggle-section]");
+    const body = sectionEl.querySelector(".section__body");
+    if (btn) btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    if (body) body.hidden = collapsed;
+  }
+
+  function applyCategoryDom(catEl, mode, forceExpand) {
+    if (!catEl) return;
+    const count = Number(catEl.dataset.count || 0);
+    const closed = mode === "closed";
+    const fullyOpen = !closed && (mode === "open" || forceExpand);
+    catEl.classList.toggle("category--collapsed", closed);
+    catEl.classList.toggle("category--preview", !closed && !fullyOpen);
+    catEl.classList.toggle("category--open", fullyOpen);
+    const btn = catEl.querySelector("[data-toggle-cat]");
+    const body = catEl.querySelector(".category__body");
+    if (btn) btn.setAttribute("aria-expanded", closed ? "false" : "true");
+    if (body) body.hidden = closed;
+    const more = catEl.querySelector("[data-cat-more]");
+    const collapse = catEl.querySelector("[data-cat-collapse]");
+    if (more) more.hidden = !(!closed && !fullyOpen && count > PREVIEW_COUNT);
+    if (collapse) collapse.hidden = !(!closed && fullyOpen && count > PREVIEW_COUNT);
+  }
+
   function currentTheme() {
     const attr = document.documentElement.getAttribute("data-theme");
     if (attr === "light" || attr === "dark") return attr;
@@ -319,34 +351,36 @@
     // Explicit closed always wins — collapse must work with search/filters.
     const closed = mode === "closed";
     const fullyOpen = !closed && (mode === "open" || forceExpand);
-    const visible = closed ? [] : fullyOpen ? items : items.slice(0, PREVIEW_COUNT);
-    const remaining = items.length - visible.length;
+    const remaining = Math.max(0, items.length - PREVIEW_COUNT);
     const openAttr = closed ? "false" : "true";
+    const modeClass = closed
+      ? " category--collapsed"
+      : fullyOpen
+        ? " category--open"
+        : " category--preview";
 
-    let footer = "";
-    if (!closed && !fullyOpen && remaining > 0) {
-      footer = `<button type="button" class="btn btn--ghost category__more" data-cat-more="${escapeHtml(id)}">Ver mais (${remaining})</button>`;
-    } else if (!closed && fullyOpen && items.length > PREVIEW_COUNT) {
-      footer = `<button type="button" class="btn btn--ghost category__more" data-cat-collapse="${escapeHtml(id)}">Recolher</button>`;
-    }
+    // Always mount all cards; footers only when preview/open toggles matter.
+    const moreHidden = !(!closed && !fullyOpen && remaining > 0);
+    const collapseHidden = !(!closed && fullyOpen && remaining > 0);
+    const footers =
+      remaining > 0
+        ? `<button type="button" class="btn btn--ghost category__more" data-cat-more="${escapeHtml(id)}"${moreHidden ? " hidden" : ""}>Ver mais (${remaining})</button>
+          <button type="button" class="btn btn--ghost category__more" data-cat-collapse="${escapeHtml(id)}"${collapseHidden ? " hidden" : ""}>Recolher</button>`
+        : "";
 
     return `
-      <div class="category${closed ? " category--collapsed" : ""}" id="cat-${escapeHtml(id)}" data-cat="${escapeHtml(id)}">
+      <div class="category${modeClass}" id="cat-${escapeHtml(id)}" data-cat="${escapeHtml(id)}" data-count="${items.length}">
         <button type="button" class="category__toggle" data-toggle-cat="${escapeHtml(id)}" aria-expanded="${openAttr}">
           <span class="chevron" aria-hidden="true"></span>
           <span class="category__title">${escapeHtml(category.title)}</span>
           <span class="category__count">${items.length}</span>
         </button>
-        ${
-          closed
-            ? ""
-            : `<div class="category__body">
+        <div class="category__body"${closed ? " hidden" : ""}>
           <div class="grid">
-            ${visible.map(renderCard).join("")}
+            ${items.map(renderCard).join("")}
           </div>
-          ${footer}
-        </div>`
-        }
+          ${footers}
+        </div>
       </div>
     `;
   }
@@ -364,7 +398,7 @@
           ${description ? `<p class="section__desc">${description}</p>` : ""}
           ${extraHead}
         </header>
-        ${collapsed ? "" : `<div class="section__body">${bodyHtml}</div>`}
+        <div class="section__body"${collapsed ? " hidden" : ""}>${bodyHtml}</div>
       </section>
     `;
   }
@@ -538,8 +572,7 @@
       const id = sectionBtn.getAttribute("data-toggle-section");
       if (!id) return;
       toggleSection(id);
-      render(searchInput?.value || "");
-      document.getElementById(id)?.scrollIntoView({ block: "nearest" });
+      applySectionDom(document.getElementById(id), sectionCollapsed(id));
       return;
     }
 
@@ -548,8 +581,7 @@
       const id = moreBtn.getAttribute("data-cat-more");
       if (!id) return;
       setCatMode(id, "open");
-      render(searchInput?.value || "");
-      document.getElementById(`cat-${id}`)?.scrollIntoView({ block: "nearest" });
+      applyCategoryDom(document.getElementById(`cat-${id}`), "open", currentForceExpand());
       return;
     }
 
@@ -558,10 +590,9 @@
       const id = collapseBtn.getAttribute("data-cat-collapse");
       if (!id) return;
       // With active filters/search, "Recolher" fully closes; otherwise back to preview.
-      const q = (searchInput?.value || "").trim();
-      setCatMode(id, q || filtersForceExpand() ? "closed" : "preview");
-      render(searchInput?.value || "");
-      document.getElementById(`cat-${id}`)?.scrollIntoView({ block: "nearest" });
+      const next = currentForceExpand() ? "closed" : "preview";
+      setCatMode(id, next);
+      applyCategoryDom(document.getElementById(`cat-${id}`), next, currentForceExpand());
       return;
     }
 
@@ -569,9 +600,9 @@
     if (!btn) return;
     const id = btn.getAttribute("data-toggle-cat");
     if (!id) return;
-    setCatMode(id, catMode(id) === "closed" ? "open" : "closed");
-    render(searchInput?.value || "");
-    document.getElementById(`cat-${id}`)?.scrollIntoView({ block: "nearest" });
+    const next = catMode(id) === "closed" ? "open" : "closed";
+    setCatMode(id, next);
+    applyCategoryDom(document.getElementById(`cat-${id}`), next, currentForceExpand());
   }
 
   function wireHelp() {
