@@ -1,6 +1,6 @@
 (() => {
   const DATA_URL = "data/links.json";
-  const PREVIEW_COUNT = 8;
+  const PREVIEW_COUNT = 24;
   const STORE_FILTERS = [
     "Todas",
     "AliExpress",
@@ -12,6 +12,8 @@
   ];
   /** Fixed USD→BRL rate for cross-currency price sort (documented in README). */
   const USD_TO_BRL = 5.5;
+  const THEME_KEY = "favoritos-theme";
+  const COLLAPSE_KEY = "favoritos-collapse";
 
   const app = document.getElementById("app");
   const searchInput = document.getElementById("search");
@@ -22,16 +24,56 @@
   const bookmarklet = document.getElementById("bookmarklet");
   const editDataLink = document.getElementById("edit-data-link");
   const themeToggle = document.getElementById("theme-toggle");
-  const THEME_KEY = "favoritos-theme";
 
   /** @type {null | object} */
   let data = null;
-  /** @type {Map<string, boolean>} */
-  const expanded = new Map();
+  /** @type {{ sections: Record<string, boolean>, cats: Record<string, "preview"|"open"|"closed"> }} */
+  let collapseState = { sections: {}, cats: {} };
   let searchTimer = 0;
   let storeFilter = "Todas";
   let listFilter = "Todas"; // Todas | Comprar em Miami | …
   let priceSort = "none"; // none | asc | desc
+
+  function loadCollapse() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(COLLAPSE_KEY) || "{}");
+      return {
+        sections: raw.sections && typeof raw.sections === "object" ? raw.sections : {},
+        cats: raw.cats && typeof raw.cats === "object" ? raw.cats : {},
+      };
+    } catch {
+      return { sections: {}, cats: {} };
+    }
+  }
+
+  function saveCollapse() {
+    try {
+      localStorage.setItem(COLLAPSE_KEY, JSON.stringify(collapseState));
+    } catch {
+      /* ignore */
+    }
+  }
+
+  function sectionCollapsed(id) {
+    return collapseState.sections[id] === true;
+  }
+
+  function catMode(id) {
+    const m = collapseState.cats[id];
+    return m === "open" || m === "closed" ? m : "preview";
+  }
+
+  function setCatMode(id, mode) {
+    if (mode === "preview") delete collapseState.cats[id];
+    else collapseState.cats[id] = mode;
+    saveCollapse();
+  }
+
+  function toggleSection(id) {
+    collapseState.sections[id] = !sectionCollapsed(id);
+    if (!collapseState.sections[id]) delete collapseState.sections[id];
+    saveCollapse();
+  }
 
   function currentTheme() {
     const attr = document.documentElement.getAttribute("data-theme");
@@ -219,87 +261,111 @@
     else if (item.no_br_delivery) metaBits.push("ver nos EUA");
     else if (unavailable) metaBits.push("Indisponível");
     if (item.store) metaBits.push(escapeHtml(item.store));
-    const tags = (item.tags || [])
-      .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`)
-      .join("");
+    if (item.note && item.available !== false) metaBits.push(escapeHtml(item.note));
     const host = hostnameOf(item.url);
     const badges = [];
     if (item.list === "Comprar em Miami") {
-      badges.push('<span class="badge badge--miami">Comprar em Miami</span>');
+      badges.push('<span class="badge badge--miami">Miami</span>');
     }
     if (item.in_cart) {
-      badges.push('<span class="badge badge--cart">no carrinho</span>');
+      badges.push('<span class="badge badge--cart">carrinho</span>');
     }
     if (item.saved_for_later) {
-      badges.push('<span class="badge badge--saved">salvo p/ depois</span>');
+      badges.push('<span class="badge badge--saved">salvo</span>');
     }
     if (item.no_br_delivery) {
-      badges.push(
-        '<span class="badge badge--no-br">não entrega no Brasil / ver nos EUA</span>'
-      );
+      badges.push('<span class="badge badge--no-br">ver nos EUA</span>');
     } else if (unavailable) {
       badges.push('<span class="badge badge--unavailable">indisponível</span>');
     }
     const titleAttr = escapeHtml(item.title_full || item.title || "");
+    const meta =
+      metaBits.length
+        ? metaBits.join(" · ")
+        : host
+          ? escapeHtml(host)
+          : "";
 
     return `
       <a class="card${unavailable ? " card--unavailable" : ""}" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" title="${titleAttr}">
         <span class="card__icon" aria-hidden="true">
           ${
             icon
-              ? `<img src="${escapeHtml(icon)}" alt="" width="20" height="20" loading="lazy" decoding="async" />`
+              ? `<img src="${escapeHtml(icon)}" alt="" width="14" height="14" loading="lazy" decoding="async" />`
               : `<span>${escapeHtml((item.title || "?").slice(0, 1).toUpperCase())}</span>`
           }
         </span>
-        <span>
-          <h3 class="card__title">${escapeHtml(item.title)}${badges.join("")}</h3>
-          ${
-            metaBits.length
-              ? `<p class="card__meta">${metaBits.join(" · ")}</p>`
-              : host
-                ? `<p class="card__meta">${escapeHtml(host)}</p>`
-                : ""
-          }
-          ${item.note && item.available !== false ? `<p class="card__note">${escapeHtml(item.note)}</p>` : ""}
-          ${tags ? `<div class="card__tags">${tags}</div>` : ""}
+        <span class="card__main">
+          <span class="card__title">${escapeHtml(item.title)}</span>
+          ${badges.length ? `<span class="card__badges">${badges.join("")}</span>` : ""}
+          ${meta ? `<span class="card__meta">${meta}</span>` : ""}
         </span>
       </a>
     `;
   }
 
-  function renderCategory(category, items, query) {
-    const id = category.id;
-    const forceOpen =
-      Boolean(query) ||
+  function filtersForceExpand() {
+    return (
       priceSort !== "none" ||
       storeFilter !== "Todas" ||
-      listFilter !== "Todas";
-    const isOpen = forceOpen || expanded.get(id) === true;
-    const visible = isOpen ? items : items.slice(0, PREVIEW_COUNT);
+      listFilter !== "Todas"
+    );
+  }
+
+  function renderCategory(category, items, query) {
+    const id = category.id;
+    const mode = catMode(id);
+    const forceExpand = Boolean(query) || filtersForceExpand();
+    // Explicit closed always wins — collapse must work with search/filters.
+    const closed = mode === "closed";
+    const fullyOpen = !closed && (mode === "open" || forceExpand);
+    const visible = closed ? [] : fullyOpen ? items : items.slice(0, PREVIEW_COUNT);
     const remaining = items.length - visible.length;
-    const openAttr = isOpen ? "true" : "false";
+    const openAttr = closed ? "false" : "true";
 
     let footer = "";
-    if (!forceOpen && remaining > 0) {
-      footer = `<button type="button" class="btn btn--ghost category__more" data-toggle-cat="${escapeHtml(id)}">Ver mais (${remaining})</button>`;
-    } else if (!forceOpen && isOpen && items.length > PREVIEW_COUNT) {
-      footer = `<button type="button" class="btn btn--ghost category__more" data-toggle-cat="${escapeHtml(id)}">Recolher</button>`;
+    if (!closed && !fullyOpen && remaining > 0) {
+      footer = `<button type="button" class="btn btn--ghost category__more" data-cat-more="${escapeHtml(id)}">Ver mais (${remaining})</button>`;
+    } else if (!closed && fullyOpen && items.length > PREVIEW_COUNT) {
+      footer = `<button type="button" class="btn btn--ghost category__more" data-cat-collapse="${escapeHtml(id)}">Recolher</button>`;
     }
 
     return `
-      <div class="category" id="cat-${escapeHtml(id)}" data-cat="${escapeHtml(id)}">
+      <div class="category${closed ? " category--collapsed" : ""}" id="cat-${escapeHtml(id)}" data-cat="${escapeHtml(id)}">
         <button type="button" class="category__toggle" data-toggle-cat="${escapeHtml(id)}" aria-expanded="${openAttr}">
-          <span class="category__chevron" aria-hidden="true"></span>
+          <span class="chevron" aria-hidden="true"></span>
           <span class="category__title">${escapeHtml(category.title)}</span>
           <span class="category__count">${items.length}</span>
         </button>
-        <div class="category__body">
+        ${
+          closed
+            ? ""
+            : `<div class="category__body">
           <div class="grid">
             ${visible.map(renderCard).join("")}
           </div>
           ${footer}
-        </div>
+        </div>`
+        }
       </div>
+    `;
+  }
+
+  function renderSectionShell(id, title, description, bodyHtml, extraHead = "") {
+    const collapsed = sectionCollapsed(id);
+    const openAttr = collapsed ? "false" : "true";
+    return `
+      <section class="section${collapsed ? " section--collapsed" : ""}" id="${escapeHtml(id)}">
+        <header class="section__head">
+          <button type="button" class="section__toggle" data-toggle-section="${escapeHtml(id)}" aria-expanded="${openAttr}">
+            <span class="chevron" aria-hidden="true"></span>
+            <h2 class="section__title">${escapeHtml(title)}</h2>
+          </button>
+          ${description ? `<p class="section__desc">${description}</p>` : ""}
+          ${extraHead}
+        </header>
+        ${collapsed ? "" : `<div class="section__body">${bodyHtml}</div>`}
+      </section>
     `;
   }
 
@@ -346,17 +412,14 @@
 
     const diarios = (data.diarios || []).filter((item) => matchesQuery(item, q));
     if (!q || diarios.length) {
-      parts.push(`
-        <section class="section section--diarios" id="diarios">
-          <header class="section__head">
-            <h2 class="section__title">Links diários</h2>
-            <p class="section__desc">Atalhos fixos — edite o array <code>diarios</code> em data/links.json</p>
-          </header>
-          <div class="dial">
-            ${diarios.map(renderDialTile).join("")}
-          </div>
-        </section>
-      `);
+      parts.push(
+        renderSectionShell(
+          "diarios",
+          "Links diários",
+          `Atalhos fixos — edite o array <code>diarios</code> em data/links.json`,
+          `<div class="dial">${diarios.map(renderDialTile).join("")}</div>`
+        )
+      );
     }
 
     for (const section of data.sections) {
@@ -399,24 +462,15 @@
 
       if (!categoryBlocks.length && section.id !== "compras") continue;
 
-      parts.push(`
-        <section class="section" id="${escapeHtml(section.id)}">
-          <header class="section__head">
-            <h2 class="section__title">${escapeHtml(section.title)}</h2>
-            ${
-              section.description
-                ? `<p class="section__desc">${escapeHtml(section.description)} · ${sectionItems.length} links</p>`
-                : ""
-            }
-          </header>
-          ${section.id === "compras" ? renderComprasToolbar() : ""}
-          ${
-            categoryBlocks.length
-              ? categoryBlocks.join("")
-              : `<p class="empty">Nenhum item nesta loja${q ? " / busca" : ""}.</p>`
-          }
-        </section>
-      `);
+      const desc = section.description
+        ? `${escapeHtml(section.description)} · ${sectionItems.length} links`
+        : `${sectionItems.length} links`;
+      const body = `${section.id === "compras" ? renderComprasToolbar() : ""}${
+        categoryBlocks.length
+          ? categoryBlocks.join("")
+          : `<p class="empty">Nenhum item nesta loja${q ? " / busca" : ""}.</p>`
+      }`;
+      parts.push(renderSectionShell(section.id, section.title, desc, body));
     }
 
     if (!parts.length) {
@@ -479,12 +533,43 @@
       return;
     }
 
+    const sectionBtn = event.target.closest("[data-toggle-section]");
+    if (sectionBtn) {
+      const id = sectionBtn.getAttribute("data-toggle-section");
+      if (!id) return;
+      toggleSection(id);
+      render(searchInput?.value || "");
+      document.getElementById(id)?.scrollIntoView({ block: "nearest" });
+      return;
+    }
+
+    const moreBtn = event.target.closest("[data-cat-more]");
+    if (moreBtn) {
+      const id = moreBtn.getAttribute("data-cat-more");
+      if (!id) return;
+      setCatMode(id, "open");
+      render(searchInput?.value || "");
+      document.getElementById(`cat-${id}`)?.scrollIntoView({ block: "nearest" });
+      return;
+    }
+
+    const collapseBtn = event.target.closest("[data-cat-collapse]");
+    if (collapseBtn) {
+      const id = collapseBtn.getAttribute("data-cat-collapse");
+      if (!id) return;
+      // With active filters/search, "Recolher" fully closes; otherwise back to preview.
+      const q = (searchInput?.value || "").trim();
+      setCatMode(id, q || filtersForceExpand() ? "closed" : "preview");
+      render(searchInput?.value || "");
+      document.getElementById(`cat-${id}`)?.scrollIntoView({ block: "nearest" });
+      return;
+    }
+
     const btn = event.target.closest("[data-toggle-cat]");
     if (!btn) return;
     const id = btn.getAttribute("data-toggle-cat");
     if (!id) return;
-    const next = !(expanded.get(id) === true);
-    expanded.set(id, next);
+    setCatMode(id, catMode(id) === "closed" ? "open" : "closed");
     render(searchInput?.value || "");
     document.getElementById(`cat-${id}`)?.scrollIntoView({ block: "nearest" });
   }
@@ -497,6 +582,7 @@
 
   async function init() {
     initTheme();
+    collapseState = loadCollapse();
     wireHelp();
     app?.addEventListener("click", onAppClick);
 
