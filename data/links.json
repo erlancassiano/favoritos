@@ -25,13 +25,6 @@
       "pinned": true
     },
     {
-      "title": "Mural",
-      "url": "https://www.mural.co/",
-      "section": "diarios",
-      "category": "diarios",
-      "pinned": true
-    },
-    {
       "title": "Gemini notebook",
       "url": "https://notebooklm.google.com/",
       "section": "diarios",
@@ -296,6 +289,11 @@
     {
       "id": "governo-e-serviços",
       "title": "Governo & Serviços",
+      "section": "favoritos"
+    },
+    {
+      "id": "ias",
+      "title": "IAs",
       "section": "favoritos"
     },
     {
@@ -19242,6 +19240,12 @@
       "price_value": 69.0,
       "qty": 1,
       "note": "Inativo"
+    },
+    {
+      "title": "Mural",
+      "url": "https://www.mural.co/",
+      "section": "favoritos",
+      "category": "ias"
     }
   ]
 }
