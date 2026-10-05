@@ -103,11 +103,11 @@
     },
     {
       "title": "Jellyfin",
-      "url": "#",
+      "url": "http://192.168.0.5:8096/web/",
       "section": "diarios",
       "category": "diarios",
       "pinned": true,
-      "note": "http://192.168.0.5:8096/web/"
+      "note": "Local Media"
     },
     {
       "title": "YouTube Music",
