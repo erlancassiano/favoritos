@@ -367,6 +367,26 @@
       "section": "favoritos"
     },
     {
+      "id": "cursos",
+      "title": "Cursos",
+      "section": "favoritos"
+    },
+    {
+      "id": "tecnologia",
+      "title": "Tecnologia",
+      "section": "favoritos"
+    },
+    {
+      "id": "viagens",
+      "title": "Viagens",
+      "section": "favoritos"
+    },
+    {
+      "id": "tretas",
+      "title": "Tretas",
+      "section": "favoritos"
+    },
+    {
       "id": "compras-impressao-3d",
       "title": "Impressão 3D",
       "section": "compras"
@@ -504,6 +524,13 @@
     {
       "title": "Clube Polipet",
       "url": "https://clubepolipet.com.br/",
+      "section": "favoritos",
+      "category": "geral",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Erlang Shen – Wikipédia",
+      "url": "https://pt.wikipedia.org/wiki/Erlang_Shen",
       "section": "favoritos",
       "category": "geral",
       "note": "Abas do iPhone 2026-10-05"
@@ -1131,6 +1158,13 @@
       "url": "https://br.tradingview.com/symbols/ETHBTC/",
       "section": "favoritos",
       "category": "bancos-e-finanças-investimentos-bitcoin"
+    },
+    {
+      "title": "Bitcoin, tempo e blockchain (Medium, Eduarda Lobato)",
+      "url": "https://medium.com/@eduardalobato/bitcoin-tempo-blockchain-1a1438b4ea1",
+      "section": "favoritos",
+      "category": "bancos-e-finanças-investimentos-bitcoin",
+      "note": "Abas do iPhone 2026-10-05"
     },
     {
       "title": "Bahamas MEGA-SIZED Lobster!! Carribean's Eye-Popping Seafood!!",
@@ -2867,6 +2901,27 @@
       "category": "desenvolvimento"
     },
     {
+      "title": "Embedded real time OS (r/rust)",
+      "url": "https://www.reddit.com/r/rust/comments/128q7no/embedded_real_time_os/",
+      "section": "favoritos",
+      "category": "desenvolvimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Docling (GitHub)",
+      "url": "https://www.google.com/search?q=docling+github",
+      "section": "favoritos",
+      "category": "desenvolvimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Trendshift — trending GitHub repositories",
+      "url": "https://trendshift.io/",
+      "section": "favoritos",
+      "category": "desenvolvimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsK…",
       "url": "http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7%21%21%21PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D",
       "section": "favoritos",
@@ -4060,6 +4115,20 @@
       "category": "engenharia-civ"
     },
     {
+      "title": "Studio Von",
+      "url": "https://studiovon.com.br/",
+      "section": "favoritos",
+      "category": "engenharia-civ",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Terra crua (arquitetura)",
+      "url": "https://www.google.com/search?q=terra+crua+arquitetura",
+      "section": "favoritos",
+      "category": "engenharia-civ",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "3D models database | Printables.com",
       "url": "https://www.printables.com/model",
       "section": "favoritos",
@@ -4789,6 +4858,48 @@
       "url": "https://fitgirl-repacks.site/",
       "section": "favoritos",
       "category": "entretenimento-torrent"
+    },
+    {
+      "title": "Unofficial search plugins · qbittorrent/search-plugins Wiki",
+      "url": "https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins",
+      "section": "favoritos",
+      "category": "entretenimento-torrent",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Guide List - NSWTL.INFO (Switch)",
+      "url": "https://nswtl.info/switch-eng/menu.html",
+      "section": "favoritos",
+      "category": "entretenimento-torrent",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Anna's Archive: busca \"space engineering\"",
+      "url": "https://annas-archive.org/search?q=space+engineering",
+      "section": "favoritos",
+      "category": "entretenimento-torrent",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "clonechat — README em português (GitHub)",
+      "url": "https://github.com/apenasrr/clonechat/blob/main/README_ptbr.md",
+      "section": "favoritos",
+      "category": "entretenimento-torrent",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Jellyfin",
+      "url": "https://jellyfin.org/",
+      "section": "favoritos",
+      "category": "entretenimento-torrent",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Nyaa",
+      "url": "https://nyaa.land/",
+      "section": "favoritos",
+      "category": "entretenimento-torrent",
+      "note": "Abas do iPhone 2026-10-05"
     },
     {
       "title": "Area do Aluno",
@@ -19846,6 +19957,13 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
+      "title": "Suno AI: AI Music Generation",
+      "url": "https://suno-ai.org/",
+      "section": "favoritos",
+      "category": "ias",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "Fita butílica para vedação",
       "url": "https://www.google.com/search?q=fita+butilica+veda%C3%A7%C3%A3o",
       "section": "favoritos",
@@ -19967,6 +20085,34 @@
     {
       "title": "Apocalypto",
       "url": "https://www.google.com/search?q=apocalypto",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Macrohard",
+      "url": "https://www.google.com/search?q=macrohard",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Atalhos Windows (win+shift+t, win+shift+setas)",
+      "url": "https://www.google.com/search?q=Also+learn+to+use+things+like%3A+win%2Bshift%2Bt%2C+win%2Bshift%2Barrows",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Anti cloud movement",
+      "url": "https://www.google.com/search?q=anti+cloud+movement",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Stormer trader",
+      "url": "https://www.google.com/search?q=stormer+trader",
       "section": "favoritos",
       "category": "pesquisas-pendentes",
       "note": "Abas do iPhone 2026-10-05"
@@ -21077,6 +21223,286 @@
       "url": "https://m.portuguese.skymenultrasonic.com/sale-13623400-fcc-500w-heating-benchtop-ultrasonic-cleaner-for-printing-screen-stencil.html",
       "section": "favoritos",
       "category": "space",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ATI Courses — Space, Satellite & Aerospace (eventos)",
+      "url": "https://aticourses.com/events/cat-5-space-satellite-and-aerospace/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05 · página não encontrada no momento"
+    },
+    {
+      "title": "IBAPE Nacional — Agenda de Cursos e Eventos",
+      "url": "https://ibape-nacional.com.br/site/agenda-de-cursos-e-eventos/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "French Courses – StoryLearning",
+      "url": "https://storylearning.com/learn/french/french-courses",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "David Almeida — Bio Site",
+      "url": "https://bio.site/DavidAlmeida",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Tell a Great Story | MasterClass",
+      "url": "https://www.masterclass.com/series/tell-a-great-story",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "NASA Systems Engineering Webinar series (UNOOSA)",
+      "url": "https://www.unoosa.org/oosa/en/ourwork/access2space4all/NASA/SE.html",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Escola da Apicultura — Inscreva-se",
+      "url": "https://escoladaapicultura.com.br/inscrevase-agora/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "MIT xPRO — Inteligência Artificial: desenvolva produtos e serviços usando IA",
+      "url": "https://mit-xpro-online-education.emeritus.org/inteligencia-artificial",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "SinuTrain",
+      "url": "https://www.google.com/search?q=sinutrain",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "LeetCode",
+      "url": "https://leetcode.com/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Vivência na forja: faca de cozinha (8 horas) — Forjaria Escola",
+      "url": "https://www.forjariaescola.com.br/product-page/qui-09-01-viv%C3%AAncia-na-forja-faca-de-cozinha-8-horas",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Introduction to 3D Printing with Metals | Michigan Online",
+      "url": "https://online.umich.edu/courses/introduction-to-3d-printing-with-metals/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Training programs | MR ANATOLY (Vladimir Shmondenko)",
+      "url": "https://shmondenkovladimir.com/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Curso de Projetos de Energia Solar, Armazenamento e Baterias — Canal Solar",
+      "url": "https://cursos.canalsolar.com.br/curso/curso-solar-armazenamento-baterias/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Séries Temporais Arima com Python (Udemy)",
+      "url": "https://www.udemy.com/course/series-temporais-com-python-i/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Índice de aulas do Curso Online de Filosofia (COF)",
+      "url": "https://rafaelalmeida.com/cof.html",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Os Graus de Letramento – Rafael Falcón",
+      "url": "https://rafaelfalcon.com.br/letramento/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Kit Interpretar Para Evoluir — Psicopedagoga Camila Medeiros",
+      "url": "https://profcamila.com/inter2025",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Aerospace Engineering Online Courses | Class Central",
+      "url": "https://www.classcentral.com/subject/aerospace-engineering",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Engenharia de Robôs — FEI",
+      "url": "https://lp.fei.edu.br/graduacao/engenharia-de-robos/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Hayai Learn",
+      "url": "https://hayailearn.com/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "NVIDIA Developer Program",
+      "url": "https://developer.nvidia.com/join-nvidia-developer-program",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Café em Casa — Coffee Lab",
+      "url": "https://loja.coffeelab.com.br/pd-13b1c1-cafe-em-casa.html",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Método Caligrafía Fácil",
+      "url": "https://caligrafiafacil.site/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "iPhone filmmaking using the Blackmagic App 2024 (Udemy)",
+      "url": "https://www.udemy.com/course/iphone-filmmaking-using-the-balck-magic-app-2024/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Intensivo — Fernando Belchior",
+      "url": "https://fernandobelchior.com.br/intensivo",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05 · página não encontrada no momento"
+    },
+    {
+      "title": "Anthropic Courses (Skilljar)",
+      "url": "https://anthropic.skilljar.com/",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "PSA: dica para quem tem AirPods com volume reduzido (r/apple)",
+      "url": "https://www.reddit.com/r/apple/comments/dz9hb9/psa_tip_for_those_experiencing_diminished_airpods/",
+      "section": "favoritos",
+      "category": "tecnologia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Tata Electronics data breach (GBHackers)",
+      "url": "https://gbhackers.com/tata-electronics-data-breach/",
+      "section": "favoritos",
+      "category": "tecnologia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Tata Electronics breach: World Leaks extortion & supply chain (Axeploit)",
+      "url": "https://axeploit.com/blog/tata-electronics-breach-world-leaks-extortion-supply-chain",
+      "section": "favoritos",
+      "category": "tecnologia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Top dark web forums explained (DarkScout)",
+      "url": "https://getdarkscout.com/blog/top-dark-web-forums-explained/",
+      "section": "favoritos",
+      "category": "tecnologia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Amazonas by Viverde: Cruzeiros Untamed Amazon",
+      "url": "https://viverde.tur.br/untamed-amazon.html",
+      "section": "favoritos",
+      "category": "viagens",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Táxi executivo SJC (@taxiexecutivosjc)",
+      "url": "https://www.google.com/search?q=%40taxiexecutivosjc",
+      "section": "favoritos",
+      "category": "viagens",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Resort Cacau Show",
+      "url": "https://www.google.com/search?q=resort+cacau+show",
+      "section": "favoritos",
+      "category": "viagens",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Cacau Park — Parque Temático Cacau Show",
+      "url": "https://www.cacaushow.com.br/cacau-park.html",
+      "section": "favoritos",
+      "category": "viagens",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Richard Rasmussen",
+      "url": "https://www.richardrasmussen.com.br/",
+      "section": "favoritos",
+      "category": "viagens",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Polícia usa bombas de gás para impedir que manifestantes se aproximem do Congresso (UOL, 2017)",
+      "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2017/05/24/policia-usa-bombas-de-gas-para-impedir-que-manifestantes-se-aproximem-do-congresso.htm",
+      "section": "favoritos",
+      "category": "tretas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "É falso que Lula levou mais de 400 presentes da Presidência (Secom/gov.br)",
+      "url": "https://www.gov.br/secom/pt-br/fatos/brasil-contra-fake/noticias/2023/3/e-falso-que-lula-levou-mais-de-400-presentes-da-presidencia",
+      "section": "favoritos",
+      "category": "tretas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "TCU determina incorporação de presentes recebidos pelos ex-presidentes da República à União",
+      "url": "https://portal.tcu.gov.br/imprensa/noticias/tcu-determina-incorporacao-de-presentes-recebidos-pelos-ex-presidentes-da-republica-a-uniao.htm",
+      "section": "favoritos",
+      "category": "tretas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Brazil enDireita no X: nome de líder do CV desaparece do banco de mandados de prisão",
+      "url": "https://x.com/BrazilenDireita/status/1758327130134315337",
+      "section": "favoritos",
+      "category": "tretas",
       "note": "Abas do iPhone 2026-10-05"
     }
   ]
