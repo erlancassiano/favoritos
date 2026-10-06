@@ -628,11 +628,102 @@ html[data-theme="light"] .badge--no-br {
 }
 
 .card:hover,
-.card:focus-visible {
+.card:focus-visible,
+.card--stack:hover,
+.card--stack:focus-within {
   transform: none;
   background: var(--card-hover);
   border-color: color-mix(in oklab, var(--accent) 40%, var(--line));
   outline: none;
+}
+
+.card--stack {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.12rem;
+  padding: 0.28rem 0.4rem;
+}
+
+.card__link {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card__alts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.2rem;
+  padding-left: 1.4rem;
+  font-size: 11px;
+  line-height: 1.25;
+  color: var(--muted);
+}
+
+.card__alts-label {
+  flex-shrink: 0;
+}
+
+.card__alts-sep {
+  color: color-mix(in oklab, var(--muted) 70%, transparent);
+}
+
+.card__alt {
+  color: var(--muted);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklab, var(--muted) 45%, transparent);
+  text-underline-offset: 2px;
+  white-space: nowrap;
+}
+
+.card__alt:hover,
+.card__alt:focus-visible {
+  color: var(--ink);
+  outline: none;
+}
+
+.card__alt--cheaper {
+  color: #6ecf8e;
+  text-decoration-color: color-mix(in oklab, #6ecf8e 50%, transparent);
+  font-weight: 600;
+}
+
+html[data-theme="light"] .card__alt--cheaper {
+  color: #1f7a45;
+}
+
+.card__alt-save {
+  color: #6ecf8e;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-left: 0.15rem;
+}
+
+html[data-theme="light"] .card__alt-save {
+  color: #1f7a45;
+}
+
+.compras-toolbar__extras {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  width: 100%;
+}
+
+.chip--cheaper.is-active {
+  color: #0d2a1a;
+  border-color: color-mix(in oklab, #6ecf8e 55%, var(--line));
+  background: color-mix(in oklab, #6ecf8e 35%, var(--card));
+}
+
+html[data-theme="light"] .chip--cheaper.is-active {
+  color: #0d2a1a;
+  background: color-mix(in oklab, #6ecf8e 40%, #fff);
 }
 
 .card__icon {
