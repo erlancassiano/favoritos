@@ -317,6 +317,56 @@
       "section": "favoritos"
     },
     {
+      "id": "pesquisas-pendentes",
+      "title": "Pesquisas pendentes",
+      "section": "favoritos"
+    },
+    {
+      "id": "chapeu-de-aluminio",
+      "title": "Chapéu de Alumínio",
+      "section": "favoritos"
+    },
+    {
+      "id": "imigracao",
+      "title": "Imigração",
+      "section": "favoritos"
+    },
+    {
+      "id": "work",
+      "title": "Work",
+      "section": "favoritos"
+    },
+    {
+      "id": "mestrado",
+      "title": "Mestrado",
+      "section": "favoritos"
+    },
+    {
+      "id": "projetos",
+      "title": "Projetos",
+      "section": "favoritos"
+    },
+    {
+      "id": "jogos",
+      "title": "Jogos",
+      "section": "favoritos"
+    },
+    {
+      "id": "receitas",
+      "title": "Receitas",
+      "section": "favoritos"
+    },
+    {
+      "id": "animes-mangas",
+      "title": "Animes e Mangás",
+      "section": "favoritos"
+    },
+    {
+      "id": "space",
+      "title": "Espaço",
+      "section": "favoritos"
+    },
+    {
       "id": "compras-impressao-3d",
       "title": "Impressão 3D",
       "section": "compras"
@@ -405,6 +455,11 @@
       "id": "compras-outros",
       "title": "Outros",
       "section": "compras"
+    },
+    {
+      "id": "laynara",
+      "title": "Laynara",
+      "section": "compras"
     }
   ],
   "items": [
@@ -431,6 +486,27 @@
       "url": "https://help.apple.com/iphone/guide/",
       "section": "favoritos",
       "category": "geral"
+    },
+    {
+      "title": "Biorhythm Calculator",
+      "url": "https://www.biorhythm-calculator.net/",
+      "section": "favoritos",
+      "category": "geral",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Portal de Vagas — Pátria",
+      "url": "https://sistemas.patria.org.br/portalvagas",
+      "section": "favoritos",
+      "category": "geral",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Clube Polipet",
+      "url": "https://clubepolipet.com.br/",
+      "section": "favoritos",
+      "category": "geral",
+      "note": "Abas do iPhone 2026-10-05"
     },
     {
       "title": "standards.nasa.gov",
@@ -3109,6 +3185,20 @@
       "category": "desenvolvimento-ferramentas"
     },
     {
+      "title": "OSINT4ALL - Start.me",
+      "url": "https://start.me/p/L1rEYQ/osint4all",
+      "section": "favoritos",
+      "category": "desenvolvimento-ferramentas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Sambox Oficial | Transforme seu PC na Máquina Definitiva",
+      "url": "https://sambox.club/",
+      "section": "favoritos",
+      "category": "desenvolvimento-ferramentas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "2,150,000+ free and premium vector icons. SVG, PNG, AI, CSH and PNG format.",
       "url": "https://www.iconfinder.com/",
       "section": "favoritos",
@@ -3529,6 +3619,20 @@
       "category": "design"
     },
     {
+      "title": "Terraink: Free Map Poster & Wallpaper Creator",
+      "url": "https://terraink.app/",
+      "section": "favoritos",
+      "category": "design",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Drawabox — Lição 0",
+      "url": "https://drawabox.com/lesson/0",
+      "section": "favoritos",
+      "category": "design",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "8 ferramentas de Engenharia de Dados que ninguém te conta | by Allan Sene | Data Hackers",
       "url": "https://medium.com/data-hackers/8-ferramentas-de-engenharia-de-dados-que-ningu%C3%A9m-te-conta-aea232249026",
       "section": "favoritos",
@@ -3773,6 +3877,55 @@
       "url": "https://leonexmachina.com/",
       "section": "favoritos",
       "category": "educação"
+    },
+    {
+      "title": "A Chemist Shines Light on a Surprising Prime Number Pattern | Quanta Magazine",
+      "url": "https://www.quantamagazine.org/a-chemist-shines-light-on-a-surprising-prime-number-pattern-20180514/",
+      "section": "favoritos",
+      "category": "educação",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Prime Number Pattern Discovery - PUBLISHED (Robert Edward Grant)",
+      "url": "https://robertedwardgrant.com/prime-number-pattern-discovery-published/",
+      "section": "favoritos",
+      "category": "educação",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Accurate and Infinite Prime Prediction from Novel Quasi-Prime Analytical Methodology (arXiv 1903.08570)",
+      "url": "https://arxiv.org/abs/1903.08570",
+      "section": "favoritos",
+      "category": "educação",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ELI5: the recently discovered parallel between prime numbers and crystals (r/explainlikeimfive)",
+      "url": "https://www.reddit.com/r/explainlikeimfive/comments/9ftz48/eli5_the_recently_discovered_parallel_between/",
+      "section": "favoritos",
+      "category": "educação",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "\"Remarkable\" Pattern Discovered Behind Prime Numbers, Math's Most Unpredictable Objects (IFLScience)",
+      "url": "https://www.iflscience.com/remarkable-pattern-discovered-behind-prime-numbers-maths-most-unpredictable-objects-79715",
+      "section": "favoritos",
+      "category": "educação",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "3-D Prime Number Cross (Robert Edward Grant)",
+      "url": "https://robertedwardgrant.com/3-d-prime-number-cross/",
+      "section": "favoritos",
+      "category": "educação",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Fly Brain Atlas — Field Atlas 01",
+      "url": "https://fly-brain-atlas.vercel.app/",
+      "section": "favoritos",
+      "category": "educação",
+      "note": "Abas do iPhone 2026-10-05"
     },
     {
       "title": "5 dicas para organizar a locação de equipamentos - Blog LUZ",
@@ -4286,6 +4439,55 @@
       "category": "engenharia"
     },
     {
+      "title": "Guia completo de corte plasma (e-book Alusolda, PDF)",
+      "url": "https://alusolda.com.br/wp-content/uploads/2019/11/ebook-plasma-2019-1.pdf",
+      "section": "favoritos",
+      "category": "engenharia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "High performance passive vibration isolation system for optical tables using six-degree-of-freedom viscous damping combined with steel springs (AIP RSI)",
+      "url": "https://pubs.aip.org/aip/rsi/article-abstract/90/1/015113/367959/High-performance-passive-vibration-isolation",
+      "section": "favoritos",
+      "category": "engenharia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "arXiv 1810.06641 — High performance passive vibration isolation system for optical tables (PDF)",
+      "url": "https://arxiv.org/pdf/1810.06641",
+      "section": "favoritos",
+      "category": "engenharia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "The interferometric and vibrational performance of inner tube isolation tables (Academia.edu)",
+      "url": "https://www.academia.edu/42345549/The_interferometric_and_vibrational_performance_of_inner_tube_isolation_tables",
+      "section": "favoritos",
+      "category": "engenharia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Aplicação do método SODA para estruturação de problemas sociotécnicos no setor de produção (Mackenzie, PDF)",
+      "url": "https://adelpha-api.mackenzie.br/server/api/core/bitstreams/86167661-c99f-4cd3-b5da-89e99e1d03dc/content",
+      "section": "favoritos",
+      "category": "engenharia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Ray Optics Simulator & Trainer — Mirrors & Lenses | MechSimulator",
+      "url": "https://mechsimulator.com/tools/ray-optics/",
+      "section": "favoritos",
+      "category": "engenharia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Aerospace & Satellite Engineering Careers | K2 Space",
+      "url": "https://www.k2space.com/careers",
+      "section": "favoritos",
+      "category": "engenharia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "(1) 3D printed Colt 1911 Cutaway : ThingsCutInHalfPorn",
       "url": "https://www.reddit.com/r/ThingsCutInHalfPorn/comments/7w6ot6/3d_printed_colt_1911_cutaway/",
       "section": "favoritos",
@@ -4380,6 +4582,69 @@
       "url": "https://www.youtube.com/",
       "section": "favoritos",
       "category": "entretenimento"
+    },
+    {
+      "title": "Hidden singles - Sudoku technique",
+      "url": "https://sudoku.com/sudoku-rules/hidden-singles/",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "kporter_stuff (Instagram)",
+      "url": "https://www.instagram.com/kporter_stuff/",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Reel do Instagram (Da7PwV3TfaI)",
+      "url": "https://www.instagram.com/reel/Da7PwV3TfaI/",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Reel do Instagram (DQQ7ZhHCOcI)",
+      "url": "https://www.instagram.com/reel/DQQ7ZhHCOcI/",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Athenaeum Book Club no X: livros que educam melhor que quase qualquer escola",
+      "url": "https://x.com/athenaeumbc/status/2085730974545916208",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Rahul no X: post sobre agentes de IA (Grok Bot)",
+      "url": "https://x.com/sairahul1/status/2089995692874068433",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Reel do Instagram (Dccjl-budEP)",
+      "url": "https://www.instagram.com/reels/Dccjl-budEP/",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Reel do Instagram (DaYKTKwjENT)",
+      "url": "https://www.instagram.com/reels/DaYKTKwjENT/",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "You're Being Summoned, Azazel (Crunchyroll)",
+      "url": "https://www.crunchyroll.com/pt-br/series/GYE5KGJ8R/youre-being-summoned-azazel",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
     },
     {
       "title": "1337x | Free Movies, TV Series, Music, Games and Software",
@@ -4692,6 +4957,13 @@
       "url": "https://livraria.sensoincomum.org/etica-a-nicomaco",
       "section": "favoritos",
       "category": "livros-e-filosofia"
+    },
+    {
+      "title": "The Machine Stops — E. M. Forster (PDF)",
+      "url": "https://www.cs.ucdavis.edu/~koehl/Teaching/ECS188/PDF_files/Machine_stops.pdf",
+      "section": "favoritos",
+      "category": "livros-e-filosofia",
+      "note": "Abas do iPhone 2026-10-05"
     },
     {
       "title": "(32) Gerenciador do WhatsApp",
@@ -5840,6 +6112,41 @@
       "category": "saúde"
     },
     {
+      "title": "Antes e depois: um mês de eletroestimulação | Boa Forma",
+      "url": "https://boaforma.abril.com.br/especiais/antes-e-depois-um-mes-de-eletroestimulacao",
+      "section": "favoritos",
+      "category": "saúde",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Calorie cycling diet plan",
+      "url": "https://www.google.com/search?q=calorie+cycling+diet+plan",
+      "section": "favoritos",
+      "category": "saúde",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Gisellecorreabr | Linktree",
+      "url": "https://linktr.ee/Gisellecorreabr",
+      "section": "favoritos",
+      "category": "saúde",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Instituto do Sono",
+      "url": "https://institutodosono.com/",
+      "section": "favoritos",
+      "category": "saúde",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Human Atlas",
+      "url": "https://human-atlas-seven.vercel.app/",
+      "section": "favoritos",
+      "category": "saúde",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "0371 Wifi Estação Meteorológica Ao Ar Livre Sensor De Previsão Do Tempo Base Detector D…",
       "url": "https://pt.aliexpress.com/item/1005004357530174.html?spm=a2g0o.detail.1000023.5.22ca80d5XI3jGf&pdp_npi=2%40dis%21USD%21US+%24348.48%21US+%24209.09%21%21%21%21%21%400b86d80216607022118302426e730d%2112000029666894990%21sh&gatewayAdapt=glo2bra4itemAdapt",
       "section": "compras",
@@ -6662,6 +6969,76 @@
       "category": "compras-outros",
       "store": "Outros",
       "available": true
+    },
+    {
+      "title": "Produto Shopee 25166893542",
+      "url": "https://shopee.com.br/product/767375968/25166893542",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 22095206082",
+      "url": "https://shopee.com.br/product/1209802845/22095206082",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 19798323901",
+      "url": "https://shopee.com.br/product/1643589827/19798323901",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 58255664210",
+      "url": "https://shopee.com.br/product/1009975506/58255664210",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Gálio 100 g (eBay)",
+      "url": "https://www.ebay.com/itm/267294351437",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.ebay.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · eBay · preço não legível publicamente"
+    },
+    {
+      "title": "Indium Wire - 0.7-2.0mm di. for cryogenic seals (CMR-Direct)",
+      "url": "https://www.cmr-direct.com/shop/category/all-cryogenics-indium-products-indium-wire-40",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.cmr-direct.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · CMR-Direct · página de categoria"
     },
     {
       "title": "Top Ofertas do Promobit",
@@ -16888,6 +17265,17 @@
       "note": "não entrega no Brasil / ver nos EUA"
     },
     {
+      "title": "InfraredCameras.com – Infrared Cameras, Inc. (loja)",
+      "url": "https://buy.infraredcameras.com/",
+      "section": "compras",
+      "category": "compras-servicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=buy.infraredcameras.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "ZimaBoard 2 1664 x86 Home Server, N150",
       "title_full": "ZimaBoard 2 1664 x86 Home Server, N150, 16GB LPDDR5,PCIe 3.0×4 Expansion | Dual 2.5GbE & Dual SATA3.0, Low-Power 24/7,All-in-One NAS/Router/Docker/Home Lab with ZimaOS",
       "url": "https://www.amazon.com/dp/B0FYPBZQ3Z",
@@ -18258,6 +18646,17 @@
       "qty": 1
     },
     {
+      "title": "Ollee Watch",
+      "url": "https://www.olleewatch.com/",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.olleewatch.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · loja (página inicial)"
+    },
+    {
       "title": "Máquina Pintura Elétrica Airless 1300w 3300psi",
       "title_full": "Máquina Pintura Elétrica Airless 1300w 3300psi",
       "url": "https://shopee.com.br/product/1754100018/23999769472",
@@ -18286,6 +18685,17 @@
       "price": "R$ 24,90",
       "price_value": 24.9,
       "qty": 1
+    },
+    {
+      "title": "Locko Protein (bebida proteica)",
+      "url": "https://www.locko.com.br/locko-protein/",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.locko.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · página com vários kits"
     },
     {
       "title": "Bicicleta Aro 29 GT Sprint MX7 24V Freio Disco (Preto+rosa, 19)",
@@ -18339,6 +18749,32 @@
       "category": "compras-livros",
       "store": "Outros",
       "available": true
+    },
+    {
+      "title": "The Legend of Zelda: Ocarina of Time – Nintendo Switch 2",
+      "url": "https://www.amazon.com.br/dp/B0HJK1HWFR",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Amazon",
+      "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com.br&sz=64",
+      "available": true,
+      "price": "R$ 299,90",
+      "price_value": 299.9,
+      "source": "amazon",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Um guia acima da média - HBR (8 livros) Edição para Kindle",
+      "url": "https://www.amazon.com.br/dp/B0B24VCF73",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Amazon",
+      "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com.br&sz=64",
+      "available": true,
+      "price": "R$ 179,43",
+      "price_value": 179.43,
+      "source": "amazon",
+      "note": "Abas do iPhone 2026-10-05 · Série Kindle completa (8 livros)"
     },
     {
       "title": "Suporte Shampoo de Canto Aço Inox Preto",
@@ -18489,6 +18925,30 @@
       "price": "R$ 75,00",
       "price_value": 75.0,
       "qty": 1
+    },
+    {
+      "title": "Binóculo Cobra Breaker 750 20x50 (Nino's)",
+      "url": "https://www.amazon.in/dp/B0D5CV9VN2",
+      "section": "compras",
+      "category": "compras-camping",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.amazon.in&sz=64",
+      "available": true,
+      "price": "",
+      "title_full": "Nino's Jumelles Fernglaser Binoculares|Original Binocular for Kids Outdoor|Binoculars Telescope Spots Hunting Camping Survival|Cobra Breaker 750 8m with 20x50 Magnification.",
+      "note": "Abas do iPhone 2026-10-05 · Amazon Índia · ₹1.199 (INR) na página"
+    },
+    {
+      "title": "Churrasqueira Inox Dobrável Portátil Camping / Pesca (Nilko)",
+      "url": "https://loja.nilko.com.br/outros-produtos/churrasqueira-inox-dobravel-portatil-camping-pesca",
+      "section": "compras",
+      "category": "compras-camping",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=loja.nilko.com.br&sz=64",
+      "available": true,
+      "price": "R$ 149,90",
+      "price_value": 149.9,
+      "note": "Abas do iPhone 2026-10-05 · Loja Nilko"
     },
     {
       "title": "Bolsa Pasta Executiva Notebook Couro Legítimo",
@@ -19093,6 +19553,20 @@
       "qty": 1
     },
     {
+      "title": "Car Glass Liquid (Caraccessuaries)",
+      "url": "https://caraccsessuaries.com/products/Glass-Liquid-3pcs-SET-p675979471",
+      "section": "compras",
+      "category": "compras-carro",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=caraccsessuaries.com&sz=64",
+      "available": true,
+      "price": "US$ 8.00",
+      "price_value": 44.0,
+      "currency": "USD",
+      "price_usd": 8.0,
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "Aquecedor de Caneca USB",
       "title_full": "Aquecedor de Caneca USB",
       "url": "https://shopee.com.br/product/437617153/23493412638",
@@ -19123,6 +19597,30 @@
       "price_value": 35.0,
       "qty": 1,
       "note": "Inativo"
+    },
+    {
+      "title": "Limpa Pó Togmax 300 ml - para locais de difícil acesso",
+      "url": "https://www.lojatogmax.com.br/produtos/limpa-po-300ml-para-locais-de-dificil-acesso/",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.lojatogmax.com.br&sz=64",
+      "available": true,
+      "price": "R$ 22,90",
+      "price_value": 22.9,
+      "note": "Abas do iPhone 2026-10-05 · Loja Togmax"
+    },
+    {
+      "title": "Controle GameSir G7 SE com fio (Xbox Series X|S/One, Hall Effect)",
+      "url": "https://shopee.com.br/product/1860118505/41131900355",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05"
     },
     {
       "title": "Jogo 25 Brocas de Aço Rápido",
@@ -19237,6 +19735,17 @@
       "note": "Inativo"
     },
     {
+      "title": "Árvore de Natal Virgínia de mesa 60 cm (oferta Pelando)",
+      "url": "https://www.pelando.com.br/d/arvore-natal-virginia-mesa-60-cm-5c09",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.pelando.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Pelando"
+    },
+    {
       "title": "Kit 100 Porcas Autotravantes Métricas",
       "title_full": "Kit 100 Porcas Autotravantes Métricas",
       "url": "https://shopee.com.br/product/684206590/22291956348",
@@ -19321,6 +19830,1254 @@
       "url": "https://www.mural.co/",
       "section": "favoritos",
       "category": "ias"
+    },
+    {
+      "title": "Terafab",
+      "url": "https://terafab.ai/",
+      "section": "favoritos",
+      "category": "ias",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Using Mach33 research in your AI assistant (guia MCP)",
+      "url": "https://research.33fg.com/mcp-guide",
+      "section": "favoritos",
+      "category": "ias",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Fita butílica para vedação",
+      "url": "https://www.google.com/search?q=fita+butilica+veda%C3%A7%C3%A3o",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Livro \"Scale\" (Geoffrey West) em português",
+      "url": "https://www.google.com/search?q=livro+scale+geoffrey+west+portugu%C3%AAs",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Water glass (silicato de sódio)",
+      "url": "https://www.google.com/search?q=water+glass+sodium+silicate",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "SPIE: busca \"Interferometric and vibrational performance of inner tube isolation tables\"",
+      "url": "https://www.spiedigitallibrary.org/search?term=Interferometric+and+vibrational+performance+of+inner+tube+isolation+tables",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "PDF: \"Interferometric and vibrational performance of inner tube isolation tables\"",
+      "url": "https://www.google.com/search?q=pdf+%22Interferometric+and+vibrational+performance+of+inner+tube+isolation+tables%22",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Instatic (GitHub)",
+      "url": "https://www.google.com/search?q=instatic+github",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "DTS tanque de carbono",
+      "url": "https://www.google.com/search?q=dts+tanque+carbono",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Memória RAM ADATA XPG AX5U5600C3616G-CLAWH",
+      "url": "https://www.google.com/search?q=AX5U5600C3616G-CLAWH",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Padrão dos números primos 2018 (photon cross)",
+      "url": "https://www.google.com/search?q=2018+prime+numbers+pattern+photon+cross",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Livro \"Optics\" (Addison Wesley)",
+      "url": "https://www.google.com/search?q=Optics+Addison+Wesley",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Binóculo Cobra Breaker",
+      "url": "https://www.google.com/search?q=breaker+cobra+binoculars",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Coalescer picos de vibração (definição)",
+      "url": "https://www.google.com/search?q=coalescer+picos+vibra%C3%A7%C3%A3o+defini%C3%A7%C3%A3o",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "507 Mechanical Movements",
+      "url": "https://www.google.com/search?q=507+mechanical+movements",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Medicat USB",
+      "url": "https://www.google.com/search?q=medicat+usb",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Rádio escafandro",
+      "url": "https://www.google.com/search?q=radio+escafandro",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Superintelligence (Nick Bostrom)",
+      "url": "https://www.google.com/search?q=superintelligence+bostrom",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Como travar porta com fechadura eletrônica para gato não abrir",
+      "url": "https://www.google.com/search?q=como+travar+porta+com+fechadura+eletr%C3%B4nica+para+gato+n%C3%A3o+abrir",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Apocalypto",
+      "url": "https://www.google.com/search?q=apocalypto",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Fluoride Action Network",
+      "url": "https://fluoridealert.org/",
+      "section": "favoritos",
+      "category": "chapeu-de-aluminio",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "look up 5 eyes, 9 eyes, and 14 eyes.",
+      "url": "https://www.google.com/search?q=look+up+5+eyes%2C+9+eyes%2C+and+14+eyes.",
+      "section": "favoritos",
+      "category": "chapeu-de-aluminio",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "cerro el cono",
+      "url": "https://www.google.com/search?q=cerro+el+cono",
+      "section": "favoritos",
+      "category": "chapeu-de-aluminio",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Japan releases evidence that all COVID variants were engineered in biolabs (The People's Voice)",
+      "url": "https://thepeoplesvoice.tv/japan-releases-evidence-that-all-covid-variants-were-engineered-in-biolabs/",
+      "section": "favoritos",
+      "category": "chapeu-de-aluminio",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Santos Lloyd Law Firm, P.C.",
+      "url": "https://www.santoslloydlaw.com/",
+      "section": "favoritos",
+      "category": "imigracao",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Alexandre Law",
+      "url": "https://alexandrelaw.com/",
+      "section": "favoritos",
+      "category": "imigracao",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Pedir um orçamento | Indium Corporation",
+      "url": "https://www.indium.com/pt/request-a-quote/",
+      "section": "favoritos",
+      "category": "imigracao",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Consultoria Immigrex – 2025 – Immigrex Global",
+      "url": "https://immigrexglobal.com.br/consultoria-immigrex-2025-tfg/",
+      "section": "favoritos",
+      "category": "imigracao",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Como realmente trabalhar pra fora do Brasil? (r/conselhodecarreira)",
+      "url": "https://www.reddit.com/r/conselhodecarreira/comments/1ewx6n2/como_realmente_trabalhar_pra_fora_do_brasil/",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Novo Tempo RH | Recrutamento, MOT e R&S no Brasil",
+      "url": "https://novotemporh.com.br/",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "All Products - Panduit",
+      "url": "https://www.panduit.com/en/products.html",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Catalogs - Panduit",
+      "url": "https://www.panduit.com/en/support/catalogs.html",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "SPIE 12180 (2022) — resumo no NASA ADS",
+      "url": "https://ui.adsabs.harvard.edu/abs/2022SPIE12180E..31S/abstract",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Monolithic Telescopes for Short-Wave Infrared Applications | LLNL IPO",
+      "url": "https://ipo.llnl.gov/technologies/lasers-and-optics/monolithic-telescopes-short-wave-infrared-applications",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Gamma | Criador de apresentações e sites com IA",
+      "url": "https://gamma.app/pt-br",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Tyvak smallsat launched by SpaceX to validate miniature space debris telescope – Spaceflight Now",
+      "url": "https://spaceflightnow.com/2021/05/18/tyvak-smallsat-launched-by-spacex-to-validate-miniature-debris-tracking-telescope/",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Chart Combinations: Overlaying Extra Data Onto Timelines",
+      "url": "https://datavizcatalogue.com/blog/chart-combinations-timelines/",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Spacecraft Compartment Venting (NASA NTRS, PDF)",
+      "url": "https://ntrs.nasa.gov/api/citations/19980236692/downloads/19980236692.pdf",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Carbon Fiber Material — Haxcore",
+      "url": "https://m.haxcore.com/carbon-fiber-material/",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Catálogo de parafuso Allen — Indufix",
+      "url": "https://www.indufix.com.br/catalogo-de-parafusos/catalogo-de-parafuso-allen/",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Domínio Harpy.space",
+      "url": "https://www.godaddy.com/pt-br/domainsearch/find?domainToCheck=Harpy.space",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Carro plataforma metálico",
+      "url": "https://www.google.com/search?q=carro+plataforma+metalico",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Test peeling or lap shear",
+      "url": "https://www.google.com/search?q=test+peeling+or+lap+shear",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Standard ASTM peeling",
+      "url": "https://www.google.com/search?q=standard+astm+peeling",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Peel adhesion test for thermal spray coatings (SciSpace, PDF)",
+      "url": "https://scispace.com/pdf/peel-adhesion-test-for-thermal-spray-coatings-4m6tsq7lp1.pdf",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Norma ASTM C633 — ensaio de tração/aderência (UFPR, PDF)",
+      "url": "http://ftp.demec.ufpr.br/disciplinas/EME715/Normas%20AT/Norma%20ensaio%20de%20tra%C3%A7%C3%A3o%20ASTM%20C633.pdf",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ASTM D903 | Peel or Stripping Strength of Adhesive Bonds (YouTube)",
+      "url": "https://www.youtube.com/watch?v=2pqS-ns-3Hs",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ASTM D3330 Peel Test: Resistência ao peel de fitas adesivas | ZwickRoell",
+      "url": "https://www.zwickroell.com/pt/setores-da-industria/plasticos/peliculas-e-filmes/astm-d3330-peel-test/",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ASTM D1781 Climbing Drum Peel Test Fixture (Universal Grip)",
+      "url": "https://www.universalgripco.com/post/astm-d1781-climbing-drum-peel-test-fixture",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ASTM D1781",
+      "url": "https://www.google.com/search?q=ASTM+D1781",
+      "section": "favoritos",
+      "category": "work",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Mu-metal magnetic field",
+      "url": "https://www.google.com/search?q=mu+metal+magnetic+field",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Usinagem por fluxo abrasivo",
+      "url": "https://www.google.com/search?q=usinagem+fluxo+abrasivo",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Halbach array magnets",
+      "url": "https://www.google.com/search?q=halbach+array+magnets",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Mumetal magnet",
+      "url": "https://www.google.com/search?q=mumetal+magnet",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "LTX 2",
+      "url": "https://www.google.com/search?q=LTX+2",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Ultem",
+      "url": "https://www.google.com/search?q=ultem",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Marco Aurélio — Meditações",
+      "url": "https://www.google.com/search?q=marcus+aurelio+medita%C3%A7%C3%B5es",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "GRE: tudo sobre o exame de admissão ao mestrado (Estudar Fora)",
+      "url": "https://www.estudarfora.org.br/gre-tudo-que-voce-precisa-saber/",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Monolithic telescopes: design, manufacturing and applications (SPIE)",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13100/1310040/Monolithic-telescopes-design-manufacturing-and-applications/10.1117/12.3018976.short",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ITA PG-EAM — Disciplinas oferecidas 2º período de 2025 (PDF)",
+      "url": "http://www.ita.br/sites/default/files/pages/collection/Engenharia%20Aeron%C3%A1utica%20e%20Mec%C3%A2nica%202_0.pdf",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Rodin coil toroid simulation magnetic field (GrabCAD)",
+      "url": "https://grabcad.com/library/rodin-coil-toroid-simulation-magnetic-field-1",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Rodin coil (Wikifactory)",
+      "url": "https://wikifactory.com/@botler/rodin-coil/v/41286d3",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "How to Choose: EndNote, Mendeley, or Zotero (Northwestern Research Guides)",
+      "url": "https://libguides.northwestern.edu/howtochoose",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Which one is better: Zotero, Mendeley or EndNote? (r/PhD)",
+      "url": "https://www.reddit.com/r/PhD/comments/1arz0ji/which_one_is_better_zotero_mendeley_or_endnote/",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Repositório UTFPR — TCC Engenharia Mecânica 2018 (PDF)",
+      "url": "https://repositorio.utfpr.edu.br/jspui/bitstream/1/12312/1/LD_COEME_2018_2_01.pdf",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Rebarbação e Polimento AFM - Hontech",
+      "url": "https://hontech.com.br/rebarbacao-e-polimento-afm/",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Fluxo Abrasivo 2 (Scribd)",
+      "url": "https://pt.scribd.com/document/334031538/Fluxo-Abrasivo-2",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Usinagem I — Aula 6: processos não convencionais (UFRJ, PDF)",
+      "url": "http://www.mecanica-ufrj.educacao.ws/util/b2evolution/media/blogs/annacarla/UsinagemI/Aula6-ProcessosNaoconvencionais.pdf",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Experimental investigation on abrasive flow machining (AFM) of FDM printed hollow truncated cone parts (Bohrium)",
+      "url": "https://www.bohrium.com/paper-details/experimental-investigation-on-abrasive-flow-machining-afm-of-fdm-printed-hollow-truncated-cone-parts/814713465179471872-98013",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Developing the polymer abrasive gels in AFM process (ScienceDirect)",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0924013607003809",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Experimental investigation on abrasive flow machining (AFM) of FDM printed hollow truncated cone parts (ScienceDirect)",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214785321074514",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Design and fabrication of a low-cost one-way abrasive flow finishing set-up using 3D printed parts (ScienceDirect)",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214785322028139",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "HS-Pro — Pantheon Design",
+      "url": "https://www.pantheondesign.com/hs-pro",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Conector Rotativo - Addens",
+      "url": "https://addens.com.br/conector-rotativo.php",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Xmind - Mind Map Maker & AI Brainstorming Tool",
+      "url": "https://xmind.com/",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Solicitação de Documentos | ITA (pós-graduação)",
+      "url": "http://www.ita.br/posgrad/solicitacaodedocumentos",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "UnB: alunos podem acessar histórico escolar e novas declarações pela internet",
+      "url": "https://noticias.unb.br/inicio/112-extensao-e-comunidade/2604-alunos-podem-acessar-historico-escolar-e-novas-declaracoes-pela-internet",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "UnB — MatrículaWeb",
+      "url": "https://unb.br/matriculaweb.html",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "SIGAA UnB — Cadastro de discente",
+      "url": "https://sigaa.unb.br/sigaa/public/cadastro/discente.jsf",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Qwen3.5 - a Qwen Collection (Hugging Face)",
+      "url": "https://huggingface.co/collections/Qwen/qwen35",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Guia Completo do Filamento PEI (Ultem) — 3BE",
+      "url": "https://3be.com.br/blog/guia-completo-do-filamento-pei-ultem-o-material-de-impressao-3d-de-alto-desempenho/",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "VORTEX — UnB",
+      "url": "https://www.vortex.unb.br/",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "FT/UnB — Faculdade de Tecnologia (perfil docente)",
+      "url": "http://ft.unb.br/index.php?option=com_pessoas&view=pessoas&layout=perfil&id=5",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Francisco Ricardo da Cunha | Escavador",
+      "url": "https://www.escavador.com/sobre/2651501/francisco-ricardo-da-cunha",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "TCC UnB 2018 — Guilherme de Mendonça Luz (PDF)",
+      "url": "https://bdm.unb.br/bitstream/10483/24265/1/2018_GuilhermeDeMendoncaLuz_tcc.pdf",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Autron: busca \"conector rotativo\"",
+      "url": "https://loja.autron.com.br/buscar?q=conector+rotativo",
+      "section": "favoritos",
+      "category": "mestrado",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "33333 m2 em hectares",
+      "url": "https://www.google.com/search?q=33333+m2+em+hectares",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Retífica Motor Vidro",
+      "url": "https://www.google.com/search?q=Ret%C3%ADfica+Motor+Vidro",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Trator Ursus 325C",
+      "url": "https://www.google.com/search?q=ursus+325c+trator",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Orca Slicer comparison",
+      "url": "https://www.google.com/search?q=orca+slicer+comparison",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Harpia em inglês",
+      "url": "https://www.google.com/search?q=harpia+em+ingles",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Domínio harpy.space",
+      "url": "https://www.google.com/search?q=dominio+harpy+space",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Harpia brasileira",
+      "url": "https://www.google.com/search?q=harpia+brasileira",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Chemlease PMR 90 EZ",
+      "url": "https://www.google.com/search?q=chemlease+pmr+90+ez",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Chemlease PMR 11 EZ",
+      "url": "https://www.google.com/search?q=chemlease+pmr+11+ez",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Boro em pó",
+      "url": "https://www.google.com/search?q=boro+em+p%C3%B3",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Telephotometer",
+      "url": "https://www.google.com/search?q=telephotometer",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Man sells dozens of 3D-printed guns at Houston's 1st gun buyback (Chron)",
+      "url": "https://www.chron.com/news/houston-texas/article/Houston-3D-printed-gun-buyback-program-17345782.php",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Chemical oxygen generator - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chemical_oxygen_generator",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Raw data for \"Unnatural evolutionary processes of SARS-CoV-2 variants…\" (Zenodo)",
+      "url": "https://zenodo.org/record/8254894",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ChatGPT_DAN — jailbreak prompts (GitHub)",
+      "url": "https://github.com/0xk1h0/ChatGPT_DAN",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "STL Athena — Faixa Preta 3D",
+      "url": "https://links.faixapreta3d.com.br/STL-Athena",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Retífica de Motores - Retifica.com.br",
+      "url": "https://www.retifica.com.br/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Ursus C-Series agricultural tractors",
+      "url": "https://www.ursus.com/en/product-category/agricultural-tractors/c-series",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "3D printed crossbow (Pinshape)",
+      "url": "https://pinshape.com/items/31191-3d-printed-crossbow",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Limpet - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Limpet",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "LM Studio",
+      "url": "https://lmstudio.ai/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "[Material Rico] Guia de Culturas de alto valor agregado (PDF)",
+      "url": "https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F52341%2F1709216671Material_Rico_Guia_de_Culturas_de_alto_valor_agregado_-_Links_com_UTM.pdf",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Donors — Human Microbes (doador de fezes para FMT)",
+      "url": "https://www.humanmicrobes.org/donors",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Highly stretchable dynamic hydrogels for soft multilayer electronics (Science Advances)",
+      "url": "https://www.science.org/doi/10.1126/sciadv.adn5142",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Soft, stretchy 'jelly batteries' inspired by electric eels | University of Cambridge",
+      "url": "https://www.cam.ac.uk/research/news/soft-stretchy-jelly-batteries-inspired-by-electric-eels",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Borrachas naturais — Embrapa CPATU (PDF)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/388001/1/CPATUDOC21.pdf",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Blind Box by 3drk2 - Thingiverse",
+      "url": "https://www.thingiverse.com/thing:6604919",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Stealth Press 1S — heat set insert press (Printables)",
+      "url": "https://www.printables.com/model/1081157-stealth-press-1s-heat-set-insert-press",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Gallery - Box Pleating Studio",
+      "url": "https://bp-studio.github.io/gallery.html",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Box Pleating Studio",
+      "url": "https://bpstudio.abstreamace.com/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Fusor 2098 crash durable structural adhesive (slow) — Parker",
+      "url": "https://ph.parker.com/es/en/product-list/fusor-2098-crash-durable-structural-adhesive-slow",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "RIP PET - Rede de Crematórios Pet",
+      "url": "https://www.rippet.com.br/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "grid.wtf",
+      "url": "https://grid.wtf/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Zorin OS Pro",
+      "url": "https://zorin.com/os/pro/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ZWIBook Flash Drive (Numbered, Signed) | KSF Shop",
+      "url": "https://shop.encyclosphere.org/product/zwibook-flash-drive-handmade-signed",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "MAPSAR — Mario Quintino (INPE, PDF)",
+      "url": "http://marte.sid.inpe.br/col/dpi.inpe.br/marte@80/2007/08.23.12.26/doc/42_11h20-MarioQuintino.pdf",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "O-rings for cryogenics (r/Skookum)",
+      "url": "https://www.reddit.com/r/Skookum/comments/5n7rxp/orings_for_cryogenics/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Engineering Calculations (eCalculations)",
+      "url": "http://www.ecalculations.com/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "2025 Update - 9GAG",
+      "url": "https://9gag.com/gag/ajP3p3G",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Agentes desmoldantes — Chem-Trend",
+      "url": "https://br.chemtrend.com/visao-geral/agentes-desmoldantes/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Chemlease PMR EZ — datasheet (PDF)",
+      "url": "https://www.freemansupply.com/datasheets/Chemlease/PMREZ.pdf",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Chemlease PMR EZ — ficha de segurança SDS (PDF)",
+      "url": "https://www.mbfg.co.uk/datasheets/chemlease_pmr-ez_sds.pdf",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Ortman Key – machinequips",
+      "url": "https://machinequips.wordpress.com/2017/07/24/ortman-key/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Boundless 2018 — Spaceport America Cup Team 09 technical report (PDF)",
+      "url": "https://www.soundingrocket.org/uploads/9/0/6/4/9064598/09_project_report.pdf",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Orbital Transports — TriScape200",
+      "url": "https://catalog.orbitaltransports.com/triscape200/",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "XIMEA — Gpixel GMAX3265 PCIe high speed camera (65.4 Mpix)",
+      "url": "https://www.ximea.com/products/pci-express/xib-64-high-speed-fast-industrial-cameras/gpixel-gmax3265-pcie-color-high-speed-camera",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Kaya Zinc3265 PCIe — datasheet (PDF)",
+      "url": "https://www.skyblue.de/uploads/Datasheets/ky_ds_Zinc3265_PCIe_Datasheet.pdf",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Recommended Hardware - Project NOMAD",
+      "url": "https://www.projectnomad.us/hardware",
+      "section": "favoritos",
+      "category": "projetos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Vampire Survivors evolution",
+      "url": "https://www.google.com/search?q=vampire+survivors+evolution",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Dragon's Crown — GameFabrique",
+      "url": "https://gamefabrique.com/games/dragons-crown/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "9 Kings no Steam",
+      "url": "https://store.steampowered.com/app/2784470/9_Kings/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Nuclear Crawler no Steam",
+      "url": "https://store.steampowered.com/app/2721760/Nuclear_Crawler/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "The Adventures of Elliot: The Millennium Tales — Debut Demo (Nintendo Switch 2)",
+      "url": "https://www.nintendo.com/pt-br/store/products/the-adventures-of-elliot-the-millennium-tales-debut-demo-switch-2/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Deepest Sword",
+      "url": "https://www.google.com/search?q=Deepest+Sword",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Warhammer 40,000: Rogue Trader no Steam",
+      "url": "https://store.steampowered.com/app/2186680/Warhammer_40000_Rogue_Trader/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Shadow of the Road Demo no Steam",
+      "url": "https://store.steampowered.com/app/3783770/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ICARUS no Steam",
+      "url": "https://store.steampowered.com/app/1149460/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "100% Orange Juice no Steam",
+      "url": "https://store.steampowered.com/app/282800/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "The God Slayer no Steam",
+      "url": "https://store.steampowered.com/app/2536510/The_God_Slayer/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Interpol grow",
+      "url": "https://www.google.com/search?q=interpol+grow",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Yarimono no Steam",
+      "url": "https://store.steampowered.com/app/2696050/Yarimono/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Compara Jogos",
+      "url": "https://www.comparajogos.com.br/",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Hi-Fi Rush",
+      "url": "https://www.google.com/search?q=hi+fi+rush",
+      "section": "favoritos",
+      "category": "jogos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Leia livros, beba café — Literalices",
+      "url": "https://www.literalices.com.br/literalices/product/leia-livros-beba-cafe",
+      "section": "compras",
+      "category": "laynara",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.literalices.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Literalices · página indisponível no momento"
+    },
+    {
+      "title": "Caneca Maggie Snoopy Floral — Zona Criativa",
+      "url": "https://www.zonacriativa.com.br/caneca-maggie-snoopy-floral-10025925/p",
+      "section": "compras",
+      "category": "laynara",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.zonacriativa.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Zona Criativa"
+    },
+    {
+      "title": "Par de alianças Bali prata 950 folheadas a ouro rosé 18k — Macchi",
+      "url": "https://www.macchi.com.br/produtos/flash-par-de-aliancas-bali-prata-950-folheadas-a-ouro-rose-18k/",
+      "section": "compras",
+      "category": "laynara",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.macchi.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Macchi · página indisponível (404) no momento"
+    },
+    {
+      "title": "Alianças de Ouro 18k — Joias Begônia",
+      "url": "https://joiasbegonia.com.br/aliancas/ouro-18k/",
+      "section": "compras",
+      "category": "laynara",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=joiasbegonia.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Joias Begônia · página de categoria"
+    },
+    {
+      "title": "6 receitas com alho-poró variadas para o almoço ou jantar (Terra)",
+      "url": "https://www.terra.com.br/vida-e-estilo/degusta/receitas/6-receitas-com-alho-poro-variadas-para-o-almoco-ou-jantar,9ed06f9fbe60f474a59d2ae2b28d0126i7hmm44v.html",
+      "section": "favoritos",
+      "category": "receitas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Como limpar sassami",
+      "url": "https://www.google.com/search?q=limpar+sassami",
+      "section": "favoritos",
+      "category": "receitas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Pain Perdu Masterchef - rabanada francesa (TudoReceitas)",
+      "url": "https://www.tudoreceitas.com/receita-de-pain-perdu-masterchef-7084.html",
+      "section": "favoritos",
+      "category": "receitas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Livro de receitas panela elétrica de pressão Midea (PDF)",
+      "url": "https://img.mideadobrasil.com.br/downloads_docs/eeda5-Livro-de-Receitas---Panela-El--trica-de-Press--o---A---06-16--VIEW-.pdf",
+      "section": "favoritos",
+      "category": "receitas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Cocada de forno — TudoGostoso",
+      "url": "https://www.tudogostoso.com.br/receita/1096-cocada-de-forno.html",
+      "section": "favoritos",
+      "category": "receitas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "keiyoushi/extensions — extensões para Mihon (GitHub)",
+      "url": "https://github.com/keiyoushi/extensions",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Escaflowne",
+      "url": "https://www.google.com/search?q=escaflowne",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "ST☆R: Strike it Rich (Manga) — Capítulo 1.1 (Comikey)",
+      "url": "https://comikey.com/read/strike-it-rich-manga/DX2pvo/chapter-1-1/",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Imagem 9gag",
+      "url": "https://img-comment-fun.9cache.com/media/aWGLRPq/aMxZ63A3_700w_0.jpg",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Sakamichi no Apollon",
+      "url": "https://www.google.com/search?q=sakamichi+no+apollon",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Monsters We Make",
+      "url": "https://monsterswemake.com/",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "The Legend of Hei (Crunchyroll)",
+      "url": "https://www.crunchyroll.com/pt-br/series/G4PH0WJ7Z/the-legend-of-hei",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "The Brilliant Healer's New Life in the Shadows",
+      "url": "https://www.google.com/search?q=the+brilliant+healer%27s+new+life+in+the+shadows",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Hitsugi no Chaika",
+      "url": "https://www.google.com/search?q=hitsugame+no+chaika",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Yozakura Quartet: Hoshi no Umi (IMDb)",
+      "url": "https://www.imdb.com/title/tt3577510/",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Patlabor EZY",
+      "url": "https://www.google.com/search?q=patlabor+ezy",
+      "section": "favoritos",
+      "category": "animes-mangas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "3M Scotch-Weld Epoxy Adhesive 2216 Gray | 3M",
+      "url": "https://www.3m.com/3M/en_US/p/d/b40066446/",
+      "section": "favoritos",
+      "category": "space",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Revêtements de contrôle thermique pour satellite | MAP Coatings",
+      "url": "https://www.map-coatings.com/en_US/revetements-de-controle-thermique-pour-satellite",
+      "section": "favoritos",
+      "category": "space",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Centro de Desenvolvimento da Ford Tatuí completa 45 anos de operação (O Progresso de Tatuí)",
+      "url": "https://oprogressodetatui.com.br/centro-de-desenvolvimento-da-ford-tatui-completa-45-anos-de-operacao/",
+      "section": "favoritos",
+      "category": "space",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "FSL Aerospace",
+      "url": "https://fslaerospace.co.uk/",
+      "section": "favoritos",
+      "category": "space",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Inbrapar — Sobre nós",
+      "url": "https://inbrapar.com.br/sobre-nos.php",
+      "section": "favoritos",
+      "category": "space",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "FCC 500W Heating Benchtop Ultrasonic Cleaner (Skymen, PDF)",
+      "url": "https://m.portuguese.skymenultrasonic.com/doc/13623400/fcc-500w-heating-benchtop-ultrasonic-cleaner-for-printing-screen-stencil.pdf",
+      "section": "favoritos",
+      "category": "space",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Limpador ultrassônico de bancada FCC 500W com aquecimento — Skymen",
+      "url": "https://m.portuguese.skymenultrasonic.com/sale-13623400-fcc-500w-heating-benchtop-ultrasonic-cleaner-for-printing-screen-stencil.html",
+      "section": "favoritos",
+      "category": "space",
+      "note": "Abas do iPhone 2026-10-05"
     }
   ]
 }
