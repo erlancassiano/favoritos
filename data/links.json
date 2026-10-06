@@ -332,6 +332,11 @@
       "section": "favoritos"
     },
     {
+      "id": "clearspace",
+      "title": "Clearspace",
+      "section": "favoritos"
+    },
+    {
       "id": "work",
       "title": "Work",
       "section": "favoritos"
@@ -384,6 +389,21 @@
     {
       "id": "tretas",
       "title": "Tretas",
+      "section": "favoritos"
+    },
+    {
+      "id": "filmes-series",
+      "title": "Filmes e Séries",
+      "section": "favoritos"
+    },
+    {
+      "id": "juridico",
+      "title": "Jurídico",
+      "section": "favoritos"
+    },
+    {
+      "id": "restaurantes",
+      "title": "Restaurantes",
       "section": "favoritos"
     },
     {
@@ -1162,6 +1182,20 @@
     {
       "title": "Bitcoin, tempo e blockchain (Medium, Eduarda Lobato)",
       "url": "https://medium.com/@eduardalobato/bitcoin-tempo-blockchain-1a1438b4ea1",
+      "section": "favoritos",
+      "category": "bancos-e-finanças-investimentos-bitcoin",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "PixBitcoin — Compre Bitcoin com Pix (autocustódia)",
+      "url": "https://pixbitcoin.org/",
+      "section": "favoritos",
+      "category": "bancos-e-finanças-investimentos-bitcoin",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "DIYSecLab — Todos os produtos",
+      "url": "https://diyseclab.io/collections/todos-os-produtos",
       "section": "favoritos",
       "category": "bancos-e-finanças-investimentos-bitcoin",
       "note": "Abas do iPhone 2026-10-05"
@@ -5072,6 +5106,13 @@
     {
       "title": "The Machine Stops — E. M. Forster (PDF)",
       "url": "https://www.cs.ucdavis.edu/~koehl/Teaching/ECS188/PDF_files/Machine_stops.pdf",
+      "section": "favoritos",
+      "category": "livros-e-filosofia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Project Gutenberg — eBooks gratuitos",
+      "url": "https://www.gutenberg.org/",
       "section": "favoritos",
       "category": "livros-e-filosofia",
       "note": "Abas do iPhone 2026-10-05"
@@ -18081,6 +18122,28 @@
       "price_value": 280.5
     },
     {
+      "title": "Plano de Saúde Pet — Petlove (transparência)",
+      "url": "https://saude.petlove.com.br/transparencia",
+      "section": "compras",
+      "category": "compras-pet",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=saude.petlove.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Apaixonados Saúde Pet",
+      "url": "https://apaixonadossaudepet.com.br/",
+      "section": "compras",
+      "category": "compras-pet",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=apaixonadossaudepet.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "COPIC Ink, Black",
       "title_full": "COPIC Ink, Black",
       "url": "https://www.amazon.com/dp/B089T7WFM6",
@@ -19964,6 +20027,27 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
+      "title": "AI Image Detector — Sightengine",
+      "url": "https://sightengine.com/detect-ai-generated-images",
+      "section": "favoritos",
+      "category": "ias",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Gemini Live — Google",
+      "url": "https://gemini.google/br/overview/gemini-live/",
+      "section": "favoritos",
+      "category": "ias",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Easy-Peasy.AI — Plataforma de IA tudo em um",
+      "url": "https://easy-peasy.ai/pt",
+      "section": "favoritos",
+      "category": "ias",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "Fita butílica para vedação",
       "url": "https://www.google.com/search?q=fita+butilica+veda%C3%A7%C3%A3o",
       "section": "favoritos",
@@ -21443,6 +21527,20 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
+      "title": "Microsoft libera recurso que deixa o Windows mais rápido com NVMe (Oficina da Net)",
+      "url": "https://www.oficinadanet.com.br/windows/66477-microsoft-libera-windows-nvme-desempenho",
+      "section": "favoritos",
+      "category": "tecnologia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Hetzner — Dedicated root servers",
+      "url": "https://www.hetzner.com/dedicated-rootserver",
+      "section": "favoritos",
+      "category": "tecnologia",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "Amazonas by Viverde: Cruzeiros Untamed Amazon",
       "url": "https://viverde.tur.br/untamed-amazon.html",
       "section": "favoritos",
@@ -21503,6 +21601,139 @@
       "url": "https://x.com/BrazilenDireita/status/1758327130134315337",
       "section": "favoritos",
       "category": "tretas",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Lista do IMDb (ls560452969)",
+      "url": "https://www.imdb.com/list/ls560452969/",
+      "section": "favoritos",
+      "category": "filmes-series",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Bubba Ho-tep",
+      "url": "https://www.google.com/search?q=Bubba+Ho-tep",
+      "section": "favoritos",
+      "category": "filmes-series",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "The Phoenician Scheme",
+      "url": "https://www.google.com/search?q=The+Phoenician+Scheme",
+      "section": "favoritos",
+      "category": "filmes-series",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Filme \"Colombiana\"",
+      "url": "https://www.google.com/search?q=filme+colombiana",
+      "section": "favoritos",
+      "category": "filmes-series",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Childhood's End",
+      "url": "https://www.google.com/search?q=Childhood%27s+End",
+      "section": "favoritos",
+      "category": "filmes-series",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "A paixão segundo Mateus (Pasolini)",
+      "url": "https://www.google.com/search?q=a+paix%C3%A3o+segundo+mateus+pasolini",
+      "section": "favoritos",
+      "category": "filmes-series",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Resolvvi — A Nova Justiça Digital",
+      "url": "https://www.resolvvi.com/",
+      "section": "favoritos",
+      "category": "juridico",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Garagem do Espeto SJC",
+      "url": "https://www.google.com/search?q=garagem+do+espeto+sjc",
+      "section": "favoritos",
+      "category": "restaurantes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Futorrito Sushi",
+      "url": "https://www.google.com/search?q=Futorrito+Sushi",
+      "section": "favoritos",
+      "category": "restaurantes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "El Toro",
+      "url": "https://www.google.com/search?q=el+toro",
+      "section": "favoritos",
+      "category": "restaurantes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Masseros",
+      "url": "https://www.google.com/search?q=masseros",
+      "section": "favoritos",
+      "category": "restaurantes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Properstar — casas para alugar em Londres",
+      "url": "https://www.properstar.com.br/reino-unido/londres/alugar/casas",
+      "section": "favoritos",
+      "category": "clearspace",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "2 bedroom flat for rent in Abraham Court, St Marys Lane, Upminster, RM14 (Rightmove)",
+      "url": "https://www.rightmove.co.uk/properties/93381093",
+      "section": "favoritos",
+      "category": "clearspace",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "2 bedroom flat for rent in Bataleur Court, Butts Green Road, Hornchurch, RM11 (Rightmove)",
+      "url": "https://www.rightmove.co.uk/properties/93817767",
+      "section": "favoritos",
+      "category": "clearspace",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "2 bedroom apartment for rent in Station Lane, Hornchurch, RM12 (Rightmove)",
+      "url": "https://www.rightmove.co.uk/properties/92231019",
+      "section": "favoritos",
+      "category": "clearspace",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "2 bedroom apartment for rent in North Street, Hornchurch, RM11 (Rightmove)",
+      "url": "https://www.rightmove.co.uk/properties/92505147",
+      "section": "favoritos",
+      "category": "clearspace",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Hornchurch - 3 Bed End Terrace, Newmarket Way, RM12 - £2,295.00 p/m (OpenRent)",
+      "url": "https://www.openrent.co.uk/property-to-rent/hornchurch/3-bed-end-terrace-newmarket-way-rm12/2965033",
+      "section": "favoritos",
+      "category": "clearspace",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "3 bedroom apartment for rent in Station Lane, Hornchurch, RM12 (Rightmove)",
+      "url": "https://www.rightmove.co.uk/properties/93538638",
+      "section": "favoritos",
+      "category": "clearspace",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "4 bedroom end of terrace house for rent in Front Lane, Upminster, RM14 (Rightmove)",
+      "url": "https://www.rightmove.co.uk/properties/92393976",
+      "section": "favoritos",
+      "category": "clearspace",
       "note": "Abas do iPhone 2026-10-05"
     }
   ]
