@@ -6447,7 +6447,16 @@
       "section": "compras",
       "category": "compras-livros",
       "store": "Amazon EUA",
-      "available": true
+      "available": true,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/156881349X",
+          "price": 1696.69,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Agente para Brunir - Goma Tragacanto 100ml - Royal Shop",
@@ -6495,7 +6504,16 @@
       "section": "compras",
       "category": "compras-ferramentas",
       "store": "Amazon EUA",
-      "available": true
+      "available": true,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0090IHBPU",
+          "price": 346.75,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Amazon.com: GEEKOM Mini IT12,Intel i7-12650H : Electronics",
@@ -6535,7 +6553,16 @@
       "section": "compras",
       "category": "compras-servicos",
       "store": "Amazon EUA",
-      "available": true
+      "available": true,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B00WOK72PA",
+          "price": 3751.43,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "ARMAWATCH & ARMACHAT - long range radio messengers | Hackaday.io",
@@ -7792,7 +7819,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$25,89",
-      "price_value": 25.89
+      "price_value": 25.89,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0HFN44YH3",
+          "price": 10.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Mini ventilador USB TOPK",
@@ -7820,7 +7856,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$147,99",
-      "price_value": 147.99
+      "price_value": 147.99,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0C6XPVLPZ",
+          "price": 197.73,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0FDPYNQBC",
+          "price": 33.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "NVVV 2000W Ultra-high Power Industrial Switching Power",
@@ -7976,7 +8028,16 @@
       "in_cart": true,
       "price": "R$44,69",
       "price_value": 44.69,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0GYC4TWX5",
+          "price": 16.44,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Upgrade Ender3 Neo Direct Drive Plate",
@@ -8132,7 +8193,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$207,66",
-      "price_value": 207.66
+      "price_value": 207.66,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0CWV5LG6M",
+          "price": 35.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "UGREEN Vertical Laptop Stand For MacBook Air Pro Triple",
@@ -8553,7 +8623,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$245,99",
-      "price_value": 245.99
+      "price_value": 245.99,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0FCGYTHXS",
+          "price": 62.19,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "10pcs/lot MECHANIC Solder Wick Remover Desoldering Wire",
@@ -8609,7 +8688,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$4.399,42",
-      "price_value": 4399.42
+      "price_value": 4399.42,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B09BCPT299",
+          "price": 4116.35,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B09BBGN298",
+          "price": 748.0,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Vention Display Port to HDMI 4K Male to DP to HDMI Female",
@@ -8961,7 +9056,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$1.390,69",
-      "price_value": 1390.69
+      "price_value": 1390.69,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0FB3L4GBH",
+          "price": 2497.84,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0F6C96GWW",
+          "price": 279.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "10pcs 2mm 3mm 4mm 5mm 6mm 8mm 10mm 304 Stainless Steel Ball",
@@ -9144,7 +9255,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$421,22",
-      "price_value": 421.22
+      "price_value": 421.22,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0CRYZMCT3",
+          "price": 79.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "FIFINE D6 Stream Controller with 15 Macro Keys",
@@ -9355,7 +9475,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$1.302,95",
-      "price_value": 1302.95
+      "price_value": 1302.95,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0H29186JX",
+          "price": 766.91,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "0.3/0.5/0.6/0.8/1/1.2/1.5mm T2 Copper Sheet Metal",
@@ -9664,7 +9793,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$78,29",
-      "price_value": 78.29
+      "price_value": 78.29,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0GZ3VVW3Q",
+          "price": 15.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "1~10pcs Mini Hygrometer Thermometer Fahrenheit or Celsius",
@@ -9860,7 +9998,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$148,59",
-      "price_value": 148.59
+      "price_value": 148.59,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0CWRT4Q8F",
+          "price": 26.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "SucceBuy 360 Rotary Laser Level Self-Leveling 500m Vertical",
@@ -9958,7 +10105,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$365,63",
-      "price_value": 365.63
+      "price_value": 365.63,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0DZH9BHDW",
+          "price": 585.86,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0DZH9BHDW",
+          "price": 64.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "IX5 Ultra Preheating Station Constant Temperature",
@@ -10280,7 +10443,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$569,60",
-      "price_value": 569.6
+      "price_value": 569.6,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0CTCJY4GP",
+          "price": 80.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "18650 Battery Case 1X 2X 3X 4X 18650 Battery Holder 18650",
@@ -10322,7 +10494,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$21,27",
-      "price_value": 21.27
+      "price_value": 21.27,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0B7VHPSYB",
+          "price": 5.01,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "50PCS 10A10 6A10 20A10 R-6 DIP 6A 10A 20A 1000V Electrical",
@@ -10588,7 +10769,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$1.175,61",
-      "price_value": 1175.61
+      "price_value": 1175.61,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0H345R6JG",
+          "price": 107.11,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Andonstar Digital Microscope AD208 8.5 inch Adjustable LCD",
@@ -10602,7 +10792,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$567,89",
-      "price_value": 567.89
+      "price_value": 567.89,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B08LQ8GFRP",
+          "price": 128.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Original TS101 Electric Soldering Iron Adjustable",
@@ -10616,7 +10815,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$335,99",
-      "price_value": 335.99
+      "price_value": 335.99,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0BH919RSC",
+          "price": 543.46,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B07SQDZ9SV",
+          "price": 69.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Tool Roll, Multi-Purpose Roll Up Tool Bag, Wrench Roll",
@@ -10698,7 +10913,23 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0GXFTTGWZ",
+          "price": 578.96,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0GXFTTGWZ",
+          "price": 61.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "16 KG Large Gas Metal Melting Furnace Kit 2642°F",
@@ -10830,7 +11061,23 @@
       "in_cart": true,
       "note": "Indisponível",
       "qty": 1,
-      "price": "R$1.795,77"
+      "price": "R$1.795,77",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0FB3L4GBH",
+          "price": 2497.84,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0F6C96GWW",
+          "price": 279.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "FNIRSI DPOS350P Tablet Oscilloscope 350MHz Dual Channel",
@@ -10843,7 +11090,23 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0FB3L4GBH",
+          "price": 2497.84,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0F6C96GWW",
+          "price": 279.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "MILESEEY TR256E /B Thermal Imager 256X192 Thermal Imaging",
@@ -10908,7 +11171,23 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0FY14LW4F",
+          "price": 1190.65,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0FY14LW4F",
+          "price": 179.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Mileseey TR10 Infrared Thermal Imager Thermal Camera",
@@ -10947,7 +11226,23 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0DFPK3S19",
+          "price": 696.78,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0DFPNLG76",
+          "price": 68.79,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Oukitel WP39 Pro 5G Rugged Smartphone 12+24GB 36GB Memory",
@@ -11012,7 +11307,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0FQJF8CRM",
+          "price": 75.0,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "UGREEN 100W GaN Charger 5 Ports USB C Charger QC4.0 3.0 PPS",
@@ -11064,7 +11368,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B098YH2Y6W",
+          "price": 49.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "99.995% Purity Indium Block 5g 100g 1000g Indium Metal",
@@ -11220,7 +11533,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0CHKZJK9C",
+          "price": 268.11,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Heltec WiFi LoRa 32 V3 Dev-board",
@@ -11506,7 +11828,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0CQRKR17W",
+          "price": 35.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "FNIRSI GC-01 Geiger Counter Nuclear Radiation Detector",
@@ -11519,7 +11850,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0F62PB6PG",
+          "price": 53.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "FNIRSI WD-01 Metal Detector Wall Scanner",
@@ -11532,7 +11872,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0B9JCWBRQ",
+          "price": 33.24,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "FNIRSI-FNB58 USB Tester Voltmeter Ammeter TYPE-C Fast",
@@ -11545,7 +11894,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0BS2ZS813",
+          "price": 52.66,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "FNIRSI HS-01 Adjustable Temperature Soldering Iron DC 24V",
@@ -11558,7 +11916,23 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0HKW7PPG4",
+          "price": 475.78,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0C1G9MNNT",
+          "price": 56.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "FNIRSI DSO-TC3 Digital Oscilloscope Transistor Tester",
@@ -11571,7 +11945,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0BV9X733J",
+          "price": 391.99,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "DSO-TC3 Digital Oscilloscope Transistor Tester 10MS/s",
@@ -11584,7 +11967,23 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0BV9X733J",
+          "price": 391.99,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0C32CRC6T",
+          "price": 49.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Soap Dish Leaf Soap Box Drain Soap Holder Bathroom Shower",
@@ -11753,7 +12152,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0H9J4MFQ8",
+          "price": 230.38,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Seek Thermal Imaging Camera infrared imager Night Vision",
@@ -11805,7 +12213,16 @@
       "source": "aliexpress",
       "available": false,
       "in_cart": false,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B08J3SDBDT",
+          "price": 319.0,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "500W/1000W Inverter Boost Step-up Board DC 12V to AC 220V",
@@ -13125,7 +13542,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 445,99",
-      "price_value": 445.99
+      "price_value": 445.99,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B07Q2N72VY",
+          "price": 352.35,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0DGXHBWG2",
+          "price": 49.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Microfone Maono Pd100x Rgb Usb/xlr Cardióide 40hz-16khz",
@@ -13139,7 +13572,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 442,22",
-      "price_value": 442.22
+      "price_value": 442.22,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B07Q2N72VY",
+          "price": 352.35,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0DGXHBWG2",
+          "price": 49.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Mini Totem Extensão Eletrica De Mesa Com 2 Tomadas",
@@ -13293,7 +13742,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 244,65",
-      "price_value": 244.65
+      "price_value": 244.65,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0G4M9VMQ9",
+          "price": 167.39,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Soundbar Gamer Para Pc - Fortrek Black Hawk 6w Rgb",
@@ -13363,7 +13821,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 159",
-      "price_value": 159.0
+      "price_value": 159.0,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0CKP1K97P",
+          "price": 152.0,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0CKP1K97P",
+          "price": 29.95,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Parafusadeira A Bateria 4v Maleta 24 Bits Wx240 Bivolt Worx",
@@ -13377,7 +13851,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 229,90",
-      "price_value": 229.9
+      "price_value": 229.9,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B08LQ3TVK6",
+          "price": 250.9,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Parafusadeira Worx Wx242 + Bits + Maleta Cor Cinza",
@@ -13966,7 +14449,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 377,20",
-      "price_value": 377.2
+      "price_value": 377.2,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B07YCS8NFP",
+          "price": 389.5,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Kit Relógio Comparador Accud 10mm X 0,01mm Com Suporte Base",
@@ -13994,7 +14486,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 388,55",
-      "price_value": 388.55
+      "price_value": 388.55,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B07WGJ1JNW",
+          "price": 386.6,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Relógio Orient Masculino Prata Prova Dágua",
@@ -14050,7 +14551,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 299",
-      "price_value": 299.0
+      "price_value": 299.0,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B07GMN3P3D",
+          "price": 284.05,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Relógio Casio Unissex Vintage Prata Aq-230a-1dmq Prata",
@@ -14316,7 +14826,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 229,77",
-      "price_value": 229.77
+      "price_value": 229.77,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0CZ5XKNXD",
+          "price": 202.35,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Alicate Amperímetro Digital Multimetro 600a Dc/ac + Baterias",
@@ -14428,7 +14947,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 999",
-      "price_value": 999.0
+      "price_value": 999.0,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B00S6OMGY0",
+          "price": 311.54,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Jogo de Ferramentas Robust 5000R 178 Itens Aço CrV Maleta",
@@ -14456,7 +14984,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 419,90",
-      "price_value": 419.9
+      "price_value": 419.9,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0C6XYZHMX",
+          "price": 415.9,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Moto Esmeril 150mm 6'' 220v 350w 60hz 4563 Bremen",
@@ -14526,7 +15063,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 819,90",
-      "price_value": 819.9
+      "price_value": 819.9,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0DBHLGW75",
+          "price": 745.0,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0DBHLGW75",
+          "price": 148.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Bolsa Shoulder Bag Transversal Antifurto Impermeável Usb",
@@ -14582,7 +15135,23 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 336,19",
-      "price_value": 336.19
+      "price_value": 336.19,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0DP2L9CFR",
+          "price": 323.09,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0DP2L9CFR",
+          "price": 47.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Alicate Crimpar Prensa Several Terminal Tubular 0,25 Até",
@@ -14782,7 +15351,16 @@
       "in_cart": true,
       "price": "R$ 134,95",
       "price_value": 134.95,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B07695GKCC",
+          "price": 132.9,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Fritadeira Air Fryer 11 Litros 8 Funções 1800w Philco",
@@ -14796,7 +15374,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 566,02",
-      "price_value": 566.02
+      "price_value": 566.02,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0GHZC7RFV",
+          "price": 342.9,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Cabo de Rede Ugreen Cat8 3 Metros 40Gbps RJ45 Blindado",
@@ -14824,7 +15411,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 791,12",
-      "price_value": 791.12
+      "price_value": 791.12,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0G58MQQB8",
+          "price": 655.5,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Marmita Elétrica Bivolt (110v/220v) e Veicular 12v",
@@ -14852,7 +15448,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 131,76",
-      "price_value": 131.76
+      "price_value": 131.76,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0BZTM9BS5",
+          "price": 345.11,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Teclado Sem Fio Gamer Magnético Rapid Trigger 0,01mm 8000hz",
@@ -14936,7 +15541,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 279,90",
-      "price_value": 279.9
+      "price_value": 279.9,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0CCK4DSG9",
+          "price": 249.9,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Bomba Manual De Pressão E Vácuo 25 Pçs Profissional Corneta",
@@ -15090,7 +15704,16 @@
       "available": true,
       "in_cart": false,
       "price": "R$ 719",
-      "price_value": 719.0
+      "price_value": 719.0,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0DGLWKS9S",
+          "price": 389.0,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Balança de café Timemore Plus",
@@ -16484,7 +17107,16 @@
       "in_cart": false,
       "price": "R$ 1.583,68",
       "price_value": 1583.68,
-      "list": "Lista de desejos de Da loja Erlan"
+      "list": "Lista de desejos de Da loja Erlan",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0DK1J9384",
+          "price": 159.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Lava Louças Midea 16 Serviços MDWEF1633GSS1 Inox 110V",
@@ -16590,7 +17222,16 @@
       "in_cart": false,
       "price": "R$ 23,90",
       "price_value": 23.9,
-      "list": "Lista de desejos de Da loja Erlan"
+      "list": "Lista de desejos de Da loja Erlan",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/8520445780",
+          "price": 373.79,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Heinz Ketchup Zero Açúcar 530g",
@@ -16620,7 +17261,16 @@
       "in_cart": false,
       "price": "R$ 39,90",
       "price_value": 39.9,
-      "list": "Guardar e Comparar"
+      "list": "Guardar e Comparar",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B00Q78O384",
+          "price": 5.38,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Coup Segunda Edição (Inclui Expansão)",
@@ -16710,7 +17360,16 @@
       "in_cart": true,
       "price": "R$ 608,00",
       "price_value": 608.0,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/0070097542",
+          "price": 66.28,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "The Perfectionists: How Precision Engineers Created the",
@@ -16725,7 +17384,16 @@
       "in_cart": true,
       "price": "R$ 247,53",
       "price_value": 247.53,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/0062652559",
+          "price": 14.48,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "The Elements of Mechanical Design",
@@ -16740,7 +17408,16 @@
       "in_cart": true,
       "price": "R$ 215,93",
       "price_value": 215.93,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/0791802671",
+          "price": 33.95,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Caneca Café Pilha Caffeine Energy Geek Nerd Humor Meme",
@@ -16770,7 +17447,16 @@
       "in_cart": true,
       "price": "R$ 53,10",
       "price_value": 53.1,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/6558034336",
+          "price": 34.92,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "STANLEY Kit de Ferramentas 110 Peças STMT81243 Chave",
@@ -16800,7 +17486,16 @@
       "in_cart": true,
       "price": "R$ 138,55",
       "price_value": 138.55,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0D72ZWFZD",
+          "price": 12.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "De que São Feitas as Coisas: 10 Materiais que Constroem o",
@@ -16815,7 +17510,16 @@
       "in_cart": true,
       "price": "R$ 34,31",
       "price_value": 34.31,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/8521209657",
+          "price": 24.47,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "O livro da astronomia",
@@ -16830,7 +17534,16 @@
       "in_cart": true,
       "price": "R$ 55,96",
       "price_value": 55.96,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/6559872823",
+          "price": 37.28,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "O livro da matemática",
@@ -16845,7 +17558,16 @@
       "in_cart": true,
       "price": "R$ 63,08",
       "price_value": 63.08,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/6555670231",
+          "price": 29.9,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Duracell Pilhas Alcalinas AAA Palito Pack 24 Unidades",
@@ -16875,7 +17597,16 @@
       "in_cart": true,
       "price": "R$ 54,66",
       "price_value": 54.66,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0D4K4C7DV",
+          "price": 8.0,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Metalurgia do pó: Produtos Sinterizados e Manufatura Aditiva",
@@ -16890,7 +17621,16 @@
       "in_cart": true,
       "price": "R$ 80,00",
       "price_value": 80.0,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/8521223552",
+          "price": 34.32,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Dicionário de polímeros",
@@ -16905,7 +17645,16 @@
       "in_cart": true,
       "price": "R$ 19,90",
       "price_value": 19.9,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/857193052X",
+          "price": 246.52,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Desenvolvimento de produtos utilizando simulação virtual",
@@ -16920,7 +17669,16 @@
       "in_cart": true,
       "price": "R$ 110,14",
       "price_value": 110.14,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/6555206497",
+          "price": 43.36,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "O livro do design",
@@ -16935,7 +17693,16 @@
       "in_cart": true,
       "price": "R$ 63,08",
       "price_value": 63.08,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/6559872505",
+          "price": 38.59,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Soundbar Gamer Redragon Neo RGB Preto USB Tipo-C Falantes",
@@ -16950,7 +17717,16 @@
       "in_cart": false,
       "saved_for_later": true,
       "price": "R$ 229,95",
-      "price_value": 229.95
+      "price_value": 229.95,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0DQPSNZY2",
+          "price": 27.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "O Eternauta - Segunda Parte (Edição definitiva)",
@@ -16965,7 +17741,16 @@
       "in_cart": false,
       "saved_for_later": true,
       "price": "R$ 83,50",
-      "price_value": 83.5
+      "price_value": 83.5,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/6554482539",
+          "price": 53.74,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Ergonomia do objeto: Sistema técnico de leitura ergonômica",
@@ -16980,7 +17765,16 @@
       "in_cart": false,
       "saved_for_later": true,
       "price": "R$ 39,90",
-      "price_value": 39.9
+      "price_value": 39.9,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/8575313606",
+          "price": 62.97,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "CONTOS DE HORROR DA MIMI - MANGÁ CONSAGRADO DE JUNJI ITO",
@@ -16995,7 +17789,16 @@
       "in_cart": false,
       "saved_for_later": true,
       "price": "R$ 52,43",
-      "price_value": 52.43
+      "price_value": 52.43,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/6555982233",
+          "price": 32.23,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "O livro vermelho de fábulas encantadas: 2",
@@ -17010,7 +17813,16 @@
       "in_cart": false,
       "saved_for_later": true,
       "price": "R$ 52,61",
-      "price_value": 52.61
+      "price_value": 52.61,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/6555791500",
+          "price": 25.8,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Manual de Tecnologia Automotiva",
@@ -17025,7 +17837,16 @@
       "in_cart": false,
       "saved_for_later": true,
       "price": "R$ 149,90",
-      "price_value": 149.9
+      "price_value": 149.9,
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/8521203780",
+          "price": 66.34,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Tesoura Com Guia Laser Para Corte De Tecido Corte Preciso",
@@ -17120,7 +17941,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0D5M4NC2Y",
+          "price": 289.28,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "WORKPRO 1/2\" Drive Digital Torque Adapter",
@@ -17193,7 +18023,16 @@
       "currency": "USD",
       "price": "US$ 34.99",
       "price_usd": 34.99,
-      "price_value": 192.45
+      "price_value": 192.45,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0DYS7PWLN",
+          "price": 263.58,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "3-Piece Magnetic Tool Mat Kit",
@@ -17230,7 +18069,16 @@
       "currency": "USD",
       "price": "US$ 54.99",
       "price_usd": 54.99,
-      "price_value": 302.44
+      "price_value": 302.44,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0DDQ3764Z",
+          "price": 548.09,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "VEVOR Hydraulic Motorcycle Lift Table",
@@ -17285,7 +18133,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/1885071299",
+          "price": 79.31,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Rhino USA Survival Hiking Stick Multi-Tool",
@@ -17323,7 +18180,16 @@
       "currency": "USD",
       "price": "US$ 94.99",
       "price_usd": 94.99,
-      "price_value": 522.44
+      "price_value": 522.44,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0FHGJKWTH",
+          "price": 914.31,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "SKYFIRE Brightest Lanternas High Lumens",
@@ -17342,7 +18208,16 @@
       "currency": "USD",
       "price": "US$ 128.69",
       "price_usd": 128.69,
-      "price_value": 707.79
+      "price_value": 707.79,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0F93P7ZN4",
+          "price": 1291.54,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "PREPARED4X Fire Starter Survival Tool",
@@ -17527,7 +18402,16 @@
       "currency": "USD",
       "price": "US$ 14.99",
       "price_usd": 14.99,
-      "price_value": 82.45
+      "price_value": 82.45,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B09YSXWN3Q",
+          "price": 130.38,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "3/8\" ID Silicon Tubing, JoyTube Food Grade Silicon Tubing",
@@ -17546,7 +18430,16 @@
       "currency": "USD",
       "price": "US$ 11.99",
       "price_usd": 11.99,
-      "price_value": 65.95
+      "price_value": 65.95,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B089YGDB55",
+          "price": 110.86,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "ENVY Hydroponic Plant Food A & B – Two-Part Liquid Nutrient",
@@ -17674,7 +18567,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B01GI5F2FS",
+          "price": 61.97,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "What We Owe the Future",
@@ -17692,7 +18594,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/1541618629",
+          "price": 123.5,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Structures: Or Why Things Don't Fall Down",
@@ -17710,7 +18621,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/0306812835",
+          "price": 98.08,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Liftoff: Elon Musk and the Desperate Early Days That",
@@ -17729,7 +18649,16 @@
       "currency": "USD",
       "price": "US$ 23.62",
       "price_usd": 23.62,
-      "price_value": 129.91
+      "price_value": 129.91,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/0062979973",
+          "price": 175.4,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Ignition!: An Informal History of Liquid Rocket Propellants",
@@ -17747,7 +18676,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B076838QS2",
+          "price": 99.52,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "HP Prodesk 600 G3 Micro Computer Mini PC (Intel Quad Core",
@@ -17846,7 +18784,16 @@
       "currency": "USD",
       "price": "US$ 419.90",
       "price_usd": 419.9,
-      "price_value": 2309.45
+      "price_value": 2309.45,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0FYPBZQ3Z",
+          "price": 4248.79,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "HGST Ultrastar 3.5-Inch 4TB 7200RPM SATA III 6Gbps 64MB",
@@ -17957,7 +18904,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B08VH8R94B",
+          "price": 3028.56,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Seagate 8TB IronWolf Internal NAS Hard Drive",
@@ -18032,7 +18988,16 @@
       "currency": "USD",
       "price": "US$ 9.95",
       "price_usd": 9.95,
-      "price_value": 54.72
+      "price_value": 54.72,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B08CBZF1K5",
+          "price": 146.17,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Rapink 24 Pacote Cat6a Ethernet Patch Cables 0.5ft Blue",
@@ -18051,7 +19016,16 @@
       "currency": "USD",
       "price": "US$ 19.99",
       "price_usd": 19.99,
-      "price_value": 109.94
+      "price_value": 109.94,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0BXW9M65K",
+          "price": 154.19,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "NFHK 2500Mbps 2.5Gbps to 2230 NGFF A+E-Key GBE Gigabit",
@@ -18070,7 +19044,16 @@
       "currency": "USD",
       "price": "US$ 19.69",
       "price_usd": 19.69,
-      "price_value": 108.3
+      "price_value": 108.3,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0G6D3GXF4",
+          "price": 153.27,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "PILOT Precise V10 RT Retractable Ball Pens, 1.0mm, Black",
@@ -18089,7 +19072,16 @@
       "currency": "USD",
       "price": "US$ 21.00",
       "price_usd": 21.0,
-      "price_value": 115.5
+      "price_value": 115.5,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0815LDRL6",
+          "price": 145.26,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Painting Station, Silicone Painting Mat and Paint Brush",
@@ -18108,7 +19100,16 @@
       "currency": "USD",
       "price": "US$ 24.99",
       "price_usd": 24.99,
-      "price_value": 137.44
+      "price_value": 137.44,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0D3PRP1H3",
+          "price": 196.38,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "DEWALT Cobalt Alloy Steel Drill Bit Kit with Pilot Point",
@@ -18126,7 +19127,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B015J5HU4Y",
+          "price": 238.71,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Milwaukee Electric - 23 PC RED Helix Cobalt Drill BIT Kit",
@@ -18219,7 +19229,16 @@
       "currency": "USD",
       "price": "US$ 15.18",
       "price_usd": 15.18,
-      "price_value": 83.49
+      "price_value": 83.49,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0FQTSCVKK",
+          "price": 118.82,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Viking PureGlide Pro 3-Ply Nonstick Cookware Kit",
@@ -18238,7 +19257,16 @@
       "currency": "USD",
       "price": "US$ 799.95",
       "price_usd": 799.95,
-      "price_value": 4399.73
+      "price_value": 4399.73,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0FRP8MRTQ",
+          "price": 8652.2,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Benchmark Abrasives 1-1/2\" x 1-1/2\" Rubber Expanding Drum",
@@ -18276,7 +19304,16 @@
       "currency": "USD",
       "price": "US$ 14.69",
       "price_usd": 14.69,
-      "price_value": 80.8
+      "price_value": 80.8,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B08WWZ9T7K",
+          "price": 116.42,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Portable Self Priming Water Drill Pump Attachment,Self",
@@ -18331,7 +19368,16 @@
       "currency": "USD",
       "price": "US$ 13.99",
       "price_usd": 13.99,
-      "price_value": 76.95
+      "price_value": 76.95,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B01KY5KVNQ",
+          "price": 120.02,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "DKIBBITH Heavy-Duty Deburring Chamfer Tool",
@@ -18350,7 +19396,16 @@
       "currency": "USD",
       "price": "US$ 16.99",
       "price_usd": 16.99,
-      "price_value": 93.44
+      "price_value": 93.44,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0CQMG6DDH",
+          "price": 141.46,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "CONQUER 5 Flute Metal Countersink Drill Bit",
@@ -18388,7 +19443,16 @@
       "currency": "USD",
       "price": "US$ 87.18",
       "price_usd": 87.18,
-      "price_value": 479.49
+      "price_value": 479.49,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0BLX9WTS5",
+          "price": 875.8,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "TCBWFY Garden Auger Drill Bit",
@@ -18425,7 +19489,16 @@
       "currency": "USD",
       "price": "US$ 19.98",
       "price_usd": 19.98,
-      "price_value": 109.89
+      "price_value": 109.89,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0CLQBZJ3R",
+          "price": 163.93,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "DEWALT Metal Shear/Cutter Drill Attachment, Impact Ready",
@@ -18444,7 +19517,16 @@
       "currency": "USD",
       "price": "US$ 62.49",
       "price_usd": 62.49,
-      "price_value": 343.69
+      "price_value": 343.69,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B01BSAWORC",
+          "price": 469.0,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Christmas Stocking Stuffers for Men Super Universal Socket",
@@ -18463,7 +19545,16 @@
       "currency": "USD",
       "price": "US$ 9.99",
       "price_usd": 9.99,
-      "price_value": 54.95
+      "price_value": 54.95,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B085ZRJFQ8",
+          "price": 92.55,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Sunydog Electric Chainsaw Attachment",
@@ -18482,7 +19573,16 @@
       "currency": "USD",
       "price": "US$ 19.39",
       "price_usd": 19.39,
-      "price_value": 106.65
+      "price_value": 106.65,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0CMQR3VP5",
+          "price": 199.89,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Fuzion Digital Postal Shipping Scale 110LB x0.1oz",
@@ -18587,7 +19687,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B089T7WFM6",
+          "price": 48.63,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Iwata Power Jet Pro Dual Airbrush Compressor",
@@ -18606,7 +19715,16 @@
       "currency": "USD",
       "price": "US$ 535",
       "price_usd": 535.0,
-      "price_value": 2942.5
+      "price_value": 2942.5,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B000TLSYB2",
+          "price": 5571.23,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Iwata Eclipse HP-CS Airbrush - Gravity Feed Dual Action",
@@ -18625,7 +19743,16 @@
       "currency": "USD",
       "price": "US$ 174",
       "price_usd": 174.0,
-      "price_value": 957.0
+      "price_value": 957.0,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B000BQKFAI",
+          "price": 1556.73,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Hemobllo Weighing Bottle Pycnometer Bottle Chemistry",
@@ -18644,7 +19771,16 @@
       "currency": "USD",
       "price": "US$ 13.89",
       "price_usd": 13.89,
-      "price_value": 76.4
+      "price_value": 76.4,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0C7PJ9PBS",
+          "price": 118.49,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "SUPER+ 2 Pacote Continuous Spray Bottle for hair",
@@ -18682,7 +19818,16 @@
       "currency": "USD",
       "price": "US$ 17.99",
       "price_usd": 17.99,
-      "price_value": 98.94
+      "price_value": 98.94,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0CCNS9CC6",
+          "price": 131.22,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "POWEROWL Lithium Pilhas AA High Capacity Long Lasting",
@@ -18737,7 +19882,16 @@
       "currency": "USD",
       "price": "US$ 26.99",
       "price_usd": 26.99,
-      "price_value": 148.44
+      "price_value": 148.44,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0FM87FZV6",
+          "price": 227.52,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Mini Chainsaw for Milwaukee M18 Pilha, Auto-Oiler",
@@ -18793,7 +19947,16 @@
       "currency": "USD",
       "price": "US$ 25.64",
       "price_usd": 25.64,
-      "price_value": 141.02
+      "price_value": 141.02,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0CJHZ3N47",
+          "price": 244.24,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Unlocking the Magic of Facilitation: 11 Key Concepts You",
@@ -18811,7 +19974,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B01B0RV4WY",
+          "price": 0.0,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "12 Rules for Life: An Antidote to Chaos",
@@ -18830,7 +20002,16 @@
       "currency": "USD",
       "price": "US$ 11.75",
       "price_usd": 11.75,
-      "price_value": 64.62
+      "price_value": 64.62,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/0345816021",
+          "price": 136.37,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Sangean ANT-60 Short Wave Antenna",
@@ -18849,7 +20030,16 @@
       "currency": "USD",
       "price": "US$ 26.33",
       "price_usd": 26.33,
-      "price_value": 144.81
+      "price_value": 144.81,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B000023VW2",
+          "price": 199.63,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Eton Grundig Satellit 750 Ultimate AM/FM Radio",
@@ -18885,7 +20075,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/1451666179",
+          "price": 95.31,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Winds Effects on Structures: Fundamentals and Applications",
@@ -18903,7 +20102,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/0471121576",
+          "price": 1862.56,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Raspberry Pi 5MP 1080P Camera Noir (No IR Filter) Night",
@@ -18993,7 +20201,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/1585037826",
+          "price": 1988.45,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "An Introduction to SolidWorks Flow Simulation 2013",
@@ -19011,7 +20228,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/1585037834",
+          "price": 3507.0,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Cyl-Tec - M6 Medical Oxygen Cylinder",
@@ -19102,7 +20328,16 @@
       "currency": "USD",
       "price": "US$ 193.72",
       "price_usd": 193.72,
-      "price_value": 1065.46
+      "price_value": 1065.46,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/1461428173",
+          "price": 1072.36,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "HP Smart Slim 230W AC Adapter US",
@@ -19138,7 +20373,16 @@
       ],
       "currency": "USD",
       "no_br_delivery": true,
-      "note": "não entrega no Brasil / ver nos EUA"
+      "note": "não entrega no Brasil / ver nos EUA",
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B0076W9Q5A",
+          "price": 541.5,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Endeavor Tool Company 200MO Gator Grip the Original",
@@ -19175,7 +20419,16 @@
       "currency": "USD",
       "price": "US$ 31.96",
       "price_usd": 31.96,
-      "price_value": 175.78
+      "price_value": 175.78,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/1118692284",
+          "price": 207.24,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Thermos 34-Ounce Vacuum Insulated Stainless Steel Carafe",
@@ -19194,7 +20447,16 @@
       "currency": "USD",
       "price": "US$ 52.79",
       "price_usd": 52.79,
-      "price_value": 290.34
+      "price_value": 290.34,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B000U8L1KU",
+          "price": 396.36,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Audio-Technica ATH-M50 Professional Studio Monitor",
@@ -19659,7 +20921,16 @@
       "price": "R$ 15,19",
       "price_value": 15.19,
       "source": "amazon",
-      "note": "Abas do iPhone 2026-10-05"
+      "note": "Abas do iPhone 2026-10-05",
+      "alternativas": [
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B0C6Z2GNRP",
+          "price": 2.99,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "História do Brasil — Padre Raphael Galanti (6 tomos, capa dura)",
@@ -20593,7 +21864,23 @@
       "in_cart": true,
       "price": "R$ 600,00",
       "price_value": 600.0,
-      "qty": 1
+      "qty": 1,
+      "alternativas": [
+        {
+          "store": "Amazon BR",
+          "url": "https://www.amazon.com.br/dp/B07G3V17VH",
+          "price": 184.28,
+          "currency": "BRL",
+          "checked": "2026-10-06"
+        },
+        {
+          "store": "Amazon US",
+          "url": "https://www.amazon.com/dp/B00UJV3E12",
+          "price": 59.59,
+          "currency": "USD",
+          "checked": "2026-10-06"
+        }
+      ]
     },
     {
       "title": "Car Glass Liquid (Caraccessuaries)",
