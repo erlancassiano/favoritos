@@ -407,6 +407,11 @@
       "section": "favoritos"
     },
     {
+      "id": "pet-fav",
+      "title": "Pet",
+      "section": "favoritos"
+    },
+    {
       "id": "compras-impressao-3d",
       "title": "Impressão 3D",
       "section": "compras"
@@ -551,6 +556,13 @@
     {
       "title": "Erlang Shen – Wikipédia",
       "url": "https://pt.wikipedia.org/wiki/Erlang_Shen",
+      "section": "favoritos",
+      "category": "geral",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "FounderPass — benefícios e descontos para startups",
+      "url": "https://www.founderpass.com/",
       "section": "favoritos",
       "category": "geral",
       "note": "Abas do iPhone 2026-10-05"
@@ -782,6 +794,13 @@
       "url": "https://www.asplantasonline.com.br/mudas/mudas-de-abacate-hass",
       "section": "favoritos",
       "category": "agro-e-clima"
+    },
+    {
+      "title": "Gingko biloba: conheça a árvore e veja como cultivá-la (Casa Vogue)",
+      "url": "https://casavogue.globo.com/Arquitetura/Paisagismo/noticia/2021/11/gingko-biloba-conheca-arvore-e-veja-como-cultiva-la.html",
+      "section": "favoritos",
+      "category": "agro-e-clima",
+      "note": "Abas do iPhone 2026-10-05"
     },
     {
       "title": ".22 Lr Handguns & Pistols | Guns | Sportsman's Guide",
@@ -1199,6 +1218,27 @@
       "section": "favoritos",
       "category": "bancos-e-finanças-investimentos-bitcoin",
       "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Learn RoboSats — vídeos",
+      "url": "https://learn.robosats.com/watch/en/",
+      "section": "favoritos",
+      "category": "bancos-e-finanças-investimentos-bitcoin",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "KYC? Sai fora! - Exchanges de Bitcoin que não exigem KYC (Bitcoinheiros)",
+      "url": "https://www.bitcoinheiros.com/kyc/",
+      "section": "favoritos",
+      "category": "bancos-e-finanças-investimentos-bitcoin",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Bitaxe solo miner finds a Bitcoin block for the first time (Blocktrainer)",
+      "url": "https://www.blocktrainer.de/en/blog/bitaxe-solo-miner-finds-a-bitcoin-block-for-the-first-time",
+      "section": "favoritos",
+      "category": "bancos-e-finanças-investimentos-bitcoin",
+      "note": "Abas do iPhone 2026-10-05 · página indisponível (404) no momento"
     },
     {
       "title": "Bahamas MEGA-SIZED Lobster!! Carribean's Eye-Popping Seafood!!",
@@ -4017,6 +4057,13 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
+      "title": "Geologia BR - A Loja Oficial da Geologia no Brasil",
+      "url": "https://www.geologiabr.com/",
+      "section": "favoritos",
+      "category": "educação",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "5 dicas para organizar a locação de equipamentos - Blog LUZ",
       "url": "https://blog.luz.vc/como-fazer/locacao-de-equipamentos/",
       "section": "favoritos",
@@ -4745,6 +4792,55 @@
     {
       "title": "You're Being Summoned, Azazel (Crunchyroll)",
       "url": "https://www.crunchyroll.com/pt-br/series/GYE5KGJ8R/youre-being-summoned-azazel",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Não Intendo no X: \"Alguém tem o endereço do Gordão Cutelarias…\"",
+      "url": "https://x.com/blognaointendo/status/1701068048294363168",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Lacoste lança linha de roupas inspiradas em One Piece (Adrenaline)",
+      "url": "https://www.adrenaline.com.br/off-topic/lacoste-lanca-linha-de-roupas-inspiradas-em-one-piece/",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "O Korea no X: \"Senhores, chegaram os livros…\"",
+      "url": "https://x.com/KoreaComK/status/1856866033962824114",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Episode Hive - Track Your Shows",
+      "url": "https://episodehive.com/",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Monsters of Rock — Allianz Parque (Eventim)",
+      "url": "https://www.eventim.com.br/es/event/monsters-of-rock-allianz-parque-20946461/",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Monsters of Rock — ingressos (viagogo)",
+      "url": "https://www.viagogo.com/br/Ingressos-Festivais/Festivais-no-Brasil/Monsters-of-Rock-Ingressos",
+      "section": "favoritos",
+      "category": "entretenimento",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Reel do Facebook (952046454541728)",
+      "url": "https://www.facebook.com/reel/952046454541728/",
       "section": "favoritos",
       "category": "entretenimento",
       "note": "Abas do iPhone 2026-10-05"
@@ -6299,6 +6395,13 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
+      "title": "Understand Myself",
+      "url": "https://www.understandmyself.com/",
+      "section": "favoritos",
+      "category": "saúde",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "0371 Wifi Estação Meteorológica Ao Ar Livre Sensor De Previsão Do Tempo Base Detector D…",
       "url": "https://pt.aliexpress.com/item/1005004357530174.html?spm=a2g0o.detail.1000023.5.22ca80d5XI3jGf&pdp_npi=2%40dis%21USD%21US+%24348.48%21US+%24209.09%21%21%21%21%21%400b86d80216607022118302426e730d%2112000029666894990%21sh&gatewayAdapt=glo2bra4itemAdapt",
       "section": "compras",
@@ -7191,6 +7294,250 @@
       "available": true,
       "price": "",
       "note": "Abas do iPhone 2026-10-05 · CMR-Direct · página de categoria"
+    },
+    {
+      "title": "Steady Hands — Featured",
+      "url": "https://www.steady-hands.com/collections/featured",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.steady-hands.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Steady Hands"
+    },
+    {
+      "title": "Artcura — Mais vendidos",
+      "url": "https://www.artcura.com.br/collections/mais-vendidos",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.artcura.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Artcura · site fora do ar no momento"
+    },
+    {
+      "title": "Loja Montessori",
+      "url": "https://www.lojamontessori.com/",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.lojamontessori.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Loja Montessori · site fora do ar no momento"
+    },
+    {
+      "title": "Produto AliExpress 3256806080316038",
+      "url": "https://www.aliexpress.us/item/3256806080316038.html",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "AliExpress",
+      "icon": "https://www.google.com/s2/favicons?domain=www.aliexpress.us&sz=64",
+      "available": true,
+      "price": "",
+      "source": "aliexpress",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Pilet — Soul's Circuit",
+      "url": "https://soulscircuit.com/pilet",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=soulscircuit.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Soul's Circuit · site fora do ar no momento"
+    },
+    {
+      "title": "Galpão da Reversa",
+      "url": "https://galpaodareversa.online/",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=galpaodareversa.online&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Galpão da Reversa · site fora do ar no momento"
+    },
+    {
+      "title": "Silent Dreams — anti ronco e sono profundo",
+      "url": "https://silentdreams.com.br/",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=silentdreams.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Silent Dreams"
+    },
+    {
+      "title": "Produto AliExpress 33030968874",
+      "url": "https://www.aliexpress.us/item/33030968874.html",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "AliExpress",
+      "icon": "https://www.google.com/s2/favicons?domain=www.aliexpress.us&sz=64",
+      "available": true,
+      "price": "",
+      "source": "aliexpress",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto AliExpress 3256808076724947",
+      "url": "https://www.aliexpress.us/item/3256808076724947.html",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "AliExpress",
+      "icon": "https://www.google.com/s2/favicons?domain=www.aliexpress.us&sz=64",
+      "available": true,
+      "price": "",
+      "source": "aliexpress",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 22894061488",
+      "url": "https://shopee.com.br/product/1509821570/22894061488",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 25839529721",
+      "url": "https://shopee.com.br/product/880505259/25839529721",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 23597155713",
+      "url": "https://shopee.com.br/product/458164684/23597155713",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 11498909808",
+      "url": "https://shopee.com.br/product/242908877/11498909808",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 22694433613",
+      "url": "https://shopee.com.br/product/1593878986/22694433613",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 23394276680",
+      "url": "https://shopee.com.br/product/1429781525/23394276680",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 22896964236",
+      "url": "https://shopee.com.br/product/1002708375/22896964236",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Produto Shopee 58200739562",
+      "url": "https://shopee.com.br/product/1101253255/58200739562",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Instrumentais — Dental Verão",
+      "url": "https://dentalverao.com.br/instrumentais",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=dentalverao.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Dental Verão · página de categoria"
+    },
+    {
+      "title": "Kit Odontopediatria - Fava — Dental Verão",
+      "url": "https://dentalverao.com.br/produtos/kit-odontopediatria-fava/",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=dentalverao.com.br&sz=64",
+      "available": true,
+      "price": "R$ 127,90",
+      "price_value": 127.9,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Dental Verão"
+    },
+    {
+      "title": "Produto AliExpress 1005006718613798",
+      "url": "https://pt.aliexpress.com/item/1005006718613798.html",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "AliExpress",
+      "icon": "https://www.google.com/s2/favicons?domain=pt.aliexpress.com&sz=64",
+      "available": true,
+      "price": "",
+      "source": "aliexpress",
+      "note": "Abas do iPhone 2026-10-05 · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "GRAN DORO",
+      "url": "https://www.grandoro.com.br/",
+      "section": "compras",
+      "category": "compras-outros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.grandoro.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Gran Doro"
     },
     {
       "title": "Top Ofertas do Promobit",
@@ -12448,6 +12795,17 @@
       "price_value": 44.49
     },
     {
+      "title": "Jada Godzilla x Kong: The New Empire Heat-Ray Breath Godzilla RC",
+      "url": "https://www.target.com/p/jada-godzilla-x-kong-the-new-empire-heat-ray-breath-godzilla-rc/-/A-89101757",
+      "section": "compras",
+      "category": "compras-robotica",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.target.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Target"
+    },
+    {
       "title": "Chave Geral Bateria 12/24v Corta Corrente De Moto E Carro",
       "title_full": "Chave Geral Bateria 12/24v Corta Corrente De Moto E Carro Fixa",
       "url": "https://www.mercadolivre.com.br/chave-geral-bateria-1224v-corta-corrente-de-moto-e-carro/up/MLBU4963296261",
@@ -15647,6 +16005,17 @@
       "note": "Indisponível"
     },
     {
+      "title": "Estante prateleira — Fast Módulos",
+      "url": "https://www.fastmodulos.com.br/produto/estante-prateleira/",
+      "section": "compras",
+      "category": "compras-organizacao",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.fastmodulos.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Fast Módulos · página não encontrada no momento"
+    },
+    {
       "title": "Kit Espátula Aço Inox Massa Corrida Raspar Parede Tinta Hoda",
       "title_full": "Kit Espátula Aço Inox Massa Corrida Raspar Parede Tinta Hoda",
       "url": "https://www.mercadolivre.com.br/p/MLB35895674",
@@ -17428,6 +17797,39 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
+      "title": "Nosso Céu",
+      "url": "https://www.nossoceu.com.br/",
+      "section": "compras",
+      "category": "compras-servicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.nossoceu.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Nosso Céu · site bloqueou a leitura"
+    },
+    {
+      "title": "SpikeToSpike (app)",
+      "url": "https://spiketospike.com/",
+      "section": "compras",
+      "category": "compras-servicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=spiketospike.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Kit Anti-Apagão — Descarbonize Soluções",
+      "url": "https://www.descarbonizesolucoes.com.br/solucoes/seu-apartamento",
+      "section": "compras",
+      "category": "compras-servicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.descarbonizesolucoes.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Descarbonize · página diz \"a partir de R$ 23.400\""
+    },
+    {
       "title": "ZimaBoard 2 1664 x86 Home Server, N150",
       "title_full": "ZimaBoard 2 1664 x86 Home Server, N150, 16GB LPDDR5,PCIe 3.0×4 Expansion | Dual 2.5GbE & Dual SATA3.0, Low-Power 24/7,All-in-One NAS/Router/Docker/Home Lab with ZimaOS",
       "url": "https://www.amazon.com/dp/B0FYPBZQ3Z",
@@ -18122,25 +18524,51 @@
       "price_value": 280.5
     },
     {
-      "title": "Plano de Saúde Pet — Petlove (transparência)",
-      "url": "https://saude.petlove.com.br/transparencia",
+      "title": "Gadsell: busca \"cat toys\"",
+      "url": "https://gadsell.com/search?q=cat+toys",
       "section": "compras",
       "category": "compras-pet",
       "store": "Outros",
-      "icon": "https://www.google.com/s2/favicons?domain=saude.petlove.com.br&sz=64",
+      "icon": "https://www.google.com/s2/favicons?domain=gadsell.com&sz=64",
       "available": true,
       "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Gadsell · loja indisponível no momento"
+    },
+    {
+      "title": "Filhotes do Vale — filhotes disponíveis",
+      "url": "https://filhotesdovale.com.br/filhotes-disponiveis/",
+      "section": "compras",
+      "category": "compras-pet",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=filhotesdovale.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Filhotes do Vale"
+    },
+    {
+      "title": "Caixa sanitária SuzziPaws em aço inoxidável XL",
+      "url": "https://www.mercadolivre.com.br/caixa-sanitaria-suzzipaws-em-aco-inoxidavel-xl-peneirando-co/p/MLB2007365344",
+      "section": "compras",
+      "category": "compras-pet",
+      "store": "Mercado Livre",
+      "icon": "https://www.google.com/s2/favicons?domain=www.mercadolivre.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "mercadolivre",
+      "note": "Abas do iPhone 2026-10-05 · preço não legível publicamente"
+    },
+    {
+      "title": "Plano de Saúde Pet — Petlove (transparência)",
+      "url": "https://saude.petlove.com.br/transparencia",
+      "section": "favoritos",
+      "category": "pet-fav",
       "note": "Abas do iPhone 2026-10-05"
     },
     {
       "title": "Apaixonados Saúde Pet",
       "url": "https://apaixonadossaudepet.com.br/",
-      "section": "compras",
-      "category": "compras-pet",
-      "store": "Outros",
-      "icon": "https://www.google.com/s2/favicons?domain=apaixonadossaudepet.com.br&sz=64",
-      "available": true,
-      "price": "",
+      "section": "favoritos",
+      "category": "pet-fav",
       "note": "Abas do iPhone 2026-10-05"
     },
     {
@@ -18787,6 +19215,17 @@
       "note": "não entrega no Brasil / ver nos EUA"
     },
     {
+      "title": "Flare Audio Immerse — melhora o som de fones baratos",
+      "url": "https://www.flareaudio.com/products/immerse",
+      "section": "compras",
+      "category": "compras-audio-video",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.flareaudio.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Flare Audio · US$ 14,95–24,95 conforme opção"
+    },
+    {
       "title": "Parker Black Lacquer with Golden Trim",
       "title_full": "Parker Black Lacquer with Golden Trim, Ballpoint Pen with Medium Black refill (S0808730)",
       "url": "https://www.amazon.com/dp/B001G6T3AK",
@@ -18831,6 +19270,107 @@
       "note": "Abas do iPhone 2026-10-05 · loja (página inicial)"
     },
     {
+      "title": "Anel de noivado ouro amarelo e diamante natural de 10 pontos — solitário Forever",
+      "url": "https://www.stelladiamonds.com.br/produto/anel-de-noivado-ouro-amarelo-e-diamante-de-10-pontos-anel-solitario-forever-01a-10/",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.stelladiamonds.com.br&sz=64",
+      "available": true,
+      "price": "R$ 6.120,00",
+      "price_value": 6120.0,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Stella Diamonds"
+    },
+    {
+      "title": "Oversized / Street Style – Indntindex",
+      "url": "https://www.indntindex.com/collections/street-style",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.indntindex.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Indntindex"
+    },
+    {
+      "title": "FansPlace — loja de fã para fã",
+      "url": "https://www.fansplace.com.br/",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.fansplace.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: FansPlace"
+    },
+    {
+      "title": "Camisetas algodão pretas — Beclot",
+      "url": "https://www.beclot.com.br/camisetas-algodao-pretas1/",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.beclot.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Beclot · loja indisponível no momento"
+    },
+    {
+      "title": "Bottoms – Iron Heart",
+      "url": "https://ironheart.co.uk/collections/bottoms",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=ironheart.co.uk&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Iron Heart (UK)"
+    },
+    {
+      "title": "Camisa Seleção do Japão 24/25 especial Luffy Gear 5 (One Piece) — Adidas",
+      "url": "https://www.esmantos.com.br/produtos/camisa-selecao-do-japao-24-25-especial-luffy-gear-5-anime-one-piece-torcedor-adidas-masculina-branca/",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.esmantos.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: ES Mantos · página não encontrada (404) no momento"
+    },
+    {
+      "title": "Camiseta Kamen Rider 01 — Carpe Diem",
+      "url": "https://www.usecarpediem.com.br/carpediem/product/kamen-rider-01",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.usecarpediem.com.br&sz=64",
+      "available": true,
+      "price": "R$ 89,90",
+      "price_value": 89.9,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Carpe Diem"
+    },
+    {
+      "title": "Boné Sorvetes & Cigarros — Escória Comix",
+      "url": "https://www.escoriacomix.com.br/pd-8ead48-bone-sorvetes-cigarros.html",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.escoriacomix.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Escória Comix"
+    },
+    {
+      "title": "Tênis Barefoot Junoo",
+      "url": "https://junoo.com.br/produtos/",
+      "section": "compras",
+      "category": "compras-roupas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=junoo.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Junoo"
+    },
+    {
       "title": "Máquina Pintura Elétrica Airless 1300w 3300psi",
       "title_full": "Máquina Pintura Elétrica Airless 1300w 3300psi",
       "url": "https://shopee.com.br/product/1754100018/23999769472",
@@ -18870,6 +19410,164 @@
       "available": true,
       "price": "",
       "note": "Abas do iPhone 2026-10-05 · página com vários kits"
+    },
+    {
+      "title": "OPUS X — Lenat Tabacaria (charutos)",
+      "url": "https://cardapioseguro.com.br/lenat/charutos-offcuba/opus-x/",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=cardapioseguro.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Lenat Tabacaria"
+    },
+    {
+      "title": "The Macallan Fine Oak 30 anos — Wine-Searcher (Brasil)",
+      "url": "https://www.wine-searcher.com/find/the+macallan+fine+oak+thirty+old+single+malt+scotch+whisky+speyside+highlands+scotland/1/brazil",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.wine-searcher.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Wine-Searcher"
+    },
+    {
+      "title": "Cachaça Sete Cancelas — Araraúna Cachaçaria",
+      "url": "https://www.araraunacachacaria.com.br/nossas-cachacas/cachaca-sete-cancelas",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.araraunacachacaria.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Araraúna Cachaçaria"
+    },
+    {
+      "title": "Farinha de trigo orgânica branca 500 g — Ecobio",
+      "url": "https://www.raiznativa.com.br/farinha-de-trigo-organica-branca-500g-ecobio",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.raiznativa.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Raiz Nativa"
+    },
+    {
+      "title": "Puro da Roça (catálogo Kyte)",
+      "url": "https://purodaroca.catalog.kyte.site/",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=purodaroca.catalog.kyte.site&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Puro da Roça"
+    },
+    {
+      "title": "Puro da Roça SJC (Instagram)",
+      "url": "https://www.instagram.com/purodaroca_sjc/",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.instagram.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Puro da Roça · perfil da loja"
+    },
+    {
+      "title": "Cacau Show: busca \"Garfield\"",
+      "url": "https://www.cacaushow.com.br/busca?q=Garfield",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.cacaushow.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Cacau Show"
+    },
+    {
+      "title": "Creatina Gummy sabor Uva Verde - 60 gomas — Desincha",
+      "url": "https://www.desincha.com.br/products/super-gummy-creatina-uva-verde",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.desincha.com.br&sz=64",
+      "available": true,
+      "price": "R$ 119,90",
+      "price_value": 119.9,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Desincha"
+    },
+    {
+      "title": "Chá infusão Rooibos Red Citrus Moncloa pouch 45 g",
+      "url": "https://www.moncloa.com.br/cha-infusao-rooibos-red-citrus-moncloa-pouch-45g-70949",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.moncloa.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Moncloa · página não encontrada (404) no momento"
+    },
+    {
+      "title": "B12 + Vinagre de Maçã — Guday",
+      "url": "https://guday.com.br/products/vinagre-de-maca",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=guday.com.br&sz=64",
+      "available": true,
+      "price": "R$ 99,90",
+      "price_value": 99.9,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Guday"
+    },
+    {
+      "title": "Unique Cafés — cafés especiais",
+      "url": "https://uniquecafes.com.br/",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=uniquecafes.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Unique Cafés"
+    },
+    {
+      "title": "Nature's Path Organic Heritage Flakes cereal, 375 g",
+      "url": "https://br.iherb.com/pr/nature-s-path-organic-heritage-flakes-cereal-13-25-oz-375-g/41173",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=br.iherb.com&sz=64",
+      "available": true,
+      "price": "R$ 52,79",
+      "price_value": 52.79,
+      "note": "Abas do iPhone 2026-10-05 · Loja: iHerb"
+    },
+    {
+      "title": "Palha Italiana Mista Zero Açúcar — caixa 12 unidades — Germano's",
+      "url": "https://www.germanospalhasitalianas.com.br/produtos/palha-italiana-mista-display-com-12-unidades-de-30g-cada/",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.germanospalhasitalianas.com.br&sz=64",
+      "available": true,
+      "price": "R$ 98,90",
+      "price_value": 98.9,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Germano's Palhas Italianas"
+    },
+    {
+      "title": "Fazenda Jotacê — café especial e doces de Minas",
+      "url": "https://www.fazendajotace.com.br/",
+      "section": "compras",
+      "category": "compras-alimentos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.fazendajotace.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Fazenda Jotacê"
     },
     {
       "title": "Bicicleta Aro 29 GT Sprint MX7 24V Freio Disco (Preto+rosa, 19)",
@@ -18949,6 +19647,88 @@
       "price_value": 179.43,
       "source": "amazon",
       "note": "Abas do iPhone 2026-10-05 · Série Kindle completa (8 livros)"
+    },
+    {
+      "title": "Primavera Brasileira (eBook Kindle) — Ari Fusevick",
+      "url": "https://www.amazon.com.br/dp/B0C6Z2GNRP",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Amazon",
+      "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com.br&sz=64",
+      "available": true,
+      "price": "R$ 15,19",
+      "price_value": 15.19,
+      "source": "amazon",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "História do Brasil — Padre Raphael Galanti (6 tomos, capa dura)",
+      "url": "https://loja.centrodombosco.org/historia-do-brasil-6-tomos-capa-dura-padre-raphael-galanti",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=loja.centrodombosco.org&sz=64",
+      "available": true,
+      "price": "R$ 474,43",
+      "price_value": 474.43,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Centro Dom Bosco"
+    },
+    {
+      "title": "Telescópios Celestron — Celestron Brasil",
+      "url": "https://www.celestron.com.br/telescopio-celestron",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.celestron.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Celestron Brasil · página não encontrada (404) no momento"
+    },
+    {
+      "title": "Bitcoin Red Pill — Livraria do Roberto Motta",
+      "url": "https://www.livrariadorobertomotta.com.br/bitcoin-red-pill",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.livrariadorobertomotta.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Livraria do Roberto Motta"
+    },
+    {
+      "title": "Cards of History",
+      "url": "https://cardsofhistory.com/",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=cardsofhistory.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Cards of History"
+    },
+    {
+      "title": "Programação de Computadores (Interpretador Blassic) — José Augusto N. G. Manzano",
+      "url": "https://www.bellosebo.com/pagina-de-produto/programa%C3%A7%C3%A3o-de-computadores-interpretador-blassic-jos%C3%A9-augusto-n-g-manzano",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.bellosebo.com&sz=64",
+      "available": true,
+      "price": "R$ 8,00",
+      "price_value": 8.0,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Bello Sebo"
+    },
+    {
+      "title": "História da Literatura Ocidental — Livraria do Senado",
+      "url": "https://livraria.senado.leg.br/product/historia-da-literatura-ocidental/",
+      "section": "compras",
+      "category": "compras-livros",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=livraria.senado.leg.br&sz=64",
+      "available": true,
+      "price": "R$ 120,00",
+      "price_value": 120.0,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Livraria do Senado"
     },
     {
       "title": "Suporte Shampoo de Canto Aço Inox Preto",
@@ -19125,6 +19905,28 @@
       "note": "Abas do iPhone 2026-10-05 · Loja Nilko"
     },
     {
+      "title": "Tactical Master Walking Cane — The Cane Masters",
+      "url": "https://www.canemasters.com/products/tactical-master-walking-cane",
+      "section": "compras",
+      "category": "compras-camping",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.canemasters.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: The Cane Masters · US$ 355–595 conforme opções"
+    },
+    {
+      "title": "GS236 Semi-auto G5 CNC aluminum professional slingshot — GelShadow",
+      "url": "https://gelshadow.com/products/semi-auto-high-precision-aluminum-alloy-professional-slingshot-catapult",
+      "section": "compras",
+      "category": "compras-camping",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=gelshadow.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: GelShadow · US$ 94,95–114,95 conforme opção"
+    },
+    {
       "title": "Bolsa Pasta Executiva Notebook Couro Legítimo",
       "title_full": "Bolsa Pasta Executiva Notebook Couro Legítimo",
       "url": "https://shopee.com.br/product/340976883/6663658958",
@@ -19138,6 +19940,28 @@
       "price": "R$ 449,90",
       "price_value": 449.9,
       "qty": 1
+    },
+    {
+      "title": "Roma Facas (catálogo Kyte)",
+      "url": "https://romafacas.kyte.site/",
+      "section": "compras",
+      "category": "compras-couro-facas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=romafacas.kyte.site&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Roma Facas · catálogo não encontrado no momento"
+    },
+    {
+      "title": "Cutelo 7\" Black aço inox — Forja Bruta",
+      "url": "https://www.forjabruta.com.br/cutelo-7-black-aco-inox/p",
+      "section": "compras",
+      "category": "compras-couro-facas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.forjabruta.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Forja Bruta · loja protegida por senha no momento"
     },
     {
       "title": "Kit Barba Shampoo + Bálsamo + Óleo Red Nek",
@@ -19667,6 +20491,51 @@
       "qty": 1
     },
     {
+      "title": "Creality K1C — impressora 3D (Slim3D)",
+      "url": "https://www.slim3d.com.br/equipamentos/impressoras-3d-filamento-fdm/creality/creality-k1c",
+      "section": "compras",
+      "category": "compras-impressao-3d",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.slim3d.com.br&sz=64",
+      "available": true,
+      "price": "R$ 3.633,08",
+      "price_value": 3633.08,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Slim3D"
+    },
+    {
+      "title": "Zapach — impressoras 3D e filamentos",
+      "url": "https://www.zapach.com.br/",
+      "section": "compras",
+      "category": "compras-impressao-3d",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.zapach.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Zapach"
+    },
+    {
+      "title": "Filamento PLA Basic Bambu Lab — Artbox 3D",
+      "url": "https://www.artbox3d.com.br/filamentos/bambu-lab1/pla/pla-basic/",
+      "section": "compras",
+      "category": "compras-impressao-3d",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.artbox3d.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Artbox 3D · página de categoria"
+    },
+    {
+      "title": "Filamentos PLA Dynalabs — Fozit",
+      "url": "https://loja.fozit.com.br/filamentos/pla-dynalabs/",
+      "section": "compras",
+      "category": "compras-impressao-3d",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=loja.fozit.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Fozit"
+    },
+    {
       "title": "Gabarito Medidor de Rosca Aço Inox",
       "title_full": "Gabarito Medidor de Rosca Aço Inox",
       "url": "https://shopee.com.br/product/1665986820/22594846782",
@@ -19741,6 +20610,50 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
+      "title": "Braço de telefone articulado giro 360° para carro",
+      "url": "https://www.unpo.com.br/produtos/braco-de-telefone-articulado-giro-360-para-carro-frete-gratis/",
+      "section": "compras",
+      "category": "compras-carro",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.unpo.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Unpo · site fora do ar no momento"
+    },
+    {
+      "title": "Sun Free + — Impact Películas",
+      "url": "https://www.impactpeliculas.com.br/produtos/sun-free/",
+      "section": "compras",
+      "category": "compras-carro",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.impactpeliculas.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Impact Películas"
+    },
+    {
+      "title": "Modelos — ECO WM scooters elétricas (SJC)",
+      "url": "https://ecowm.com.br/modelos/",
+      "section": "compras",
+      "category": "compras-carro",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=ecowm.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: ECO WM"
+    },
+    {
+      "title": "Pro Tork — motopeças",
+      "url": "https://www.protork.com.br/",
+      "section": "compras",
+      "category": "compras-carro",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.protork.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Pro Tork"
+    },
+    {
       "title": "Aquecedor de Caneca USB",
       "title_full": "Aquecedor de Caneca USB",
       "url": "https://shopee.com.br/product/437617153/23493412638",
@@ -19795,6 +20708,106 @@
       "price": "",
       "source": "shopee",
       "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Togo Power — estações de energia portáteis",
+      "url": "https://www.togopower.com.br/",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.togopower.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Togo Power · site fora do ar no momento"
+    },
+    {
+      "title": "Nobreak SMS Gamer 2000VA senoidal 8 tomadas Wi-Fi bivolt",
+      "url": "https://www.magazineluiza.com.br/nobreak-sms-gamer-2000va-senoidal-8-tomadas-wifi-entrada-e-saida-bivolt-29601/p/hhh2k5ehe1/in/nbak/",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.magazineluiza.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Magazine Luiza · preço não legível publicamente"
+    },
+    {
+      "title": "Cellshop",
+      "url": "https://www.cellshop.com/",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.cellshop.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Cellshop"
+    },
+    {
+      "title": "AIR STATION (POD 01) — EXOD",
+      "url": "https://exod.store/pod-01",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=exod.store&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: EXOD"
+    },
+    {
+      "title": "Amazon: busca \"case apple watch 6 44mm\"",
+      "url": "https://www.amazon.com.br/s?k=case+apple+watch+6+44mm",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Amazon",
+      "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Módulo de baterias externo p/ Nobreak Force Line 0022300001 6kVA",
+      "url": "https://www.mservice.com.br/modulo-de-baterias-externo-p--nobreak-force-line-0022300001-6kva/p",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.mservice.com.br&sz=64",
+      "available": true,
+      "price": "R$ 3.599,00",
+      "price_value": 3599.0,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Mservice"
+    },
+    {
+      "title": "Satechi — acessórios para Apple e PC",
+      "url": "https://satechi.net/",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=satechi.net&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Satechi"
+    },
+    {
+      "title": "Loja do Fuga pras Colinas — tecnologia rural",
+      "url": "https://loja.fugaprascolinas.com.br/",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=loja.fugaprascolinas.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Fuga pras Colinas"
+    },
+    {
+      "title": "Skylight Calendar — calendário digital",
+      "url": "https://myskylight.com/products/skylight-calendar/",
+      "section": "compras",
+      "category": "compras-eletronicos",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=myskylight.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Skylight · US$ 299,99 (Calendar 2 com Plus Plan)"
     },
     {
       "title": "Jogo 25 Brocas de Aço Rápido",
@@ -19920,6 +20933,175 @@
       "note": "Abas do iPhone 2026-10-05 · Pelando"
     },
     {
+      "title": "Cadeira Gamer AKRacing Arctica Branca/Preto/Vermelho (10632-2)",
+      "url": "https://www.pichau.com.br/cadeira-gamer-akracing-arctica-branca-preto-vermelho-10632-2",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.pichau.com.br&sz=64",
+      "available": true,
+      "price": "R$ 2.420,34",
+      "price_value": 2420.34,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Pichau · R$ 2.057,29 no Pix"
+    },
+    {
+      "title": "Extratora de Sujeira Britânia BEX2000V 3 em 1 1200W (127V)",
+      "url": "https://www.britania.com.br/extratora-bex2000v-127v-064701022/p",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.britania.com.br&sz=64",
+      "available": true,
+      "price": "R$ 1.199,90",
+      "price_value": 1199.9,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Britânia"
+    },
+    {
+      "title": "Yifan Zhang — obras e pinturas (coleções)",
+      "url": "https://yifanzhang.fans/collections",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=yifanzhang.fans&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Yifan Zhang Art"
+    },
+    {
+      "title": "Golden Design — produto",
+      "url": "https://www.goldendesign.com.br/product/bde0810e-8129-485c-ac48-2b27a651add2/",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.goldendesign.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Golden Design · título não legível"
+    },
+    {
+      "title": "Quadro A Grande Onda — Loja do Bert",
+      "url": "https://www.lojadobert.com.br/produtos/quadro-grande-onda/",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.lojadobert.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Loja do Bert · página não encontrada (404) no momento"
+    },
+    {
+      "title": "Art by India Jade — Scottish landscape & portrait artist",
+      "url": "https://www.artbyindiajade.com/",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.artbyindiajade.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Art by India Jade"
+    },
+    {
+      "title": "Aspirador robô Uwant U300 branco — Batna24",
+      "url": "https://www.batna24.com/pt/p/uwant-u300-branco-aspirador-robo-rmmgn",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.batna24.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Batna24 · página não encontrada (404) no momento"
+    },
+    {
+      "title": "Caçarolas & Frigideiras — Ceraflame",
+      "url": "https://www.panelasdeceramica.com.br/categoria-produto/cacarolas-frigideiras/",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.panelasdeceramica.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Ceraflame"
+    },
+    {
+      "title": "Uranium glass (eBay 146410568549)",
+      "url": "https://www.ebay.com/itm/146410568549",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.ebay.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: eBay · título/preço não legíveis publicamente"
+    },
+    {
+      "title": "Cinzeiro McDonald's (eBay 306124653611)",
+      "url": "https://www.ebay.com/itm/306124653611",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.ebay.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: eBay · preço não legível publicamente"
+    },
+    {
+      "title": "Pote de vidro marmita com 2 divisórias hermético 630 ml — Praticasa",
+      "url": "https://www.magazineluiza.com.br/pote-de-vidro-marmita-com-2-divisorias-hermetico-630ml-praticasa/p/gh0052eeb5/ud/poud/",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.magazineluiza.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Magazine Luiza · preço não legível publicamente"
+    },
+    {
+      "title": "eBay: Murano uranium glass",
+      "url": "https://www.ebay.com/shop/murano-uranium-glass?_nkw=murano+uranium+glass",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.ebay.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: eBay"
+    },
+    {
+      "title": "Lixeira Automática 17L NEWBIN U01 com sensor",
+      "url": "https://shopee.com.br/product/1297663306/22193143506",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Shopee",
+      "icon": "https://www.google.com/s2/favicons?domain=shopee.com.br&sz=64",
+      "available": true,
+      "price": "",
+      "source": "shopee",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Onda do Café — quadro 35x35 cm — Nohara Wood",
+      "url": "https://www.noharawood.com.br/produtos/onda-do-cafe/",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.noharawood.com.br&sz=64",
+      "available": true,
+      "price": "R$ 450,00",
+      "price_value": 450.0,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Nohara Wood"
+    },
+    {
+      "title": "Closeup de flor — prato Lippmann 6x6 cm (Etsy)",
+      "url": "https://www.etsy.com/pt/listing/4331672071",
+      "section": "compras",
+      "category": "compras-casa",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.etsy.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Etsy · preço não legível publicamente"
+    },
+    {
       "title": "Kit 100 Porcas Autotravantes Métricas",
       "title_full": "Kit 100 Porcas Autotravantes Métricas",
       "url": "https://shopee.com.br/product/684206590/22291956348",
@@ -19968,6 +21150,66 @@
       "note": "Inativo"
     },
     {
+      "title": "Kit torquímetro ZEISS 5–60 Nm (626109-9012-000)",
+      "url": "https://shop.metrology.zeiss.com/torque-wrench-kit-5-60nm-zid626109-9012-000",
+      "section": "compras",
+      "category": "compras-ferramentas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=shop.metrology.zeiss.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: ZEISS Metrology Shop · preço não legível publicamente"
+    },
+    {
+      "title": "Torquímetro Tohnichi CSP6D",
+      "url": "https://en.global-tohnichi.com/products/detail/298",
+      "section": "compras",
+      "category": "compras-ferramentas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=en.global-tohnichi.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Tohnichi (catálogo)"
+    },
+    {
+      "title": "HUBER+SUHNER — ferramenta 5561",
+      "url": "https://www.hubersuhner.com/en/shop/products/tools-accessories/tools/5561",
+      "section": "compras",
+      "category": "compras-ferramentas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.hubersuhner.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: HUBER+SUHNER"
+    },
+    {
+      "title": "WTTTOOLS máquina de solda a laser 1200 W 2 em 1 com alimentador de arame",
+      "url": "https://www.amazon.com/dp/B0D839HYR5",
+      "section": "compras",
+      "category": "compras-ferramentas",
+      "store": "Amazon EUA",
+      "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com&sz=64",
+      "available": true,
+      "price": "US$ 5,399.00",
+      "source": "amazon_us",
+      "title_full": "WTTTOOLS US Stock Laser Welding Machine 1200 W (0.39mW) 2-in-1 Air Cooled Laser Welder 220V Handheld Portable Fiber Welder Gun Class 1 with Auto Wire Feeder for Metal Stainless Steel Aluminum Copper",
+      "currency": "USD",
+      "price_usd": 5399.0,
+      "price_value": 29694.5,
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "DAP 7079875401 Acoustical Sealant, Dark Gray, 850 mL",
+      "url": "https://store.clatskaniebuildersupply.com/product-p/9039124.htm",
+      "section": "compras",
+      "category": "compras-ferramentas",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=store.clatskaniebuildersupply.com&sz=64",
+      "available": true,
+      "price": "",
+      "note": "Abas do iPhone 2026-10-05 · Loja: Clatskanie Builder Supply"
+    },
+    {
       "title": "Microscópio de Mão 60-120x",
       "title_full": "Microscópio de Mão 60-120x",
       "url": "https://shopee.com.br/product/352674932/18797204279",
@@ -19998,6 +21240,18 @@
       "price_value": 69.0,
       "qty": 1,
       "note": "Inativo"
+    },
+    {
+      "title": "Microscópio Nikon Eclipse Ei — Netlab",
+      "url": "https://www.lojanetlab.com.br/produto/microscopio-nikon-eclipse-ei-186105",
+      "section": "compras",
+      "category": "compras-eletronica",
+      "store": "Outros",
+      "icon": "https://www.google.com/s2/favicons?domain=www.lojanetlab.com.br&sz=64",
+      "available": true,
+      "price": "R$ 20.171,25",
+      "price_value": 20171.25,
+      "note": "Abas do iPhone 2026-10-05 · Loja: Netlab"
     },
     {
       "title": "Mural",
@@ -20197,6 +21451,146 @@
     {
       "title": "Stormer trader",
       "url": "https://www.google.com/search?q=stormer+trader",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Wicked Cushions (preço)",
+      "url": "https://www.google.com/search?q=wicked+cushions+pre%C3%A7o",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Peso da cadeira AKRacing Arctica",
+      "url": "https://www.google.com/search?q=peso+AKRACING+ARCTICA",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Momento Importação e Exportação",
+      "url": "https://www.google.com/search?q=momento+importa%C3%A7%C3%A3o+e+exporta%C3%A7%C3%A3o+com",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "8BitDo",
+      "url": "https://www.google.com/search?q=8bitdo",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Livro \"Open Circuits\"",
+      "url": "https://www.google.com/search?q=open+circuits+book",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Limão caviar",
+      "url": "https://www.google.com/search?q=lim%C3%A3o+caviar",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Headset Astro A50",
+      "url": "https://www.google.com/search?q=astro+A50",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Torquímetro para cabo coaxial",
+      "url": "https://www.google.com/search?q=torque+wrench+for+coaxial+cable",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Torquímetro para conector",
+      "url": "https://www.google.com/search?q=torqu%C3%ADmetro+conector",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Edredom Carambella",
+      "url": "https://www.google.com/search?q=edredom+carambella",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Livro \"Desenhos ocultos\"",
+      "url": "https://www.google.com/search?q=livro+desenhos+ocultos",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Vita Sol SJC — pão de centeio",
+      "url": "https://www.google.com/search?q=vita+sol+sjc+p%C3%A3o+centeio",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Spathiphyllum (lírio-da-paz)",
+      "url": "https://www.google.com/search?q=Spathiphyllum",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Manta antirruído",
+      "url": "https://www.google.com/search?q=manta+anti+ruido",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Fone QCY HT08 Pro",
+      "url": "https://www.google.com/search?q=qcy+ht08+pro",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "L'Acqua di Fiori Malìa",
+      "url": "https://www.google.com/search?q=lacqua+di+fiori+malia",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Wild Turkey American Honey",
+      "url": "https://www.google.com/search?q=American+Honey+Wild+Turkey",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Telescópio Celestron NexStar 8SE",
+      "url": "https://www.google.com/search?q=celestron+nexstar+8se",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Livro \"Biological Physics\"",
+      "url": "https://www.google.com/search?q=biological+physics+book",
+      "section": "favoritos",
+      "category": "pesquisas-pendentes",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Aquecedor a óleo",
+      "url": "https://www.google.com/search?q=aquecedor+a+oleo",
       "section": "favoritos",
       "category": "pesquisas-pendentes",
       "note": "Abas do iPhone 2026-10-05"
@@ -21499,6 +22893,13 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
+      "title": "Curso de termografia — Infrared Training Center",
+      "url": "https://www.infraredtraining.com/pt-br/coursepage/?sku=033125C1TBRLA",
+      "section": "favoritos",
+      "category": "cursos",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
       "title": "PSA: dica para quem tem AirPods com volume reduzido (r/apple)",
       "url": "https://www.reddit.com/r/apple/comments/dz9hb9/psa_tip_for_those_experiencing_diminished_airpods/",
       "section": "favoritos",
@@ -21604,8 +23005,8 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "Lista do IMDb (ls560452969)",
-      "url": "https://www.imdb.com/list/ls560452969/",
+      "title": "Lista do IMDb (ls560452969) — séries, nota 4–10, desde 2012",
+      "url": "https://www.imdb.com/list/ls560452969/?sort=user_rating%2Cdesc&title_type=tv_series&user_rating=4%2C10&year=2012%2C",
       "section": "favoritos",
       "category": "filmes-series",
       "note": "Abas do iPhone 2026-10-05"
@@ -21641,6 +23042,20 @@
     {
       "title": "A paixão segundo Mateus (Pasolini)",
       "url": "https://www.google.com/search?q=a+paix%C3%A3o+segundo+mateus+pasolini",
+      "section": "favoritos",
+      "category": "filmes-series",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Update: Asian Drama addon for streaming (r/StremioAddons)",
+      "url": "https://www.reddit.com/r/StremioAddons/comments/1f8rp5s/update_asian_drama_addon_for_streaming_from/",
+      "section": "favoritos",
+      "category": "filmes-series",
+      "note": "Abas do iPhone 2026-10-05"
+    },
+    {
+      "title": "Where can I watch Pariah Nexus? (r/40kLore)",
+      "url": "https://www.reddit.com/r/40kLore/comments/16ykkqj/where_can_i_watch_pariah_nexus/",
       "section": "favoritos",
       "category": "filmes-series",
       "note": "Abas do iPhone 2026-10-05"
