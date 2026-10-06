@@ -24584,6 +24584,14 @@
       "section": "compras",
       "category": "compras-audio-video",
       "store": "Mercado Livre"
+    },
+    {
+      "title": "FlyPro (drones)",
+      "url": "https://www.flypro.com.br/",
+      "section": "compras",
+      "category": "compras-eletronica",
+      "store": "Outros",
+      "note": "Loja de drones e acessórios"
     }
   ]
 }
