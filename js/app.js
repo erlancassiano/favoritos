@@ -32,6 +32,7 @@
   let searchTimer = 0;
   let storeFilter = "Todas";
   let listFilter = "Todas"; // Todas | Comprar em Miami | …
+  let cheaperAltFilter = false;
   let priceSort = "none"; // none | asc | desc
 
   function loadCollapse() {
@@ -178,6 +179,11 @@
   }
 
   function itemHaystack(item) {
+    const altBits = (item.alternativas || []).flatMap((a) => [
+      a.store,
+      a.url,
+      displayAltStore(a.store),
+    ]);
     return [
       item.title,
       item.title_full,
@@ -186,6 +192,7 @@
       item.store,
       item.price,
       ...(item.tags || []),
+      ...altBits,
     ]
       .filter(Boolean)
       .join(" ")
@@ -213,6 +220,71 @@
   function matchesList(item) {
     if (listFilter === "Todas") return true;
     return itemList(item) === listFilter;
+  }
+
+  function displayAltStore(store) {
+    if (store === "Amazon US" || store === "Amazon.com") return "Amazon EUA";
+    if (store === "Amazon BR" || store === "Amazon.com.br") return "Amazon";
+    return store || "Loja";
+  }
+
+  function altPriceBrl(alt) {
+    const n = Number(alt?.price);
+    if (!Number.isFinite(n)) return null;
+    return alt.currency === "USD" ? n * USD_TO_BRL : n;
+  }
+
+  function formatAltPrice(price, currency) {
+    const n = Number(price);
+    if (!Number.isFinite(n)) return "";
+    const formatted = n.toLocaleString("pt-BR", {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    });
+    return currency === "USD" ? `US$ ${formatted}` : `R$ ${formatted}`;
+  }
+
+  function hasCheaperAlt(item) {
+    const base = priceValue(item);
+    if (base == null) return false;
+    return (item.alternativas || []).some((alt) => {
+      const brl = altPriceBrl(alt);
+      return brl != null && brl < base - 0.005;
+    });
+  }
+
+  function matchesCheaperAlt(item) {
+    if (!cheaperAltFilter) return true;
+    return hasCheaperAlt(item);
+  }
+
+  function renderAlternativas(item) {
+    const alts = item.alternativas;
+    if (!Array.isArray(alts) || !alts.length) return "";
+    const base = priceValue(item);
+    const parts = alts.map((alt) => {
+      if (!alt?.url) return "";
+      const brl = altPriceBrl(alt);
+      const cheaper = base != null && brl != null && brl < base - 0.005;
+      const storeLabel = displayAltStore(alt.store);
+      const priceLabel = formatAltPrice(alt.price, alt.currency);
+      const checked = alt.checked ? ` Conferido em ${alt.checked}.` : "";
+      const tip =
+        alt.currency === "USD"
+          ? `Preço nos EUA — sem frete nem imposto de importação.${checked}`
+          : checked.trim() || storeLabel;
+      let hint = "";
+      if (cheaper) {
+        const save = (base - brl).toLocaleString("pt-BR", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
+        });
+        hint = `<span class="card__alt-save">↓ R$ ${save} mais barato</span>`;
+      }
+      return `<a class="card__alt${cheaper ? " card__alt--cheaper" : ""}" href="${escapeHtml(alt.url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(tip)}">${escapeHtml(storeLabel)} ${escapeHtml(priceLabel)}</a>${hint}`;
+    }).filter(Boolean);
+    if (!parts.length) return "";
+    return `<div class="card__alts"><span class="card__alts-label">também em:</span> ${parts.join('<span class="card__alts-sep"> · </span>')}</div>`;
   }
 
   function listFiltersAvailable() {
@@ -318,8 +390,7 @@
           ? escapeHtml(host)
           : "";
 
-    return `
-      <a class="card${unavailable ? " card--unavailable" : ""}" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" title="${titleAttr}">
+    const body = `
         <span class="card__icon" aria-hidden="true">
           ${
             icon
@@ -331,7 +402,23 @@
           <span class="card__title">${escapeHtml(item.title)}</span>
           ${badges.length ? `<span class="card__badges">${badges.join("")}</span>` : ""}
           ${meta ? `<span class="card__meta">${meta}</span>` : ""}
-        </span>
+        </span>`;
+
+    const altsHtml = item.section === "compras" ? renderAlternativas(item) : "";
+    // Nested <a> is invalid — stack primary link + alt links when alternatives exist.
+    if (altsHtml) {
+      return `
+      <div class="card card--stack${unavailable ? " card--unavailable" : ""}${hasCheaperAlt(item) ? " card--has-cheaper" : ""}">
+        <a class="card__link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" title="${titleAttr}">
+          ${body}
+        </a>
+        ${altsHtml}
+      </div>`;
+    }
+
+    return `
+      <a class="card${unavailable ? " card--unavailable" : ""}" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" title="${titleAttr}">
+        ${body}
       </a>
     `;
   }
@@ -340,7 +427,8 @@
     return (
       priceSort !== "none" ||
       storeFilter !== "Todas" ||
-      listFilter !== "Todas"
+      listFilter !== "Todas" ||
+      cheaperAltFilter
     );
   }
 
@@ -424,6 +512,8 @@
           ? "Preço: maior → menor"
           : "Ordenar por preço";
 
+    const cheaperActive = cheaperAltFilter ? " is-active" : "";
+
     return `
       <div class="compras-toolbar">
         <div class="compras-toolbar__stores" role="group" aria-label="Filtrar por loja">
@@ -432,9 +522,14 @@
         <div class="compras-toolbar__lists" role="group" aria-label="Filtrar por lista">
           ${listChips}
         </div>
-        <button type="button" class="btn btn--ghost" id="price-sort-btn" data-price-sort title="Ordenação compara BRL e USD (USD × ${USD_TO_BRL})">
-          ${escapeHtml(sortLabel)}
-        </button>
+        <div class="compras-toolbar__extras" role="group" aria-label="Filtros extras">
+          <button type="button" class="chip chip--btn chip--cheaper${cheaperActive}" data-cheaper-alt-filter title="Itens com alternativa mais barata (USD × ${USD_TO_BRL}; EUA sem frete/imposto)">
+            Mais barato em outra loja
+          </button>
+          <button type="button" class="btn btn--ghost" id="price-sort-btn" data-price-sort title="Ordenação compara BRL e USD (USD × ${USD_TO_BRL})">
+            ${escapeHtml(sortLabel)}
+          </button>
+        </div>
       </div>
     `;
   }
@@ -465,7 +560,10 @@
       );
 
       if (section.id === "compras") {
-        sectionItems = sectionItems.filter(matchesStore).filter(matchesList);
+        sectionItems = sectionItems
+          .filter(matchesStore)
+          .filter(matchesList)
+          .filter(matchesCheaperAlt);
         sectionItems = sortItems(sectionItems);
       }
 
@@ -553,6 +651,14 @@
     const listBtn = event.target.closest("[data-list-filter]");
     if (listBtn) {
       listFilter = listBtn.getAttribute("data-list-filter") || "Todas";
+      render(searchInput?.value || "");
+      document.getElementById("compras")?.scrollIntoView({ block: "nearest" });
+      return;
+    }
+
+    const cheaperBtn = event.target.closest("[data-cheaper-alt-filter]");
+    if (cheaperBtn) {
+      cheaperAltFilter = !cheaperAltFilter;
       render(searchInput?.value || "");
       document.getElementById("compras")?.scrollIntoView({ block: "nearest" });
       return;
