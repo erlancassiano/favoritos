@@ -64,6 +64,7 @@ Link diário (array `diarios` no topo do JSON — aparece como tile grande):
 | `no_br_delivery` | não | `true` = badge “não entrega no Brasil / ver nos EUA” (Amazon EUA) |
 | `currency` | não | `BRL` / `USD` — ordenação de preço converte USD→BRL com taxa fixa **5,50** |
 | `price_usd` | não | Valor numérico em dólares (Amazon EUA) |
+| `checked` | não | Data `AAAA-MM-DD` da última conferência de preço/disponibilidade (aparece no tooltip do card) |
 | `source` | não | Origem do import (ex.: `aliexpress`, `mercadolivre`, `amazon`, `amazon_us`) |
 
 Imports de marketplace: `scripts/import_aliexpress.py`, `scripts/import_mercadolivre.py`, `scripts/import_amazon.py`, `scripts/import_amazon_us.py`, `scripts/import_shopee.py` (regras em `scripts/compras_categories.py`).

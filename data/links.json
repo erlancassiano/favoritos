@@ -6456,7 +6456,12 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "price": "US$ 172.06",
+      "price_usd": 172.06,
+      "price_value": 946.33,
+      "currency": "USD",
+      "checked": "2026-10-06"
     },
     {
       "title": "Agente para Brunir - Goma Tragacanto 100ml - Royal Shop",
@@ -6496,7 +6501,8 @@
       "section": "compras",
       "category": "compras-eletronica",
       "store": "Amazon EUA",
-      "available": true
+      "available": false,
+      "checked": "2026-10-06"
     },
     {
       "title": "Amazon.com: DEWALT Step Drill Bit, Impact Ready, 3/16-Inch-7/8-Inch (DWA1786IR) : Every…",
@@ -6513,7 +6519,12 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "price": "US$ 50.99",
+      "price_usd": 50.99,
+      "price_value": 280.44,
+      "currency": "USD",
+      "checked": "2026-10-06"
     },
     {
       "title": "Amazon.com: GEEKOM Mini IT12,Intel i7-12650H : Electronics",
@@ -6521,7 +6532,8 @@
       "section": "compras",
       "category": "compras-eletronicos",
       "store": "Amazon EUA",
-      "available": true
+      "available": false,
+      "checked": "2026-10-06"
     },
     {
       "title": "Amazon.com: monbento 3760192683371 MB Square Bento Lunch Box, 5.5x5.5x5.5, Litchi: Kitc…",
@@ -6529,7 +6541,12 @@
       "section": "compras",
       "category": "compras-casa",
       "store": "Amazon EUA",
-      "available": true
+      "available": true,
+      "price": "US$ 39.90",
+      "price_usd": 39.9,
+      "price_value": 219.45,
+      "currency": "USD",
+      "checked": "2026-10-06"
     },
     {
       "title": "Amazon.com: QNAP QSW-2104-2T-A-US 6-Port 10GbE & 2.5GbE Plug & Play unmanaged Network S…",
@@ -6545,7 +6562,12 @@
       "section": "compras",
       "category": "compras-eletronica",
       "store": "Amazon EUA",
-      "available": true
+      "available": true,
+      "price": "US$ 199.99",
+      "price_usd": 199.99,
+      "price_value": 1099.95,
+      "currency": "USD",
+      "checked": "2026-10-06"
     },
     {
       "title": "Amazon.com: Trinity College AP-1230 Anglo-Style Concertina: Gateway",
@@ -6562,7 +6584,12 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "price": "US$ 369.99",
+      "price_usd": 369.99,
+      "price_value": 2034.95,
+      "currency": "USD",
+      "checked": "2026-10-06"
     },
     {
       "title": "ARMAWATCH & ARMACHAT - long range radio messengers | Hackaday.io",
@@ -17090,9 +17117,10 @@
       "source": "amazon",
       "available": true,
       "in_cart": false,
-      "price": "R$ 168,34",
-      "price_value": 168.34,
-      "list": "Lista de desejos de Da loja Erlan"
+      "price": "R$ 159,92",
+      "price_value": 159.92,
+      "list": "Lista de desejos de Da loja Erlan",
+      "checked": "2026-10-06"
     },
     {
       "title": "KERDE 08 Assento sanitário de bidê elétrico inteligente",
@@ -17116,7 +17144,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Lava Louças Midea 16 Serviços MDWEF1633GSS1 Inox 110V",
@@ -17146,7 +17175,8 @@
       "in_cart": false,
       "price": "R$ 180,99",
       "price_value": 180.99,
-      "list": "Lista de desejos de Da loja Erlan"
+      "list": "Lista de desejos de Da loja Erlan",
+      "checked": "2026-10-06"
     },
     {
       "title": "Bulldozer de Controle Remoto 2,4 Ghz",
@@ -17159,9 +17189,10 @@
       "source": "amazon",
       "available": true,
       "in_cart": false,
-      "price": "R$ 137,53",
-      "price_value": 137.53,
-      "list": "Lista de desejos de Da loja Erlan"
+      "price": "R$ 130,65",
+      "price_value": 130.65,
+      "list": "Lista de desejos de Da loja Erlan",
+      "checked": "2026-10-06"
     },
     {
       "title": "Maleta/Bolsa Executiva CALEB em Couro",
@@ -17174,10 +17205,11 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 487,80",
-      "price_value": 487.8,
+      "price": "R$ 463,41",
+      "price_value": 463.41,
       "list": "Lista de desejos de Da loja Erlan",
-      "qty": 1
+      "qty": 1,
+      "checked": "2026-10-06"
     },
     {
       "title": "Moncloa Chá Preto Black Citrus - Pouch - 45g",
@@ -17190,9 +17222,10 @@
       "source": "amazon",
       "available": true,
       "in_cart": false,
-      "price": "R$ 64,70",
-      "price_value": 64.7,
-      "list": "Lista de desejos de Da loja Erlan"
+      "price": "R$ 61,46",
+      "price_value": 61.46,
+      "list": "Lista de desejos de Da loja Erlan",
+      "checked": "2026-10-06"
     },
     {
       "title": "Jim Beam Whisky Honey Bourbon 1L",
@@ -17205,9 +17238,10 @@
       "source": "amazon",
       "available": true,
       "in_cart": false,
-      "price": "R$ 86,59",
-      "price_value": 86.59,
-      "list": "Lista de desejos de Da loja Erlan"
+      "price": "R$ 77,90",
+      "price_value": 77.9,
+      "list": "Lista de desejos de Da loja Erlan",
+      "checked": "2026-10-06"
     },
     {
       "title": "Cálculo numérico aplicado",
@@ -17231,7 +17265,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Heinz Ketchup Zero Açúcar 530g",
@@ -17244,9 +17279,10 @@
       "source": "amazon",
       "available": true,
       "in_cart": false,
-      "price": "R$ 13,99",
-      "price_value": 13.99,
-      "list": "Lista de desejos de Da loja Erlan"
+      "price": "R$ 13,29",
+      "price_value": 13.29,
+      "list": "Lista de desejos de Da loja Erlan",
+      "checked": "2026-10-06"
     },
     {
       "title": "Autobiografia: o mundo de ontem: Memórias de um europeu",
@@ -17270,7 +17306,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Coup Segunda Edição (Inclui Expansão)",
@@ -17285,7 +17322,8 @@
       "in_cart": true,
       "price": "R$ 80,01",
       "price_value": 80.01,
-      "qty": 1
+      "qty": 1,
+      "checked": "2026-10-06"
     },
     {
       "title": "Maionese 350g Kewpie",
@@ -17300,7 +17338,8 @@
       "in_cart": true,
       "price": "R$ 52,00",
       "price_value": 52.0,
-      "qty": 1
+      "qty": 1,
+      "checked": "2026-10-06"
     },
     {
       "title": "Petisco para gatos Wanpy Creamy Sabores Sortidos Pacote",
@@ -17313,9 +17352,10 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 128,79",
-      "price_value": 128.79,
-      "qty": 1
+      "price": "R$ 122,33",
+      "price_value": 122.33,
+      "qty": 1,
+      "checked": "2026-10-06"
     },
     {
       "title": "Melatonina Sabor Morango 120 Gomas Fini Dr Good",
@@ -17328,9 +17368,10 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 93,00",
-      "price_value": 93.0,
-      "qty": 1
+      "price": "R$ 92,90",
+      "price_value": 92.9,
+      "qty": 1,
+      "checked": "2026-10-06"
     },
     {
       "title": "Artgeek Caneca Star Wars R2D2 Azul 325 ml Cilíndrica",
@@ -17345,7 +17386,8 @@
       "in_cart": true,
       "price": "R$ 19,00",
       "price_value": 19.0,
-      "qty": 1
+      "qty": 1,
+      "checked": "2026-10-06"
     },
     {
       "title": "Dynamics of Physical Systems",
@@ -17369,7 +17411,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "The Perfectionists: How Precision Engineers Created the",
@@ -17382,8 +17425,8 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 247,53",
-      "price_value": 247.53,
+      "price": "R$ 208,01",
+      "price_value": 208.01,
       "qty": 1,
       "alternativas": [
         {
@@ -17393,7 +17436,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "The Elements of Mechanical Design",
@@ -17417,7 +17461,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Caneca Café Pilha Caffeine Energy Geek Nerd Humor Meme",
@@ -17432,7 +17477,8 @@
       "in_cart": true,
       "price": "R$ 19,00",
       "price_value": 19.0,
-      "qty": 2
+      "qty": 2,
+      "checked": "2026-10-06"
     },
     {
       "title": "Happyland – Parque de Diversões do Inferno",
@@ -17445,8 +17491,8 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 53,10",
-      "price_value": 53.1,
+      "price": "R$ 26,05",
+      "price_value": 26.05,
       "qty": 1,
       "alternativas": [
         {
@@ -17456,7 +17502,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "STANLEY Kit de Ferramentas 110 Peças STMT81243 Chave",
@@ -17471,7 +17518,8 @@
       "in_cart": true,
       "price": "R$ 589,00",
       "price_value": 589.0,
-      "qty": 1
+      "qty": 1,
+      "checked": "2026-10-06"
     },
     {
       "title": "Pacote com 2 pulseiras de tornozelo/braço compatíveis",
@@ -17495,7 +17543,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "De que São Feitas as Coisas: 10 Materiais que Constroem o",
@@ -17508,8 +17557,8 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 34,31",
-      "price_value": 34.31,
+      "price": "R$ 33,37",
+      "price_value": 33.37,
       "qty": 1,
       "alternativas": [
         {
@@ -17519,7 +17568,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "O livro da astronomia",
@@ -17543,7 +17593,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "O livro da matemática",
@@ -17556,8 +17607,8 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 63,08",
-      "price_value": 63.08,
+      "price": "R$ 55,23",
+      "price_value": 55.23,
       "qty": 1,
       "alternativas": [
         {
@@ -17567,7 +17618,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Duracell Pilhas Alcalinas AAA Palito Pack 24 Unidades",
@@ -17582,7 +17634,8 @@
       "in_cart": true,
       "price": "R$ 99,64",
       "price_value": 99.64,
-      "qty": 1
+      "qty": 1,
+      "checked": "2026-10-06"
     },
     {
       "title": "Tecnologia do Vácuo, uma abordagem curiosa (Portuguese",
@@ -17606,7 +17659,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Metalurgia do pó: Produtos Sinterizados e Manufatura Aditiva",
@@ -17619,8 +17673,8 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 80,00",
-      "price_value": 80.0,
+      "price": "R$ 53,96",
+      "price_value": 53.96,
       "qty": 1,
       "alternativas": [
         {
@@ -17630,7 +17684,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Dicionário de polímeros",
@@ -17643,8 +17698,8 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 19,90",
-      "price_value": 19.9,
+      "price": "R$ 48,10",
+      "price_value": 48.1,
       "qty": 1,
       "alternativas": [
         {
@@ -17654,7 +17709,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Desenvolvimento de produtos utilizando simulação virtual",
@@ -17667,8 +17723,8 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 110,14",
-      "price_value": 110.14,
+      "price": "R$ 106,68",
+      "price_value": 106.68,
       "qty": 1,
       "alternativas": [
         {
@@ -17678,7 +17734,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "O livro do design",
@@ -17691,8 +17748,8 @@
       "source": "amazon",
       "available": true,
       "in_cart": true,
-      "price": "R$ 63,08",
-      "price_value": 63.08,
+      "price": "R$ 49,89",
+      "price_value": 49.89,
       "qty": 1,
       "alternativas": [
         {
@@ -17702,7 +17759,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Soundbar Gamer Redragon Neo RGB Preto USB Tipo-C Falantes",
@@ -17716,8 +17774,8 @@
       "available": true,
       "in_cart": false,
       "saved_for_later": true,
-      "price": "R$ 229,95",
-      "price_value": 229.95,
+      "price": "R$ 218,45",
+      "price_value": 218.45,
       "alternativas": [
         {
           "store": "Amazon US",
@@ -17726,7 +17784,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "O Eternauta - Segunda Parte (Edição definitiva)",
@@ -17740,8 +17799,8 @@
       "available": true,
       "in_cart": false,
       "saved_for_later": true,
-      "price": "R$ 83,50",
-      "price_value": 83.5,
+      "price": "R$ 87,90",
+      "price_value": 87.9,
       "alternativas": [
         {
           "store": "Amazon US",
@@ -17750,7 +17809,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Ergonomia do objeto: Sistema técnico de leitura ergonômica",
@@ -17774,7 +17834,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "CONTOS DE HORROR DA MIMI - MANGÁ CONSAGRADO DE JUNJI ITO",
@@ -17788,8 +17849,8 @@
       "available": true,
       "in_cart": false,
       "saved_for_later": true,
-      "price": "R$ 52,43",
-      "price_value": 52.43,
+      "price": "R$ 46,41",
+      "price_value": 46.41,
       "alternativas": [
         {
           "store": "Amazon US",
@@ -17798,7 +17859,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "O livro vermelho de fábulas encantadas: 2",
@@ -17822,7 +17884,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Manual de Tecnologia Automotiva",
@@ -17846,7 +17909,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Tesoura Com Guia Laser Para Corte De Tecido Corte Preciso",
@@ -17860,8 +17924,9 @@
       "available": true,
       "in_cart": false,
       "saved_for_later": true,
-      "price": "R$ 35,90",
-      "price_value": 35.9
+      "price": "R$ 39,99",
+      "price_value": 39.99,
+      "checked": "2026-10-06"
     },
     {
       "title": "Estojo Sestini 2 Compartimentos NBA Legend, Bulls Preto",
@@ -17875,8 +17940,9 @@
       "available": true,
       "in_cart": false,
       "saved_for_later": true,
-      "price": "R$ 67,80",
-      "price_value": 67.8
+      "price": "R$ 56,90",
+      "price_value": 56.9,
+      "checked": "2026-10-06"
     },
     {
       "title": "Caixa de Pilha AA com 40 unidades Elgin Palito - Tubo, Zinco",
@@ -17891,7 +17957,8 @@
       "in_cart": false,
       "saved_for_later": true,
       "price": "R$ 28,51",
-      "price_value": 28.51
+      "price_value": 28.51,
+      "checked": "2026-10-06"
     },
     {
       "title": "Kit 3 Livros Caixa Fake Porta Objetos Caixa Organizadora",
@@ -17902,10 +17969,13 @@
       "store": "Amazon",
       "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com.br&sz=64",
       "source": "amazon",
-      "available": false,
+      "available": true,
       "in_cart": false,
       "saved_for_later": true,
-      "note": "Indisponível"
+      "note": "Indisponível",
+      "price": "R$ 56,97",
+      "price_value": 56.97,
+      "checked": "2026-10-06"
     },
     {
       "title": "Fanwiike 1/2\" Digital Torque Wrench Adapter Kit",
@@ -18032,7 +18102,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "3-Piece Magnetic Tool Mat Kit",
@@ -18078,7 +18149,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "VEVOR Hydraulic Motorcycle Lift Table",
@@ -18115,7 +18187,8 @@
       "currency": "USD",
       "price": "US$ 19.99",
       "price_usd": 19.99,
-      "price_value": 109.94
+      "price_value": 109.94,
+      "checked": "2026-10-06"
     },
     {
       "title": "Handyman In-Your-Pocket",
@@ -18159,9 +18232,10 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 99.90",
-      "price_usd": 99.9,
-      "price_value": 549.45
+      "price": "US$ 89.91",
+      "price_usd": 89.91,
+      "price_value": 494.5,
+      "checked": "2026-10-06"
     },
     {
       "title": "Tactical Hiking & Walking Stick",
@@ -18178,9 +18252,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 94.99",
-      "price_usd": 94.99,
-      "price_value": 522.44,
+      "price": "US$ 75.99",
+      "price_usd": 75.99,
+      "price_value": 417.94,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -18189,7 +18263,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "SKYFIRE Brightest Lanternas High Lumens",
@@ -18206,9 +18281,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 128.69",
-      "price_usd": 128.69,
-      "price_value": 707.79,
+      "price": "US$ 102.95",
+      "price_usd": 102.95,
+      "price_value": 566.23,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -18217,7 +18292,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "PREPARED4X Fire Starter Survival Tool",
@@ -18254,7 +18330,8 @@
       "currency": "USD",
       "price": "US$ 79.90",
       "price_usd": 79.9,
-      "price_value": 439.45
+      "price_value": 439.45,
+      "checked": "2026-10-06"
     },
     {
       "title": "Rhino USA Recovery Gear Storage Bag",
@@ -18271,9 +18348,10 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 44.90",
-      "price_usd": 44.9,
-      "price_value": 246.95
+      "price": "US$ 35.02",
+      "price_usd": 35.02,
+      "price_value": 192.61,
+      "checked": "2026-10-06"
     },
     {
       "title": "Rhino USA Tactical Car Seat Organizer",
@@ -18292,7 +18370,8 @@
       "currency": "USD",
       "price": "US$ 69.90",
       "price_usd": 69.9,
-      "price_value": 384.45
+      "price_value": 384.45,
+      "checked": "2026-10-06"
     },
     {
       "title": "LUXMOM Emergency Survival Kit and First Aid Kit",
@@ -18381,9 +18460,10 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 19.99",
-      "price_usd": 19.99,
-      "price_value": 109.94
+      "price": "US$ 16.99",
+      "price_usd": 16.99,
+      "price_value": 93.44,
+      "checked": "2026-10-06"
     },
     {
       "title": "The Mighty Bar - Heavy Duty Keychain Prybar EDC Pry Bar",
@@ -18411,7 +18491,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "3/8\" ID Silicon Tubing, JoyTube Food Grade Silicon Tubing",
@@ -18439,7 +18520,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "ENVY Hydroponic Plant Food A & B – Two-Part Liquid Nutrient",
@@ -18530,7 +18612,8 @@
       "currency": "USD",
       "price": "US$ 18.99",
       "price_usd": 18.99,
-      "price_value": 104.44
+      "price_value": 104.44,
+      "checked": "2026-10-06"
     },
     {
       "title": "YINMIK pH Meter for Hydroponics",
@@ -18547,9 +18630,10 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 25.99",
-      "price_usd": 25.99,
-      "price_value": 142.94
+      "price": "US$ 22.09",
+      "price_usd": 22.09,
+      "price_value": 121.5,
+      "checked": "2026-10-06"
     },
     {
       "title": "The Selfish Gene: 40th Anniversary edition (Oxford Landmark",
@@ -18647,9 +18731,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 23.62",
-      "price_usd": 23.62,
-      "price_value": 129.91,
+      "price": "US$ 22.44",
+      "price_usd": 22.44,
+      "price_value": 123.42,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -18658,7 +18742,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Ignition!: An Informal History of Liquid Rocket Propellants",
@@ -18793,7 +18878,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "HGST Ultrastar 3.5-Inch 4TB 7200RPM SATA III 6Gbps 64MB",
@@ -18848,7 +18934,8 @@
       "currency": "USD",
       "price": "US$ 79.99",
       "price_usd": 79.99,
-      "price_value": 439.94
+      "price_value": 439.94,
+      "checked": "2026-10-06"
     },
     {
       "title": "KingSpec NX Series 1TB Gen3x4 NVMe M.2 SSD, Up to 3500MB/s",
@@ -18867,7 +18954,8 @@
       "currency": "USD",
       "price": "US$ 147.69",
       "price_usd": 147.69,
-      "price_value": 812.29
+      "price_value": 812.29,
+      "checked": "2026-10-06"
     },
     {
       "title": "VCE UL Listed CAT6A Keystone Coupler 25-Pacote",
@@ -18886,7 +18974,8 @@
       "currency": "USD",
       "price": "US$ 24.99",
       "price_usd": 24.99,
-      "price_value": 137.44
+      "price_value": 137.44,
+      "checked": "2026-10-06"
     },
     {
       "title": "Western Digital 2TB WD Blue PC Internal Hard Drive",
@@ -18950,7 +19039,8 @@
       "currency": "USD",
       "price": "US$ 8.89",
       "price_usd": 8.89,
-      "price_value": 48.9
+      "price_value": 48.9,
+      "checked": "2026-10-06"
     },
     {
       "title": "CableCreation SATA Power Cable,2-Pacote 6-Inch 15Pin SATA",
@@ -18969,7 +19059,8 @@
       "currency": "USD",
       "price": "US$ 9.99",
       "price_usd": 9.99,
-      "price_value": 54.95
+      "price_value": 54.95,
+      "checked": "2026-10-06"
     },
     {
       "title": "Heretom Mini SAS to SATA Cable",
@@ -18997,7 +19088,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Rapink 24 Pacote Cat6a Ethernet Patch Cables 0.5ft Blue",
@@ -19025,7 +19117,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "NFHK 2500Mbps 2.5Gbps to 2230 NGFF A+E-Key GBE Gigabit",
@@ -19053,7 +19146,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "PILOT Precise V10 RT Retractable Ball Pens, 1.0mm, Black",
@@ -19081,7 +19175,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Painting Station, Silicone Painting Mat and Paint Brush",
@@ -19109,7 +19204,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "DEWALT Cobalt Alloy Steel Drill Bit Kit with Pilot Point",
@@ -19172,9 +19268,10 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 19.99",
-      "price_usd": 19.99,
-      "price_value": 109.94
+      "price": "US$ 16.99",
+      "price_usd": 16.99,
+      "price_value": 93.44,
+      "checked": "2026-10-06"
     },
     {
       "title": "G & F Products Leather Work Luvas for Construction",
@@ -19221,7 +19318,7 @@
       "store": "Amazon EUA",
       "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com&sz=64",
       "source": "amazon_us",
-      "available": true,
+      "available": false,
       "list": "Comprar em Miami",
       "tags": [
         "Comprar em Miami"
@@ -19238,7 +19335,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Viking PureGlide Pro 3-Ply Nonstick Cookware Kit",
@@ -19255,9 +19353,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 799.95",
-      "price_usd": 799.95,
-      "price_value": 4399.73,
+      "price": "US$ 798.59",
+      "price_usd": 798.59,
+      "price_value": 4392.24,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -19266,7 +19364,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Benchmark Abrasives 1-1/2\" x 1-1/2\" Rubber Expanding Drum",
@@ -19285,7 +19384,8 @@
       "currency": "USD",
       "price": "US$ 10.15",
       "price_usd": 10.15,
-      "price_value": 55.83
+      "price_value": 55.83,
+      "checked": "2026-10-06"
     },
     {
       "title": "Benchmark Abrasives 1.5\" x 1.5\" Aluminum Oxide Abrasive",
@@ -19313,7 +19413,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Portable Self Priming Water Drill Pump Attachment,Self",
@@ -19377,7 +19478,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "DKIBBITH Heavy-Duty Deburring Chamfer Tool",
@@ -19394,9 +19496,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 16.99",
-      "price_usd": 16.99,
-      "price_value": 93.44,
+      "price": "US$ 13.59",
+      "price_usd": 13.59,
+      "price_value": 74.75,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -19405,7 +19507,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "CONQUER 5 Flute Metal Countersink Drill Bit",
@@ -19422,9 +19525,10 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 18.60",
-      "price_usd": 18.6,
-      "price_value": 102.3
+      "price": "US$ 14.88",
+      "price_usd": 14.88,
+      "price_value": 81.84,
+      "checked": "2026-10-06"
     },
     {
       "title": "DEWALT IMPACT CONNECT Copper Pipe Cutter",
@@ -19441,9 +19545,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 87.18",
-      "price_usd": 87.18,
-      "price_value": 479.49,
+      "price": "US$ 86.87",
+      "price_usd": 86.87,
+      "price_value": 477.79,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -19452,7 +19556,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "TCBWFY Garden Auger Drill Bit",
@@ -19498,7 +19603,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "DEWALT Metal Shear/Cutter Drill Attachment, Impact Ready",
@@ -19515,9 +19621,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 62.49",
-      "price_usd": 62.49,
-      "price_value": 343.69,
+      "price": "US$ 49.99",
+      "price_usd": 49.99,
+      "price_value": 274.94,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -19526,7 +19632,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Christmas Stocking Stuffers for Men Super Universal Socket",
@@ -19543,9 +19650,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 9.99",
-      "price_usd": 9.99,
-      "price_value": 54.95,
+      "price": "US$ 7.99",
+      "price_usd": 7.99,
+      "price_value": 43.95,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -19554,7 +19661,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Sunydog Electric Chainsaw Attachment",
@@ -19582,7 +19690,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Fuzion Digital Postal Shipping Scale 110LB x0.1oz",
@@ -19713,7 +19822,7 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 535",
+      "price": "US$ 535.00",
       "price_usd": 535.0,
       "price_value": 2942.5,
       "alternativas": [
@@ -19724,7 +19833,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Iwata Eclipse HP-CS Airbrush - Gravity Feed Dual Action",
@@ -19741,7 +19851,7 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 174",
+      "price": "US$ 174.00",
       "price_usd": 174.0,
       "price_value": 957.0,
       "alternativas": [
@@ -19752,7 +19862,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Hemobllo Weighing Bottle Pycnometer Bottle Chemistry",
@@ -19780,7 +19891,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "SUPER+ 2 Pacote Continuous Spray Bottle for hair",
@@ -19799,7 +19911,8 @@
       "currency": "USD",
       "price": "US$ 9.99",
       "price_usd": 9.99,
-      "price_value": 54.95
+      "price_value": 54.95,
+      "checked": "2026-10-06"
     },
     {
       "title": "PKCELL AA Pilhas 40 Pacote, Double A Pilhas",
@@ -19827,7 +19940,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "POWEROWL Lithium Pilhas AA High Capacity Long Lasting",
@@ -19880,9 +19994,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 26.99",
-      "price_usd": 26.99,
-      "price_value": 148.44,
+      "price": "US$ 21.59",
+      "price_usd": 21.59,
+      "price_value": 118.75,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -19891,7 +20005,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Mini Chainsaw for Milwaukee M18 Pilha, Auto-Oiler",
@@ -19928,7 +20043,8 @@
       "currency": "USD",
       "price": "US$ 132.98",
       "price_usd": 132.98,
-      "price_value": 731.39
+      "price_value": 731.39,
+      "checked": "2026-10-06"
     },
     {
       "title": "Large Moving Blankets 80 * 72in Heavy Duty Packing Blankets",
@@ -19956,7 +20072,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Unlocking the Magic of Facilitation: 11 Key Concepts You",
@@ -20000,9 +20117,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 11.75",
-      "price_usd": 11.75,
-      "price_value": 64.62,
+      "price": "US$ 5.70",
+      "price_usd": 5.7,
+      "price_value": 31.35,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -20011,7 +20128,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Sangean ANT-60 Short Wave Antenna",
@@ -20028,9 +20146,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 26.33",
-      "price_usd": 26.33,
-      "price_value": 144.81,
+      "price": "US$ 26.21",
+      "price_usd": 26.21,
+      "price_value": 144.16,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -20039,7 +20157,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Eton Grundig Satellit 750 Ultimate AM/FM Radio",
@@ -20326,9 +20445,9 @@
         "Comprar em Miami"
       ],
       "currency": "USD",
-      "price": "US$ 193.72",
-      "price_usd": 193.72,
-      "price_value": 1065.46,
+      "price": "US$ 193.63",
+      "price_usd": 193.63,
+      "price_value": 1064.96,
       "alternativas": [
         {
           "store": "Amazon BR",
@@ -20337,7 +20456,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "HP Smart Slim 230W AC Adapter US",
@@ -20428,7 +20548,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Thermos 34-Ounce Vacuum Insulated Stainless Steel Carafe",
@@ -20456,7 +20577,8 @@
           "currency": "BRL",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "Audio-Technica ATH-M50 Professional Studio Monitor",
@@ -20891,11 +21013,12 @@
       "category": "compras-livros",
       "store": "Amazon",
       "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com.br&sz=64",
-      "available": true,
+      "available": false,
       "price": "R$ 299,90",
       "price_value": 299.9,
       "source": "amazon",
-      "note": "Abas do iPhone 2026-10-05"
+      "note": "Abas do iPhone 2026-10-05",
+      "checked": "2026-10-06"
     },
     {
       "title": "Um guia acima da média - HBR (8 livros) Edição para Kindle",
@@ -20930,7 +21053,8 @@
           "currency": "USD",
           "checked": "2026-10-06"
         }
-      ]
+      ],
+      "checked": "2026-10-06"
     },
     {
       "title": "História do Brasil — Padre Raphael Galanti (6 tomos, capa dura)",
@@ -22477,13 +22601,14 @@
       "store": "Amazon EUA",
       "icon": "https://www.google.com/s2/favicons?domain=www.amazon.com&sz=64",
       "available": true,
-      "price": "US$ 5,399.00",
+      "price": "US$ 5399.00",
       "source": "amazon_us",
       "title_full": "WTTTOOLS US Stock Laser Welding Machine 1200 W (0.39mW) 2-in-1 Air Cooled Laser Welder 220V Handheld Portable Fiber Welder Gun Class 1 with Auto Wire Feeder for Metal Stainless Steel Aluminum Copper",
       "currency": "USD",
       "price_usd": 5399.0,
       "price_value": 29694.5,
-      "note": "Abas do iPhone 2026-10-05"
+      "note": "Abas do iPhone 2026-10-05",
+      "checked": "2026-10-06"
     },
     {
       "title": "DAP 7079875401 Acoustical Sealant, Dark Gray, 850 mL",

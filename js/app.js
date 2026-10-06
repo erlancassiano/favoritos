@@ -382,7 +382,10 @@
     } else if (unavailable) {
       badges.push('<span class="badge badge--unavailable">indisponível</span>');
     }
-    const titleAttr = escapeHtml(item.title_full || item.title || "");
+    const titleAttr = escapeHtml(
+      (item.title_full || item.title || "") +
+        (item.checked ? ` — preço conferido em ${item.checked}` : "")
+    );
     const meta =
       metaBits.length
         ? metaBits.join(" · ")
