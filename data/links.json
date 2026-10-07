@@ -25,13 +25,6 @@
       "pinned": true
     },
     {
-      "title": "Gemini notebook",
-      "url": "https://notebooklm.google.com/",
-      "section": "diarios",
-      "category": "diarios",
-      "pinned": true
-    },
-    {
       "title": "Pelando",
       "url": "https://www.pelando.com.br/",
       "section": "diarios",
@@ -46,29 +39,8 @@
       "pinned": true
     },
     {
-      "title": "Perplexity",
-      "url": "https://www.perplexity.ai/",
-      "section": "diarios",
-      "category": "diarios",
-      "pinned": true
-    },
-    {
-      "title": "Gemini",
-      "url": "https://gemini.google.com/",
-      "section": "diarios",
-      "category": "diarios",
-      "pinned": true
-    },
-    {
       "title": "Torrent Bay",
       "url": "https://torrentbay.st/",
-      "section": "diarios",
-      "category": "diarios",
-      "pinned": true
-    },
-    {
-      "title": "Cursor",
-      "url": "https://cursor.com/",
       "section": "diarios",
       "category": "diarios",
       "pinned": true
@@ -1423,7 +1395,7 @@
       "category": "ciência-de-dados"
     },
     {
-      "title": "Open Machine Learning Course mlcourse.ai • mlcourse.ai",
+      "title": "mlcourse.ai",
       "url": "https://mlcourse.ai/",
       "section": "ias",
       "category": "ias-cursos"
@@ -2635,7 +2607,7 @@
       "category": "desenvolvimento"
     },
     {
-      "title": "GitHub - x1xhlol/system-prompts-and-models-of-ai-tools: FULL v0, Cursor, Manus, Augment…",
+      "title": "System prompts de IAs",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
       "section": "ias",
       "category": "ias-modelos"
@@ -3462,7 +3434,7 @@
       "category": "desenvolvimento-frontend"
     },
     {
-      "title": "DeerFlow (ByteDance) — framework de agentes",
+      "title": "DeerFlow",
       "url": "https://github.com/bytedance/deer-flow",
       "section": "ias",
       "category": "ias-modelos"
@@ -4016,7 +3988,7 @@
       "category": "educação"
     },
     {
-      "title": "AI Driven Python for Mechanical Engineers - Automation: SCADA, PLC, and Industry 4.0",
+      "title": "Python com IA p/ Eng. Mecânica",
       "url": "https://nexoludic.blogspot.com/2026/08/ai-driven-python-for-mechanical.html",
       "section": "ias",
       "category": "ias-cursos"
@@ -4459,13 +4431,13 @@
       "note": "Lista de leitura do Safari"
     },
     {
-      "title": "Blueprint.am - AI Hardware Design Tool",
+      "title": "Blueprint.am",
       "url": "https://www.blueprint.am/",
       "section": "ias",
       "category": "ias"
     },
     {
-      "title": "Meshy AI - The #1 AI 3D Model Generator",
+      "title": "Meshy AI",
       "url": "https://www.meshy.ai/",
       "section": "ias",
       "category": "ias"
@@ -4477,7 +4449,7 @@
       "category": "engenharia"
     },
     {
-      "title": "AI-Native PCB Design | Trace",
+      "title": "Trace (PCB)",
       "url": "https://buildwithtrace.com/pt-BR",
       "section": "ias",
       "category": "ias"
@@ -22699,35 +22671,35 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "Using Mach33 research in your AI assistant (guia MCP)",
+      "title": "Mach33 MCP",
       "url": "https://research.33fg.com/mcp-guide",
       "section": "ias",
       "category": "ias",
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "Suno AI: AI Music Generation",
+      "title": "Suno AI",
       "url": "https://suno-ai.org/",
       "section": "ias",
       "category": "ias",
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "AI Image Detector — Sightengine",
+      "title": "Sightengine",
       "url": "https://sightengine.com/detect-ai-generated-images",
       "section": "ias",
       "category": "ias",
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "Gemini Live — Google",
+      "title": "Gemini Live",
       "url": "https://gemini.google/br/overview/gemini-live/",
       "section": "ias",
       "category": "ias-assistentes",
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "Easy-Peasy.AI — Plataforma de IA tudo em um",
+      "title": "Easy-Peasy.AI",
       "url": "https://easy-peasy.ai/pt",
       "section": "ias",
       "category": "ias",
@@ -23126,7 +23098,7 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "Gamma | Criador de apresentações e sites com IA",
+      "title": "Gamma",
       "url": "https://gamma.app/pt-br",
       "section": "ias",
       "category": "ias",
@@ -23441,7 +23413,7 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "Qwen3.5 - a Qwen Collection (Hugging Face)",
+      "title": "Qwen3.5",
       "url": "https://huggingface.co/collections/Qwen/qwen35",
       "section": "ias",
       "category": "ias-modelos",
@@ -23588,7 +23560,7 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "ChatGPT_DAN — jailbreak prompts (GitHub)",
+      "title": "ChatGPT DAN",
       "url": "https://github.com/0xk1h0/ChatGPT_DAN",
       "section": "ias",
       "category": "ias-modelos",
@@ -24185,7 +24157,7 @@
       "note": "Abas do iPhone 2026-10-05"
     },
     {
-      "title": "MIT xPRO — Inteligência Artificial: desenvolva produtos e serviços usando IA",
+      "title": "MIT xPRO IA",
       "url": "https://mit-xpro-online-education.emeritus.org/inteligencia-artificial",
       "section": "ias",
       "category": "ias-cursos",
@@ -24318,7 +24290,7 @@
       "note": "Abas do iPhone 2026-10-05 · página não encontrada no momento"
     },
     {
-      "title": "Anthropic Courses (Skilljar)",
+      "title": "Anthropic Courses",
       "url": "https://anthropic.skilljar.com/",
       "section": "ias",
       "category": "ias-cursos",
@@ -24642,6 +24614,12 @@
       "url": "https://gemini.google.com/",
       "section": "ias",
       "category": "ias-assistentes"
+    },
+    {
+      "title": "Cursor",
+      "url": "https://cursor.com/",
+      "section": "ias",
+      "category": "ias-modelos"
     }
   ]
 }

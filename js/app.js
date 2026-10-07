@@ -597,6 +597,26 @@
 
       if (!categoryBlocks.length && section.id !== "compras") continue;
 
+      if (section.id === "ias") {
+        const groups = categoryBlocks.length
+          ? sectionCategories
+              .map((category) => {
+                const items = sectionItems.filter((item) => item.category === category.id);
+                if (!items.length) return "";
+                return `<div class="dial-group"><h3 class="dial-group__title">${escapeHtml(category.title)}</h3><div class="dial">${items.map(renderDialTile).join("")}</div></div>`;
+              })
+              .join("")
+          : "";
+        const orphanItems = sectionItems.filter((item) => !sectionCategories.some((c) => c.id === item.category));
+        const orphanHtml = orphanItems.length
+          ? `<div class="dial-group"><div class="dial">${orphanItems.map(renderDialTile).join("")}</div></div>`
+          : "";
+        parts.push(
+          renderSectionShell(section.id, section.title, `${sectionItems.length} links`, `${groups}${orphanHtml}`)
+        );
+        continue;
+      }
+
       const desc = section.description
         ? `${escapeHtml(section.description)} · ${sectionItems.length} links`
         : `${sectionItems.length} links`;

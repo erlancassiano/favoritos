@@ -412,6 +412,19 @@ a {
   text-align: center;
 }
 
+.dial-group + .dial-group {
+  margin-top: 1.4rem;
+}
+
+.dial-group__title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+}
+
 .dial__tile--pending .dial__icon {
   border-style: dashed;
   opacity: 0.85;
