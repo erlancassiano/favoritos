@@ -631,7 +631,7 @@
 
     if (categoryNav) {
       const chips = data.categories
-        .filter((c) => c.section === "favoritos" || c.section === "compras")
+        .filter((c) => c.section === "ias" || c.section === "favoritos" || c.section === "compras")
         .map((c) => {
           const count = data.items.filter((i) => i.category === c.id).length;
           if (!count) return "";
